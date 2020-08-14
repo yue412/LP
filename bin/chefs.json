@@ -1,0 +1,2334 @@
+[
+    {
+        "id": "3",
+        "stirfry": 225,
+        "bake": 44,
+        "boil": 196,
+        "steam": 70,
+        "fry": 41,
+        "knife": 102,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 5,
+        "creation": 4,
+        "name": "羽十六",
+        "rarity": "3",
+        "skill_id": "68",
+        "equip_id": "127",
+        "ultimate_skill_id": "322",
+        "stirfry_raw": 185,
+        "boil_raw": 154,
+        "knife_raw": 61,
+        "fry_raw": 0,
+        "bake_raw": 0,
+        "steam_raw": 30,
+        "meat_raw": 0,
+        "fish_raw": 5,
+        "veg_raw": 0,
+        "creation_raw": 4,
+        "skill": {
+            "skillId": 68,
+            "desc": "稀有客人出现概率+30%",
+            "effect": [
+                {
+                    "type": "guestapearrate",
+                    "value": 30,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 322,
+            "desc": "3星菜谱上限+1",
+            "effect": [
+                {
+                    "type": "maxequiplimit",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs",
+                    "rarity": 3
+                }
+            ]
+        },
+        "equip": {
+            "equipId": 127,
+            "galleryId": "127",
+            "name": "传世秘籍",
+            "rarity": 3,
+            "skill": [
+                94,
+                69
+            ],
+            "origin": "限时任务 限时礼包"
+        },
+        "equip_skills": [
+            {
+                "skillId": 94,
+                "desc": "全技法+40",
+                "effect": [
+                    {
+                        "type": "bake",
+                        "value": 40,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "steam",
+                        "value": 40,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "boil",
+                        "value": 40,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "fry",
+                        "value": 40,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "knife",
+                        "value": 40,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "stirfry",
+                        "value": 40,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            },
+            {
+                "skillId": 69,
+                "desc": "稀有客人出现概率+40%",
+                "effect": [
+                    {
+                        "type": "guestapearrate",
+                        "value": 40,
+                        "condition": "Self",
+                        "cal": "Percent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "stirfry": 61,
+        "bake": 65,
+        "boil": 2,
+        "steam": 0,
+        "fry": 186,
+        "knife": 124,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 4,
+        "creation": 5,
+        "name": "熊麓",
+        "rarity": "3",
+        "skill_id": "124",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 61,
+        "boil_raw": 0,
+        "knife_raw": 123,
+        "fry_raw": 185,
+        "bake_raw": 61,
+        "steam_raw": 0,
+        "meat_raw": 0,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 5,
+        "skill": {
+            "skillId": 124,
+            "desc": "炸类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usefry",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "9",
+        "stirfry": 0,
+        "bake": 24,
+        "boil": 82,
+        "steam": 100,
+        "fry": 1,
+        "knife": 1,
+        "level": "3",
+        "meat": 3,
+        "veg": 3,
+        "fish": 0,
+        "creation": 0,
+        "name": "麦小咖",
+        "rarity": "1",
+        "skill_id": "126",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 80,
+        "knife_raw": 0,
+        "fry_raw": 0,
+        "bake_raw": 20,
+        "steam_raw": 100,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 126,
+            "desc": "面类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usecreation",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "12",
+        "stirfry": 40,
+        "bake": 4,
+        "boil": 2,
+        "steam": 0,
+        "fry": 121,
+        "knife": 41,
+        "level": "3",
+        "meat": 3,
+        "veg": 3,
+        "fish": 0,
+        "creation": 0,
+        "name": "白祁右",
+        "rarity": "1",
+        "skill_id": "154",
+        "equip_id": null,
+        "ultimate_skill_id": "334",
+        "stirfry_raw": 40,
+        "boil_raw": 0,
+        "knife_raw": 40,
+        "fry_raw": 120,
+        "bake_raw": 0,
+        "steam_raw": 0,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 154,
+            "desc": "炸类料理售价+5%",
+            "effect": [
+                {
+                    "type": "usefry",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 334,
+            "desc": "全体厨师炸技法+1",
+            "effect": [
+                {
+                    "type": "fry",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "15",
+        "stirfry": 0,
+        "bake": 126,
+        "boil": 2,
+        "steam": 15,
+        "fry": 31,
+        "knife": 62,
+        "level": "3",
+        "meat": 3,
+        "veg": 3,
+        "fish": 0,
+        "creation": 0,
+        "name": "熊伏伏",
+        "rarity": "1",
+        "skill_id": "127",
+        "equip_id": "3",
+        "ultimate_skill_id": "331",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 61,
+        "fry_raw": 30,
+        "bake_raw": 92,
+        "steam_raw": 15,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 127,
+            "desc": "肉类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usemeat",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 331,
+            "desc": "全体厨师烤技法+1",
+            "effect": [
+                {
+                    "type": "bake",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": {
+            "equipId": 3,
+            "galleryId": "003",
+            "name": "铜烤叉",
+            "rarity": 1,
+            "skill": [
+                7
+            ],
+            "origin": "新手奖池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 7,
+                "desc": "烤技法+30",
+                "effect": [
+                    {
+                        "type": "bake",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "stirfry": 66,
+        "bake": 4,
+        "boil": 102,
+        "steam": 33,
+        "fry": 1,
+        "knife": 1,
+        "level": "3",
+        "meat": 3,
+        "veg": 0,
+        "fish": 0,
+        "creation": 3,
+        "name": "紫酱",
+        "rarity": "1",
+        "skill_id": "151",
+        "equip_id": null,
+        "ultimate_skill_id": "333",
+        "stirfry_raw": 66,
+        "boil_raw": 100,
+        "knife_raw": 0,
+        "fry_raw": 0,
+        "bake_raw": 0,
+        "steam_raw": 33,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 151,
+            "desc": "煮类料理售价+5%",
+            "effect": [
+                {
+                    "type": "useboil",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 333,
+            "desc": "全体厨师煮技法+1",
+            "effect": [
+                {
+                    "type": "boil",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "21",
+        "stirfry": 23,
+        "bake": 50,
+        "boil": 2,
+        "steam": 138,
+        "fry": 1,
+        "knife": 93,
+        "level": "3",
+        "meat": 6,
+        "veg": 3,
+        "fish": 0,
+        "creation": 0,
+        "name": "武葵",
+        "rarity": "2",
+        "skill_id": "127",
+        "equip_id": "26",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 23,
+        "boil_raw": 0,
+        "knife_raw": 92,
+        "fry_raw": 0,
+        "bake_raw": 46,
+        "steam_raw": 138,
+        "meat_raw": 4,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 127,
+            "desc": "肉类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usemeat",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": {
+            "equipId": 26,
+            "galleryId": "026",
+            "name": "银片刀",
+            "rarity": 2,
+            "skill": [
+                100
+            ],
+            "origin": "璧池 限时礼包"
+        },
+        "equip_skills": [
+            {
+                "skillId": 100,
+                "desc": "肉类采集+2",
+                "effect": [
+                    {
+                        "type": "meat",
+                        "value": 2,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "stirfry": 138,
+        "bake": 96,
+        "boil": 2,
+        "steam": 46,
+        "fry": 1,
+        "knife": 24,
+        "level": "3",
+        "meat": 3,
+        "veg": 0,
+        "fish": 4,
+        "creation": 0,
+        "name": "郭锅",
+        "rarity": "2",
+        "skill_id": "153",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 138,
+        "boil_raw": 0,
+        "knife_raw": 23,
+        "fry_raw": 0,
+        "bake_raw": 92,
+        "steam_raw": 46,
+        "meat_raw": 3,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 153,
+            "desc": "炒类料理售价+5%",
+            "effect": [
+                {
+                    "type": "usestirfry",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "27",
+        "stirfry": 23,
+        "bake": 50,
+        "boil": 140,
+        "steam": 92,
+        "fry": 1,
+        "knife": 1,
+        "level": "3",
+        "meat": 3,
+        "veg": 4,
+        "fish": 0,
+        "creation": 0,
+        "name": "农当午",
+        "rarity": "2",
+        "skill_id": "234",
+        "equip_id": null,
+        "ultimate_skill_id": null,
+        "stirfry_raw": 23,
+        "boil_raw": 138,
+        "knife_raw": 0,
+        "fry_raw": 0,
+        "bake_raw": 46,
+        "steam_raw": 92,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 4,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 234,
+            "desc": "金币获得+4%",
+            "effect": [
+                {
+                    "type": "gold_gain",
+                    "value": 4,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "30",
+        "stirfry": 138,
+        "bake": 50,
+        "boil": 2,
+        "steam": 23,
+        "fry": 1,
+        "knife": 93,
+        "level": "3",
+        "meat": 3,
+        "veg": 0,
+        "fish": 4,
+        "creation": 0,
+        "name": "鱼不斩",
+        "rarity": "2",
+        "skill_id": "125",
+        "equip_id": "0",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 138,
+        "boil_raw": 0,
+        "knife_raw": 92,
+        "fry_raw": 0,
+        "bake_raw": 46,
+        "steam_raw": 23,
+        "meat_raw": 3,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 125,
+            "desc": "水产料理售价+10%",
+            "effect": [
+                {
+                    "type": "usefish",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "33",
+        "stirfry": 0,
+        "bake": 79,
+        "boil": 2,
+        "steam": 15,
+        "fry": 79,
+        "knife": 31,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 3,
+        "creation": 3,
+        "name": "雷椒",
+        "rarity": "1",
+        "skill_id": "67",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 30,
+        "fry_raw": 78,
+        "bake_raw": 75,
+        "steam_raw": 15,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 67,
+            "desc": "稀有客人出现概率+20%",
+            "effect": [
+                {
+                    "type": "guestapearrate",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "36",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 94,
+        "steam": 61,
+        "fry": 16,
+        "knife": 31,
+        "level": "3",
+        "meat": 0,
+        "veg": 3,
+        "fish": 0,
+        "creation": 3,
+        "name": "豆腕儿",
+        "rarity": "1",
+        "skill_id": "126",
+        "equip_id": "0",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 92,
+        "knife_raw": 30,
+        "fry_raw": 15,
+        "bake_raw": 0,
+        "steam_raw": 61,
+        "meat_raw": 0,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 126,
+            "desc": "面类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usecreation",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "39",
+        "stirfry": 0,
+        "bake": 70,
+        "boil": 2,
+        "steam": 166,
+        "fry": 167,
+        "knife": 34,
+        "level": "3",
+        "meat": 5,
+        "veg": 0,
+        "fish": 4,
+        "creation": 0,
+        "name": "申公子",
+        "rarity": "3",
+        "skill_id": "113",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 33,
+        "fry_raw": 166,
+        "bake_raw": 66,
+        "steam_raw": 166,
+        "meat_raw": 5,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 113,
+            "desc": "开业时间-1.66%",
+            "effect": [
+                {
+                    "type": "opentime",
+                    "value": -1.66,
+                    "condition": "Partial",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "42",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 16,
+        "steam": 58,
+        "fry": 30,
+        "knife": 103,
+        "level": "2",
+        "meat": 0,
+        "veg": 0,
+        "fish": 3,
+        "creation": 3,
+        "name": "禅优塔",
+        "rarity": "2",
+        "skill_id": "149",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 14,
+        "knife_raw": 102,
+        "fry_raw": 29,
+        "bake_raw": 0,
+        "steam_raw": 58,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 149,
+            "desc": "切类料理售价+5%",
+            "effect": [
+                {
+                    "type": "useknife",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "48",
+        "stirfry": 0,
+        "bake": 70,
+        "boil": 35,
+        "steam": 0,
+        "fry": 101,
+        "knife": 1,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 3,
+        "creation": 3,
+        "name": "武陵仔",
+        "rarity": "1",
+        "skill_id": "155",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 33,
+        "knife_raw": 0,
+        "fry_raw": 100,
+        "bake_raw": 66,
+        "steam_raw": 0,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 155,
+            "desc": "水产料理售价+5%",
+            "effect": [
+                {
+                    "type": "usefish",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "51",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 63,
+        "steam": 92,
+        "fry": 31,
+        "knife": 16,
+        "level": "3",
+        "meat": 3,
+        "veg": 3,
+        "fish": 0,
+        "creation": 0,
+        "name": "傣弟",
+        "rarity": "1",
+        "skill_id": "120",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 61,
+        "knife_raw": 15,
+        "fry_raw": 30,
+        "bake_raw": 0,
+        "steam_raw": 92,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 120,
+            "desc": "蒸类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usesteam",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "54",
+        "stirfry": 0,
+        "bake": 20,
+        "boil": 2,
+        "steam": 100,
+        "fry": 17,
+        "knife": 67,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 3,
+        "creation": 3,
+        "name": "面小解",
+        "rarity": "1",
+        "skill_id": "126",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 66,
+        "fry_raw": 16,
+        "bake_raw": 16,
+        "steam_raw": 100,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 126,
+            "desc": "面类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usecreation",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "60",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 68,
+        "steam": 100,
+        "fry": 1,
+        "knife": 34,
+        "level": "3",
+        "meat": 2,
+        "veg": 4,
+        "fish": 0,
+        "creation": 0,
+        "name": "锄小禾",
+        "rarity": "1",
+        "skill_id": "233",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 66,
+        "knife_raw": 33,
+        "fry_raw": 0,
+        "bake_raw": 0,
+        "steam_raw": 100,
+        "meat_raw": 2,
+        "fish_raw": 0,
+        "veg_raw": 4,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 233,
+            "desc": "金币获得+2%",
+            "effect": [
+                {
+                    "type": "gold_gain",
+                    "value": 2,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "63",
+        "stirfry": 0,
+        "bake": 57,
+        "boil": 28,
+        "steam": 40,
+        "fry": 81,
+        "knife": 1,
+        "level": "3",
+        "meat": 0,
+        "veg": 3,
+        "fish": 3,
+        "creation": 0,
+        "name": "椒娃",
+        "rarity": "1",
+        "skill_id": "124",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 26,
+        "knife_raw": 0,
+        "fry_raw": 80,
+        "bake_raw": 53,
+        "steam_raw": 40,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 124,
+            "desc": "炸类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usefry",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "66",
+        "stirfry": 15,
+        "bake": 4,
+        "boil": 2,
+        "steam": 30,
+        "fry": 62,
+        "knife": 93,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 3,
+        "creation": 3,
+        "name": "熊妮",
+        "rarity": "1",
+        "skill_id": "119",
+        "equip_id": null,
+        "ultimate_skill_id": "335",
+        "stirfry_raw": 15,
+        "boil_raw": 0,
+        "knife_raw": 92,
+        "fry_raw": 61,
+        "bake_raw": 0,
+        "steam_raw": 30,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 119,
+            "desc": "切类料理售价+10%",
+            "effect": [
+                {
+                    "type": "useknife",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 335,
+            "desc": "全体厨师切技法+1",
+            "effect": [
+                {
+                    "type": "knife",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "69",
+        "stirfry": 0,
+        "bake": 134,
+        "boil": 35,
+        "steam": 0,
+        "fry": 1,
+        "knife": 67,
+        "level": "3",
+        "meat": 3,
+        "veg": 3,
+        "fish": 0,
+        "creation": 0,
+        "name": "藕多多",
+        "rarity": "1",
+        "skill_id": "158",
+        "equip_id": "3",
+        "ultimate_skill_id": "331",
+        "stirfry_raw": 0,
+        "boil_raw": 33,
+        "knife_raw": 66,
+        "fry_raw": 0,
+        "bake_raw": 100,
+        "steam_raw": 0,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 158,
+            "desc": "蔬菜料理售价+5%",
+            "effect": [
+                {
+                    "type": "usevegetable",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 331,
+            "desc": "全体厨师烤技法+1",
+            "effect": [
+                {
+                    "type": "bake",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": {
+            "equipId": 3,
+            "galleryId": "003",
+            "name": "铜烤叉",
+            "rarity": 1,
+            "skill": [
+                7
+            ],
+            "origin": "新手奖池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 7,
+                "desc": "烤技法+30",
+                "effect": [
+                    {
+                        "type": "bake",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "72",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 102,
+        "steam": 33,
+        "fry": 1,
+        "knife": 67,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 3,
+        "creation": 3,
+        "name": "小当家",
+        "rarity": "1",
+        "skill_id": "126",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 100,
+        "knife_raw": 66,
+        "fry_raw": 0,
+        "bake_raw": 0,
+        "steam_raw": 33,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 126,
+            "desc": "面类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usecreation",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "75",
+        "stirfry": 66,
+        "bake": 4,
+        "boil": 102,
+        "steam": 33,
+        "fry": 1,
+        "knife": 1,
+        "level": "3",
+        "meat": 3,
+        "veg": 3,
+        "fish": 0,
+        "creation": 0,
+        "name": "兜帽药师",
+        "rarity": "1",
+        "skill_id": "151",
+        "equip_id": null,
+        "ultimate_skill_id": "333",
+        "stirfry_raw": 66,
+        "boil_raw": 100,
+        "knife_raw": 0,
+        "fry_raw": 0,
+        "bake_raw": 0,
+        "steam_raw": 33,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 151,
+            "desc": "煮类料理售价+5%",
+            "effect": [
+                {
+                    "type": "useboil",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 333,
+            "desc": "全体厨师煮技法+1",
+            "effect": [
+                {
+                    "type": "boil",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "78",
+        "stirfry": 85,
+        "bake": 25,
+        "boil": 2,
+        "steam": 64,
+        "fry": 129,
+        "knife": 1,
+        "level": "3",
+        "meat": 4,
+        "veg": 0,
+        "fish": 3,
+        "creation": 0,
+        "name": "蓝孩子",
+        "rarity": "2",
+        "skill_id": "124",
+        "equip_id": "0",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 85,
+        "boil_raw": 0,
+        "knife_raw": 0,
+        "fry_raw": 128,
+        "bake_raw": 21,
+        "steam_raw": 64,
+        "meat_raw": 4,
+        "fish_raw": 3,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 124,
+            "desc": "炸类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usefry",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "87",
+        "stirfry": 0,
+        "bake": 96,
+        "boil": 25,
+        "steam": 0,
+        "fry": 47,
+        "knife": 139,
+        "level": "3",
+        "meat": 3,
+        "veg": 0,
+        "fish": 4,
+        "creation": 0,
+        "name": "粉爪酱",
+        "rarity": "2",
+        "skill_id": "155",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 23,
+        "knife_raw": 138,
+        "fry_raw": 46,
+        "bake_raw": 92,
+        "steam_raw": 0,
+        "meat_raw": 3,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 155,
+            "desc": "水产料理售价+5%",
+            "effect": [
+                {
+                    "type": "usefish",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "93",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 2,
+        "steam": 100,
+        "fry": 34,
+        "knife": 67,
+        "level": "3",
+        "meat": 0,
+        "veg": 4,
+        "fish": 0,
+        "creation": 2,
+        "name": "苏吴安",
+        "rarity": "1",
+        "skill_id": "158",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 66,
+        "fry_raw": 33,
+        "bake_raw": 0,
+        "steam_raw": 100,
+        "meat_raw": 0,
+        "fish_raw": 0,
+        "veg_raw": 4,
+        "creation_raw": 2,
+        "skill": {
+            "skillId": 158,
+            "desc": "蔬菜料理售价+5%",
+            "effect": [
+                {
+                    "type": "usevegetable",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "99",
+        "stirfry": 0,
+        "bake": 164,
+        "boil": 2,
+        "steam": 66,
+        "fry": 34,
+        "knife": 1,
+        "level": "3",
+        "meat": 0,
+        "veg": 3,
+        "fish": 3,
+        "creation": 0,
+        "name": "方叔",
+        "rarity": "1",
+        "skill_id": "156",
+        "equip_id": "2",
+        "ultimate_skill_id": "331",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 0,
+        "fry_raw": 33,
+        "bake_raw": 100,
+        "steam_raw": 66,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 156,
+            "desc": "面类料理售价+5%",
+            "effect": [
+                {
+                    "type": "usecreation",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 331,
+            "desc": "全体厨师烤技法+1",
+            "effect": [
+                {
+                    "type": "bake",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": {
+            "equipId": 2,
+            "galleryId": "002",
+            "name": "银烤叉",
+            "rarity": 2,
+            "skill": [
+                19
+            ],
+            "origin": "新手奖池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 19,
+                "desc": "烤技法+60",
+                "effect": [
+                    {
+                        "type": "bake",
+                        "value": 60,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "105",
+        "stirfry": 46,
+        "bake": 4,
+        "boil": 2,
+        "steam": 23,
+        "fry": 139,
+        "knife": 93,
+        "level": "3",
+        "meat": 0,
+        "veg": 3,
+        "fish": 4,
+        "creation": 0,
+        "name": "夏风",
+        "rarity": "2",
+        "skill_id": "67",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 46,
+        "boil_raw": 0,
+        "knife_raw": 92,
+        "fry_raw": 138,
+        "bake_raw": 0,
+        "steam_raw": 23,
+        "meat_raw": 0,
+        "fish_raw": 4,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 67,
+            "desc": "稀有客人出现概率+20%",
+            "effect": [
+                {
+                    "type": "guestapearrate",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "114",
+        "stirfry": 92,
+        "bake": 27,
+        "boil": 2,
+        "steam": 0,
+        "fry": 47,
+        "knife": 139,
+        "level": "3",
+        "meat": 3,
+        "veg": 0,
+        "fish": 4,
+        "creation": 0,
+        "name": "小龙侠",
+        "rarity": "2",
+        "skill_id": "119",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 92,
+        "boil_raw": 0,
+        "knife_raw": 138,
+        "fry_raw": 46,
+        "bake_raw": 23,
+        "steam_raw": 0,
+        "meat_raw": 3,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 119,
+            "desc": "切类料理售价+10%",
+            "effect": [
+                {
+                    "type": "useknife",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "126",
+        "stirfry": 0,
+        "bake": 50,
+        "boil": 94,
+        "steam": 138,
+        "fry": 24,
+        "knife": 1,
+        "level": "3",
+        "meat": 0,
+        "veg": 0,
+        "fish": 4,
+        "creation": 3,
+        "name": "粉雪",
+        "rarity": "2",
+        "skill_id": "67",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 92,
+        "knife_raw": 0,
+        "fry_raw": 23,
+        "bake_raw": 46,
+        "steam_raw": 138,
+        "meat_raw": 0,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 67,
+            "desc": "稀有客人出现概率+20%",
+            "effect": [
+                {
+                    "type": "guestapearrate",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "204",
+        "stirfry": 20,
+        "bake": 4,
+        "boil": 102,
+        "steam": 0,
+        "fry": 81,
+        "knife": 1,
+        "level": "3",
+        "meat": 0,
+        "veg": 3,
+        "fish": 3,
+        "creation": 0,
+        "name": "李小染",
+        "rarity": "1",
+        "skill_id": "151",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 20,
+        "boil_raw": 100,
+        "knife_raw": 0,
+        "fry_raw": 80,
+        "bake_raw": 0,
+        "steam_raw": 0,
+        "meat_raw": 0,
+        "fish_raw": 3,
+        "veg_raw": 3,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 151,
+            "desc": "煮类料理售价+5%",
+            "effect": [
+                {
+                    "type": "useboil",
+                    "value": 5,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "798",
+        "stirfry": 0,
+        "bake": 128,
+        "boil": 84,
+        "steam": 0,
+        "fry": 249,
+        "knife": 42,
+        "level": "3",
+        "meat": 0,
+        "veg": 4,
+        "fish": 0,
+        "creation": 5,
+        "name": "小雷神",
+        "rarity": "3",
+        "skill_id": "578",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 82,
+        "knife_raw": 41,
+        "fry_raw": 248,
+        "bake_raw": 124,
+        "steam_raw": 0,
+        "meat_raw": 0,
+        "fish_raw": 0,
+        "veg_raw": 4,
+        "creation_raw": 5,
+        "skill": {
+            "skillId": 578,
+            "desc": "炸类和肉类料理售价+12%",
+            "effect": [
+                {
+                    "type": "usefry",
+                    "value": 12,
+                    "condition": "Self",
+                    "cal": "Percent"
+                },
+                {
+                    "type": "usemeat",
+                    "value": 12,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "837",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 204,
+        "steam": 57,
+        "fry": 29,
+        "knife": 87,
+        "level": "3",
+        "meat": 0,
+        "veg": 6,
+        "fish": 2,
+        "creation": 0,
+        "name": "银乌",
+        "rarity": "2",
+        "skill_id": "146",
+        "equip_id": "18",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 172,
+        "knife_raw": 86,
+        "fry_raw": 28,
+        "bake_raw": 0,
+        "steam_raw": 57,
+        "meat_raw": 0,
+        "fish_raw": 2,
+        "veg_raw": 6,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 146,
+            "desc": "煮类料理售价+15%",
+            "effect": [
+                {
+                    "type": "useboil",
+                    "value": 15,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": {
+            "equipId": 18,
+            "galleryId": "018",
+            "name": "铜漏勺",
+            "rarity": 1,
+            "skill": [
+                9
+            ],
+            "origin": "新手奖池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 9,
+                "desc": "煮技法+30",
+                "effect": [
+                    {
+                        "type": "boil",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "858",
+        "stirfry": 159,
+        "bake": 110,
+        "boil": 55,
+        "steam": 26,
+        "fry": 1,
+        "knife": 1,
+        "level": "3",
+        "meat": 0,
+        "veg": 3,
+        "fish": 0,
+        "creation": 5,
+        "name": "酥蛮蛮",
+        "rarity": "2",
+        "skill_id": "143",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 159,
+        "boil_raw": 53,
+        "knife_raw": 0,
+        "fry_raw": 0,
+        "bake_raw": 106,
+        "steam_raw": 26,
+        "meat_raw": 0,
+        "fish_raw": 0,
+        "veg_raw": 3,
+        "creation_raw": 5,
+        "skill": {
+            "skillId": 143,
+            "desc": "炒类料理售价+15%",
+            "effect": [
+                {
+                    "type": "usestirfry",
+                    "value": 15,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "861",
+        "stirfry": 0,
+        "bake": 119,
+        "boil": 2,
+        "steam": 0,
+        "fry": 77,
+        "knife": 39,
+        "level": "3",
+        "meat": 3,
+        "veg": 4,
+        "fish": 0,
+        "creation": 0,
+        "name": "蛙特",
+        "rarity": "1",
+        "skill_id": "122",
+        "equip_id": null,
+        "ultimate_skill_id": "331",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 38,
+        "fry_raw": 76,
+        "bake_raw": 115,
+        "steam_raw": 0,
+        "meat_raw": 3,
+        "fish_raw": 0,
+        "veg_raw": 4,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 122,
+            "desc": "烤类料理售价+10%",
+            "effect": [
+                {
+                    "type": "usebake",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 331,
+            "desc": "全体厨师烤技法+1",
+            "effect": [
+                {
+                    "type": "bake",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Abs"
+                }
+            ]
+        },
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "864",
+        "stirfry": 0,
+        "bake": 4,
+        "boil": 127,
+        "steam": 83,
+        "fry": 21,
+        "knife": 1,
+        "level": "3",
+        "meat": 5,
+        "veg": 0,
+        "fish": 0,
+        "creation": 3,
+        "name": "猪小弟",
+        "rarity": "1",
+        "skill_id": "121",
+        "equip_id": "27",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 125,
+        "knife_raw": 0,
+        "fry_raw": 20,
+        "bake_raw": 0,
+        "steam_raw": 83,
+        "meat_raw": 4,
+        "fish_raw": 0,
+        "veg_raw": 0,
+        "creation_raw": 3,
+        "skill": {
+            "skillId": 121,
+            "desc": "煮类料理售价+10%",
+            "effect": [
+                {
+                    "type": "useboil",
+                    "value": 10,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": {
+            "equipId": 27,
+            "galleryId": "027",
+            "name": "铜片刀",
+            "rarity": 1,
+            "skill": [
+                99
+            ],
+            "origin": "璧池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 99,
+                "desc": "肉类采集+1",
+                "effect": [
+                    {
+                        "type": "meat",
+                        "value": 1,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "867",
+        "stirfry": 76,
+        "bake": 233,
+        "boil": 2,
+        "steam": 153,
+        "fry": 1,
+        "knife": 39,
+        "level": "3",
+        "meat": 4,
+        "veg": 0,
+        "fish": 0,
+        "creation": 4,
+        "name": "阿波罗",
+        "rarity": "3",
+        "skill_id": "132",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 76,
+        "boil_raw": 0,
+        "knife_raw": 38,
+        "fry_raw": 0,
+        "bake_raw": 229,
+        "steam_raw": 153,
+        "meat_raw": 4,
+        "fish_raw": 0,
+        "veg_raw": 0,
+        "creation_raw": 4,
+        "skill": {
+            "skillId": 132,
+            "desc": "烤类料理售价+20%",
+            "effect": [
+                {
+                    "type": "usebake",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "870",
+        "stirfry": 10,
+        "bake": 360,
+        "boil": 12,
+        "steam": 125,
+        "fry": 241,
+        "knife": 68,
+        "level": "3",
+        "meat": 7,
+        "veg": 0,
+        "fish": 4,
+        "creation": 0,
+        "name": "阎小罗",
+        "rarity": "4",
+        "skill_id": "132",
+        "equip_id": "518",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 0,
+        "boil_raw": 0,
+        "knife_raw": 57,
+        "fry_raw": 230,
+        "bake_raw": 346,
+        "steam_raw": 115,
+        "meat_raw": 7,
+        "fish_raw": 4,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 132,
+            "desc": "烤类料理售价+20%",
+            "effect": [
+                {
+                    "type": "usebake",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": {
+            "equipId": 518,
+            "galleryId": "518",
+            "name": "大火柴",
+            "rarity": 1,
+            "skill": [
+                122,
+                91
+            ],
+            "origin": "成长无忧池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 122,
+                "desc": "烤类料理售价+10%",
+                "effect": [
+                    {
+                        "type": "usebake",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Percent"
+                    }
+                ]
+            },
+            {
+                "skillId": 91,
+                "desc": "全技法+10",
+                "effect": [
+                    {
+                        "type": "bake",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "steam",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "boil",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "fry",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "knife",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "stirfry",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "873",
+        "stirfry": 166,
+        "bake": 45,
+        "boil": 85,
+        "steam": 249,
+        "fry": 1,
+        "knife": 1,
+        "level": "3",
+        "meat": 0,
+        "veg": 5,
+        "fish": 0,
+        "creation": 5,
+        "name": "弥幽",
+        "rarity": "3",
+        "skill_id": "130",
+        "equip_id": null,
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 166,
+        "boil_raw": 83,
+        "knife_raw": 0,
+        "fry_raw": 0,
+        "bake_raw": 41,
+        "steam_raw": 249,
+        "meat_raw": 0,
+        "fish_raw": 0,
+        "veg_raw": 5,
+        "creation_raw": 5,
+        "skill": {
+            "skillId": 130,
+            "desc": "蒸类料理售价+20%",
+            "effect": [
+                {
+                    "type": "usesteam",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": null,
+        "equip_skills": []
+    },
+    {
+        "id": "876",
+        "stirfry": 102,
+        "bake": 142,
+        "boil": 32,
+        "steam": 174,
+        "fry": 31,
+        "knife": 247,
+        "level": "3",
+        "meat": 1,
+        "veg": 1,
+        "fish": 6,
+        "creation": 6,
+        "name": "战小癸",
+        "rarity": "3",
+        "skill_id": "129",
+        "equip_id": "62",
+        "ultimate_skill_id": "312",
+        "stirfry_raw": 72,
+        "boil_raw": 0,
+        "knife_raw": 216,
+        "fry_raw": 0,
+        "bake_raw": 108,
+        "steam_raw": 144,
+        "meat_raw": 0,
+        "fish_raw": 5,
+        "veg_raw": 0,
+        "creation_raw": 5,
+        "skill": {
+            "skillId": 129,
+            "desc": "切类料理售价+20%",
+            "effect": [
+                {
+                    "type": "useknife",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": {
+            "skillId": 312,
+            "desc": "3星菜谱售价+1%",
+            "effect": [
+                {
+                    "type": "useall",
+                    "value": 1,
+                    "condition": "Global",
+                    "cal": "Percent",
+                    "rarity": 3
+                }
+            ]
+        },
+        "equip": {
+            "equipId": 62,
+            "galleryId": "062",
+            "name": "厨师头巾",
+            "rarity": 2,
+            "skill": [
+                93,
+                194
+            ],
+            "origin": "璧池 双11奖池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 93,
+                "desc": "全技法+30",
+                "effect": [
+                    {
+                        "type": "bake",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "steam",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "boil",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "fry",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "knife",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "stirfry",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            },
+            {
+                "skillId": 194,
+                "desc": "全采集+1",
+                "effect": [
+                    {
+                        "type": "vegetable",
+                        "value": 1,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "meat",
+                        "value": 1,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "fish",
+                        "value": 1,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "creation",
+                        "value": 1,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "879",
+        "stirfry": 224,
+        "bake": 14,
+        "boil": 12,
+        "steam": 63,
+        "fry": 332,
+        "knife": 171,
+        "level": "3",
+        "meat": 7,
+        "veg": 0,
+        "fish": 7,
+        "creation": 0,
+        "name": "尤诺",
+        "rarity": "4",
+        "skill_id": "134",
+        "equip_id": "521",
+        "ultimate_skill_id": "0",
+        "stirfry_raw": 214,
+        "boil_raw": 0,
+        "knife_raw": 160,
+        "fry_raw": 321,
+        "bake_raw": 0,
+        "steam_raw": 53,
+        "meat_raw": 7,
+        "fish_raw": 7,
+        "veg_raw": 0,
+        "creation_raw": 0,
+        "skill": {
+            "skillId": 134,
+            "desc": "炸类料理售价+20%",
+            "effect": [
+                {
+                    "type": "usefry",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
+        "ultimate_skill": null,
+        "equip": {
+            "equipId": 521,
+            "galleryId": "521",
+            "name": "简易石拳",
+            "rarity": 1,
+            "skill": [
+                123,
+                91
+            ],
+            "origin": "成长无忧池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 123,
+                "desc": "炒类料理售价+10%",
+                "effect": [
+                    {
+                        "type": "usestirfry",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Percent"
+                    }
+                ]
+            },
+            {
+                "skillId": 91,
+                "desc": "全技法+10",
+                "effect": [
+                    {
+                        "type": "bake",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "steam",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "boil",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "fry",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "knife",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    },
+                    {
+                        "type": "stirfry",
+                        "value": 10,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
+    }
+]
