@@ -300,13 +300,13 @@ void calc1(CMap* my_maps, cJSON* json)
             CConstraint constraint;
             constraint.opr_type = 0;
             constraint.value = map.value;
-            constraint.items.push_back(std::make_pair(-1, L"t" + std::to_wstring(j)));
             for (auto itr = oChefMap.begin(); itr != oChefMap.end(); itr++) {
                 auto value = itr->second.values[map.type];
                 if (value > 0)
                     constraint.items.push_back(std::make_pair(value,
                         L"X_" + std::to_wstring(itr->second.id) + L"_" + std::to_wstring(j)));
             }
+            constraint.items.push_back(std::make_pair(-1, L"t" + std::to_wstring(j)));
             constraint_list.push_back(constraint);
         }
         {
@@ -346,7 +346,7 @@ void calc1(CMap* my_maps, cJSON* json)
 
     g_debug_simplex_cnt = 0;
     g_debug_gaussian_cnt = 0;
-    auto r = solve_int(objective_function, constraint_list, result, objective_value);
+    auto r = solve_int2(objective_function, constraint_list, result, objective_value);
     if (r == 1) {
         std::cout << "¸´ÔÓ¶È:" << g_debug_simplex_cnt << "," << g_debug_gaussian_cnt << std::endl;
         std::cout << "¼«Öµ:" << objective_value << std::endl;// + JSON.stringify(result) + "<br>";
