@@ -36,10 +36,8 @@ struct CConstraint
 // max(Ct*X)
 // AX=b
 // b>=0 X>=0
-int simplex(CVector& Ct, CMatrix& A, CVector& b, CVector& result, double& objective_value);
 int solve(CObjectiveFunc& objective_function, CConstraintList& constraint_list, CResult& result, double& objective_value);
 int solve_int(CObjectiveFunc& objective_function, CConstraintList& constraint_list, CResult& result, double& objective_value);
-int solve_int2(CObjectiveFunc& objective_function, CConstraintList& constraint_list, CResult& result, double& objective_value);
 
 #endif // !LP_H
 

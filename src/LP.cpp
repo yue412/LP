@@ -10,17 +10,51 @@ int g_debug_gaussian_cnt = 0;
 CMatrix* init_matrix(CVector& Ct, CMatrix& A, CVector& b);
 void init_number_array(CVector& array);
 void gaussian(CMatrix& matrix, int row, int col);
-bool gaussian(CMatrix& matrix, CVectorInt& base, int col);
+void row_transform(CMatrix& matrix, int row1, int row2, double factor);
+void row_transform(CMatrix& matrix, int row, double factor);
+
 int index_of_val_list(const CStringList& var_list, const std::wstring& var_name);
 void grow_number_array(CVector& array, int new_cnt);
-int simplex(CVector& Ct, CMatrix& A, CVector& b, CVector& result, double& objective_value);
+bool single_simplex(CMatrix& matrix, CVectorInt& base, int col);
 int simplex(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value);
 int simplex2(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value);
+int simplex3(CVector& Ct, CMatrix& A, CVector& b, CVector& result, double& objective_value);
+bool find_base(CMatrix& matrix, CVectorInt& base, int row);
+bool find_bases(CMatrix& matrix, CVectorInt& base);
+bool adjust_nonnegative(CMatrix& matrix, CVectorInt& base);
 
-int solve_int3(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value)
+int solve_int(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value);
+
+int solve_int(CMatrix matrix, CVectorInt base, int col, double int_val, CVector& result, double& objective_value)
+{
+    QP_FUN("solve_int4");
+    base.push_back(-1);
+    matrix.insert(matrix.begin() + matrix.size() - 1, CVector(matrix[0].size(), 0.0));
+    int height = matrix.size() - 1;
+    
+    CVector& new_row = matrix[height - 1];
+    new_row[col] = 1;
+    new_row[matrix[0].size() - 1] = int_val;
+    
+    for (int j = 0; j < height; j++)
+    {
+        if (matrix[j][col] > g_epsilon)
+        {
+            row_transform(matrix, j, height - 1, -1);
+            break;
+        }
+    }
+    if (!find_base(matrix, base, height - 1))
+        return 0;
+    if (!adjust_nonnegative(matrix, base))
+        return 0;
+    return solve_int(matrix, base, result, objective_value);
+}
+
+int solve_int(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value)
 {
     QP_FUN("solve_int3");
-    auto r = simplex2(matrix, base, result, objective_value);
+    auto r = simplex(matrix, base, result, objective_value);
     if (r != 1)
         return r;
     for (std::size_t i = 0; i < result.size(); i++) {
@@ -33,31 +67,14 @@ int solve_int3(CMatrix& matrix, CVectorInt& base, CVector& result, double& objec
         //auto s = JSON.stringify(constraint_list);
         //auto new_constraint_list1 = constraint_list;
 
-        CVectorInt base1 = base;
-        base1.push_back(i);
-        CMatrix matrix1 = matrix;
-        matrix1.insert(matrix1.begin() + matrix1.size() - 1, CVector(matrix1[0].size(), 0.0));
-        CVector& new_row = matrix1[matrix1.size() - 2];
-        new_row[i] = 1;
-        new_row[matrix1[0].size() - 1] = int_val;
-        gaussian(matrix1, base1, i);
-
-        CVector new_result1(matrix1[0].size() - 1);
+        CVector new_result1(matrix[0].size() - 1);
         double new_value1;
-        auto r1 = solve_int3(matrix1, base1, new_result1, new_value1);
-        // 非整数
-        CVectorInt base2 = base;
-        base2.push_back(i);
-        CMatrix matrix2 = matrix;
-        matrix2.insert(matrix2.begin() + matrix2.size() - 1, CVector(matrix2[0].size(), 0.0));
-        CVector& new_row = matrix2[matrix2.size() - 2];
-        new_row[i] = 1;
-        new_row[matrix2[0].size() - 1] = int_val - 1;
-        gaussian(matrix2, base2, i);
+        auto r1 = solve_int(matrix, base, i, int_val, new_result1, new_value1);
 
-        CVector new_result2(matrix2[0].size() - 1);
+        // 非整数
+        CVector new_result2(matrix[0].size() - 1);
         double new_value2;
-        auto r2 = solve_int3(matrix2, base2, new_result2, new_value2);
+        auto r2 = solve_int(matrix, base, i, int_val - 1, new_result2, new_value2);
         if (r1 == -1 || r2 == -1) {
             return -1;
         }
@@ -101,86 +118,26 @@ int solve_int3(CMatrix& matrix, CVectorInt& base, CVector& result, double& objec
     return r;
 }
 
-int solve_int2(CVector& Ct, CMatrix& A, CVector& b, CVector& result, double& objective_value)
+int solve_int(CVector& Ct, CMatrix& A, CVector& b, CVector& result, double& objective_value)
 {
     QP_FUN("solve_int2");
-    auto r = simplex(Ct, A, b, result, objective_value);
-    if (r != 1)
-        return r;
-    for (std::size_t i = 0; i < result.size(); i++) {
-        //auto pair = result[i];
-        auto int_val = (int)round(result[i]);
-        if (std::abs(int_val - result[i]) < g_epsilon)
-            continue;
-        int_val = (int)ceil(result[i]);
-        // 非整数
-        //auto s = JSON.stringify(constraint_list);
-        //auto new_constraint_list1 = constraint_list;
-        
-        CMatrix new_A = A;
-        new_A.push_back(CVector(Ct.size(), 0.0));
-        CVector& new_row = new_A[new_A.size() - 1];
-        new_row[i] = 1;
+    std::shared_ptr<CMatrix> pmatrix(init_matrix(Ct, A, b));
+    CMatrix& matrix = *(pmatrix.get());
+    CVectorInt base(matrix.size() - 1);
 
-        CVector b1 = b;
-        b1.push_back(int_val);
+    // 找到最初的基变量
+    if (!find_bases(matrix, base))
+        return 0;
+    //b有可能是负的了，要处理
+    if (!adjust_nonnegative(matrix, base))
+        return 0; //无解
 
-        CVector new_result1(Ct.size());
-        double new_value1;
-        auto r1 = solve_int2(Ct, new_A, b1, new_result1, new_value1);
-        // 非整数
-        CVector b2 = b;
-        b2.push_back(int_val - 1);
-
-        CVector new_result2(Ct.size());
-        double new_value2;
-        auto r2 = solve_int2(Ct, new_A, b2, new_result2, new_value2);
-        if (r1 == -1 || r2 == -1) {
-            return -1;
-        }
-        if (r1 == 1 || r2 == 1) {
-            if (r1 == 1 && r2 == 1) {
-                if ((int)round(new_value1) >= (int)round(new_value2) /*&& objective_function.is_max) ||
-                    ((int)round(new_value1) <= (int)round(new_value2) && !objective_function.is_max)*/)
-                {
-                    result = new_result1;
-                    //copy_array(new_result1, result);
-                    //result = JSON.parse(JSON.stringify(new_result1));
-                    objective_value = new_value1;
-                }
-                else
-                {
-                    result = new_result2;
-                    //copy_array(new_result2, result);
-                    //result = JSON.parse(JSON.stringify(new_result2));
-                    objective_value = new_value2;
-                }
-            }
-            else if (r1 == 1) {
-                result = new_result1;
-                //copy_array(new_result1, result);
-                //result = JSON.parse(JSON.stringify(new_result1));
-                objective_value = new_value1;
-            }
-            else
-            {
-                result = new_result2;
-                //copy_array(new_result2, result);
-                //result = JSON.parse(JSON.stringify(new_result2));
-                objective_value = new_value2;
-            }
-            return 1;
-        }
-        else {
-            return 0;
-        }
-    }
-    return r;
+    return solve_int(matrix, base, result, objective_value);
 }
 
-int solve_int2(CObjectiveFunc& objective_function, CConstraintList& constraint_list, CResult& result, double& objective_value)
+int solve_int(CObjectiveFunc& objective_function, CConstraintList& constraint_list, CResult& result, double& objective_value)
 {
-    QP_FUN("solve_int2_1");
+    QP_FUN("solve_int");
 
     CStringList var_list;
     //CVectorInt base;
@@ -260,7 +217,7 @@ int solve_int2(CObjectiveFunc& objective_function, CConstraintList& constraint_l
         grow_number_array(A[i], var_list.size());
     }
     CVector X(var_list.size());
-    auto r = solve_int2(Ct, A, b, X, objective_value);
+    auto r = solve_int(Ct, A, b, X, objective_value);
     if (r == 1) {
         for (std::size_t i = 0; i < var_list.size(); i++) {
             if (var_list[i][0] == '_')
@@ -269,88 +226,6 @@ int solve_int2(CObjectiveFunc& objective_function, CConstraintList& constraint_l
         }
         if (!objective_function.is_max)
             objective_value = -objective_value;
-    }
-    return r;
-}
-
-int solve_int(CObjectiveFunc& objective_function, CConstraintList& constraint_list, CResult& result, double& objective_value)
-{
-    QP_FUN("solve_int");
-    auto r = solve(objective_function, constraint_list, result, objective_value);
-    if (r != 1)
-        return r;
-    for (std::size_t i = 0; i < result.size(); i++) {
-        auto pair = result[i];
-        auto int_val = (int)round(pair.second);
-        if (std::abs(int_val - pair.second) < g_epsilon)
-            continue;
-        int_val = (int)ceil(pair.second);
-        // 非整数
-        //auto s = JSON.stringify(constraint_list);
-        auto new_constraint_list1 = constraint_list;
-        {
-            // 作坊
-            CConstraint constraint;
-            constraint.opr_type = 0;
-            constraint.value = int_val;
-            constraint.items.push_back(std::make_pair(1, pair.first));
-            new_constraint_list1.push_back(constraint);
-        }
-        CResult new_result1;
-        double new_value1;
-        auto r1 = solve_int(objective_function, new_constraint_list1, new_result1, new_value1);
-        // 非整数
-        auto new_constraint_list2 = constraint_list;
-        {
-            // 作坊
-            CConstraint constraint;
-            constraint.opr_type = 0;
-            constraint.value = int_val - 1;
-            constraint.items.push_back(std::make_pair(1, pair.first));
-            new_constraint_list2.push_back(constraint);
-        }
-        CResult new_result2;
-        double new_value2;
-        auto r2 = solve_int(objective_function, new_constraint_list2, new_result2, new_value2);
-        if (r1 == -1 || r2 == -1) {
-            return -1;
-        }
-        if (r1 == 1 || r2 == 1) {
-            if (r1 == 1 && r2 == 1) {
-                if (((int)round(new_value1) >= (int)round(new_value2) && objective_function.is_max) ||
-                    ((int)round(new_value1) <= (int)round(new_value2) && !objective_function.is_max))
-                {
-                    result = new_result1;
-                    //copy_array(new_result1, result);
-                    //result = JSON.parse(JSON.stringify(new_result1));
-                    objective_value = new_value1;
-                }
-                else
-                {
-                    result = new_result2;
-                    //copy_array(new_result2, result);
-                    //result = JSON.parse(JSON.stringify(new_result2));
-                    objective_value = new_value2;
-                }
-            }
-            else if (r1 == 1) {
-                result = new_result1;
-                //copy_array(new_result1, result);
-                //result = JSON.parse(JSON.stringify(new_result1));
-                objective_value = new_value1;
-            }
-            else
-            {
-                result = new_result2;
-                //copy_array(new_result2, result);
-                //result = JSON.parse(JSON.stringify(new_result2));
-                objective_value = new_value2;
-            }
-            return 1;
-        }
-        else {
-            return 0;
-        }
     }
     return r;
 }
@@ -418,7 +293,7 @@ int solve(CObjectiveFunc& objective_function, CConstraintList& constraint_list, 
         grow_number_array(A[i], var_list.size());
     }
     CVector X(var_list.size());
-    auto r = simplex(Ct, A, b, X, objective_value);
+    auto r = simplex3(Ct, A, b, X, objective_value);
     if (r == 1) {
         for (std::size_t i = 0; i < var_list.size(); i++) {
             if (var_list[i][0] == '_')
@@ -435,147 +310,138 @@ int solve(CObjectiveFunc& objective_function, CConstraintList& constraint_list, 
 // max(Ct*X)
 // AX=b
 // b>=0 X>=0
-int simplex(CVector& Ct, CMatrix& A, CVector& b, CVector& result, double& objective_value)
+int simplex3(CVector& Ct, CMatrix& A, CVector& b, CVector& result, double& objective_value)
 {
     std::shared_ptr<CMatrix> pmatrix(init_matrix(Ct, A, b));
     CMatrix& matrix = *(pmatrix.get());
     CVectorInt base(matrix.size() - 1);
-    return simplex(matrix, base, result, objective_value);
+    return simplex2(matrix, base, result, objective_value);
 }
 
-int simplex(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value)
+bool find_base(CMatrix& matrix, CVectorInt& base, int row)
 {
-    QP_FUN("simplex");
-
-    ++g_debug_simplex_cnt;
-    // 构造Matrix
-    // ( A,b)
-    // (Ct,0)
-    auto width = matrix[0].size() - 1;
-    auto height = matrix.size();
-
-    // 找到最初的基变量
-    for (std::size_t i = 0; i < height; i++) {
-        base[i] = -1;
-        auto bZero = std::abs(matrix[i][width]) < g_epsilon;
-        auto bSucc = false;
-        for (std::size_t j = 0; j < width; j++) {
-            if (std::abs(matrix[i][j]) < g_epsilon)
-                continue;
-            if (bZero || (matrix[i][j] > g_epsilon && matrix[i][width] > g_epsilon) || (matrix[i][j] < -g_epsilon && matrix[i][width] < -g_epsilon))
+    auto width = (int)matrix[row].size() - 1;//不含最后一列b
+    auto bZero = std::abs(matrix[row][width]) < g_epsilon;
+    auto bMin = 0.0;
+    base[row] = -1;
+    for (auto j = 0; j < width; j++) {
+        if (std::abs(matrix[row][j]) < g_epsilon)
+            continue;
+        if (bZero || (matrix[row][j] > g_epsilon && matrix[row][width] > g_epsilon) 
+            || (matrix[row][j] < -g_epsilon && matrix[row][width] < -g_epsilon))
+        {
+            
+            if((base[row] == -1) || abs(matrix[row][j]) < (bMin - g_epsilon))
             {
-                {
-                    QP_FUN("simplex_gaussian_1");
-                    gaussian(matrix, i, j);
-                }
-                base[i] = j;
-                bSucc = true;
-                break;
+                bMin = abs(matrix[row][j]);
+                base[row] = j;
             }
+            
+            /*
+            QP_FUN("find_base_gaussian");
+            gaussian(matrix, row, j);
+            base[row] = j;
+            return true;
+            */
+            
         }
-        if (!bSucc && !bZero)
-            return 0; // 无解
     }
-    //b有可能是负的了，要处理
+    
+    if (base[row] >= 0)
+    {
+        QP_FUN("find_base_gaussian");
+        gaussian(matrix, row, base[row]);
+        return true;
+    }
+        
+    return bZero;
+}
+
+bool find_bases(CMatrix& matrix, CVectorInt& base)
+{
+    auto height = matrix.size() - 1;
+    for (std::size_t i = 0; i < height; i++) {
+        if (!find_base(matrix, base, i))
+            return false; // 无解
+    }
+    return true;
+}
+
+// 调整使b非负
+bool adjust_nonnegative(CMatrix& matrix, CVectorInt& base)
+{
+    auto height = (int)matrix.size() - 1;
+    auto width = (int)matrix[0].size() - 1;
     while (true) {
         auto isValid = true;
-        for (std::size_t i = 0; i < height; i++) {
+        for (auto i = 0; i < height; i++) {
             if (matrix[i][width]<-g_epsilon)
             {
                 isValid = false;
-                auto bSucc = false;
-                for (std::size_t j = 0; j < width; j++) {
+                //auto bSucc = false;
+                auto dMin = 0.0;
+                base[i] = -1;
+                for (auto j = 0; j < width; j++) {
                     if (matrix[i][j] < -g_epsilon)
                     {
+                        if((base[i] == -1) || (abs(matrix[i][j]) < (dMin - g_epsilon)))
                         {
-                            QP_FUN("simplex_gaussian_2");
-                            gaussian(matrix, i, j);
+                            dMin = abs(matrix[i][j]);
+                            //gaussian(matrix, i, j);
+                            base[i] = j;
+                            //bSucc = true;
                         }
-                        base[i] = j;
-                        bSucc = true;
-                        break;
+                        //break;
                     }
                 }
-                if (!bSucc)
-                    return 0;
+                
+                if (base[i] >= 0)
+                {
+                    QP_FUN("adjust_nonnegative_gaussian");
+                    gaussian(matrix, i, base[i]);
+                }
+                else
+                    return false;
+                    
+                    // 无解
+                //if (!bSucc)
+                //    return false;
             }
         }
         if (isValid) {
-            break;
-        }
-    }
-    auto debug_cnt = 0;
-    while (true) {
-        auto max_val = 0.0;
-        auto col = -1;
-        for (std::size_t i = 0; i < width; i++) {
-            if (matrix[height][i] >(max_val + g_epsilon))
-            {
-                max_val = matrix[height][i];
-                col = i;
-            }
-        }
-        if (col == -1) {
-            // 有解
-            // 非基变量全部为0
-            // auto result = new Array(b.length);
-            init_number_array(result);
-            for (std::size_t i = 0; i < base.size(); i++) {
-                auto col = base[i];
-                auto row = i;
-                if (col >= 0) {
-                    result[col] = matrix[row][width];
-                }
-            }
-            objective_value = -matrix[height][width];
-            return 1;
-        }
-        /*
-        auto min_val = 0.0;
-        auto row = -1;
-        for (std::size_t i = 0; i < height; i++) {
-            if (std::abs(matrix[i][col]) < g_epsilon)
-                continue;
-            if (matrix[i][col] > g_epsilon) {
-                auto f = matrix[i][width] / matrix[i][col];
-                if ((row == -1) || (f < min_val - g_epsilon)) {
-                    min_val = f;
-                    row = i;
-                }
-            }
-        }
-        if (row == -1) {
-            return -1; // 可行解无界
-        }
-        {
-            QP_FUN("simplex_gaussian_3");
-            gaussian(matrix, row, col);
-        }
-        base[row] = col;
-        */
-        if (!gaussian(matrix, base, col))
-            return -1; // 可行解无界
-        if (debug_cnt++ > 1000) {
-            return -2; // 死循环了
+            return true;
         }
     }
 }
 
 int simplex2(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value)
 {
-    QP_FUN("simplex");
+    QP_FUN("simplex2");
 
-    // 构造Matrix
+    ++g_debug_simplex_cnt;
+    // Matrix
     // ( A,b)
     // (Ct,0)
-    auto width = matrix[0].size() - 1;
-    auto height = matrix.size();
+    // 找到最初的基变量
+    if (!find_bases(matrix, base))
+        return 0;
+    //b有可能是负的了，要处理
+    if (!adjust_nonnegative(matrix, base))
+        return 0; //无解
+    return simplex(matrix, base, result, objective_value);
+}
 
+// 单纯形法
+int simplex(CMatrix& matrix, CVectorInt& base, CVector& result, double& objective_value)
+{
+    QP_FUN("simplex");
+    auto width = (int)matrix[0].size() - 1;
+    auto height = (int)matrix.size() - 1;
     auto debug_cnt = 0;
     while (true) {
         auto max_val = 0.0;
         auto col = -1;
-        for (std::size_t i = 0; i < width; i++) {
+        for (int i = 0; i < width; i++) {
             if (matrix[height][i] >(max_val + g_epsilon))
             {
                 max_val = matrix[height][i];
@@ -587,7 +453,7 @@ int simplex2(CMatrix& matrix, CVectorInt& base, CVector& result, double& objecti
             // 非基变量全部为0
             // auto result = new Array(b.length);
             init_number_array(result);
-            for (std::size_t i = 0; i < base.size(); i++) {
+            for (int i = 0; i < (int)base.size(); i++) {
                 auto col = base[i];
                 auto row = i;
                 if (col >= 0) {
@@ -597,7 +463,7 @@ int simplex2(CMatrix& matrix, CVectorInt& base, CVector& result, double& objecti
             objective_value = -matrix[height][width];
             return 1;
         }
-        if (!gaussian(matrix, base, col))
+        if (!single_simplex(matrix, base, col))
             return -1; // 可行解无界
         if (debug_cnt++ > 1000) {
             return -2; // 死循环了
@@ -605,9 +471,9 @@ int simplex2(CMatrix& matrix, CVectorInt& base, CVector& result, double& objecti
     }
 }
 
-bool gaussian(CMatrix& matrix, CVectorInt& base, int col)
+bool single_simplex(CMatrix& matrix, CVectorInt& base, int col)
 {
-    QP_FUN("gaussian2");
+    QP_FUN("single_simplex");
 
     // 构造Matrix
     // ( A,b)
@@ -631,9 +497,31 @@ bool gaussian(CMatrix& matrix, CVectorInt& base, int col)
     if (row == -1) {
         return false; // 可行解无界
     }
+    {QP_FUN("single_simplex_gaussian");
     gaussian(matrix, row, col);
+    }
     base[row] = col;
     return true;
+}
+
+//row2 += row1*factor
+void row_transform(CMatrix& matrix, int row1, int row2, double factor)
+{
+    auto width = (int)matrix[0].size();
+    for (int i = 0; i < width; i++)
+    {
+        matrix[row2][i] += matrix[row1][i] * factor;
+    }
+}
+
+// row = row*factor
+void row_transform(CMatrix& matrix, int row, double factor)
+{
+    auto width = (int)matrix[0].size();
+    for (int i = 0; i < width; i++)
+    {
+        matrix[row][i] *= factor;
+    }
 }
 
 void gaussian(CMatrix& matrix, int row, int col)
@@ -641,27 +529,17 @@ void gaussian(CMatrix& matrix, int row, int col)
     QP_FUN("gaussian");
 
     g_debug_gaussian_cnt++;
-    CVector& curr_row_data = matrix[row];
-    auto d = curr_row_data[col];
+    auto d = matrix[row][col];
     if (std::abs(d) < g_epsilon)
         return;
     auto height = matrix.size();
-    auto width = matrix[0].size();
     // 归一
-    for (std::size_t i = 0; i < width; i++) {
-        curr_row_data[i] /= d;
-    }
+    row_transform(matrix, row, 1 / d);
     // 高斯消元
     for (std::size_t i = 0; i < height; i++) {
         if (i == row)
             continue;
-        //        if(Math.abs(r[col]) < g_epsilon)
-        //            continue;
-        CVector& row_data = matrix[i];
-        auto factor = row_data[col];
-        for (std::size_t j = 0; j < width; j++) {
-            row_data[j] -= curr_row_data[j] * factor;
-        }
+        row_transform(matrix, row, i, -matrix[i][col]);
     }
 }
 
