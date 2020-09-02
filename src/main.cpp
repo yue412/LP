@@ -5,7 +5,9 @@
 #include <map>
 #include <algorithm>
 #include <iterator>
-#include "LP.h"
+#include <memory>
+#include <cmath>
+#include "LP_Int.h"
 #include "cJSON.h"
 #include "Common.h"
 
@@ -127,6 +129,7 @@ void init_map_order(std::wstring sOrder, std::vector<std::pair<std::wstring, int
 int main(int argc, char* argv[])
 {
     auto json = readJson(getFullPath(L"chefs.json"));
+    auto recipes_json = readJson(getFullPath(L"recipes.json"));
     std::map<std::wstring, std::wstring> oParamsMap;
     while (true)
     {
@@ -148,6 +151,11 @@ int main(int argc, char* argv[])
             auto nMapCount = oParamsMap.find(L"count") == oParamsMap.end() ? 4 : std::stoi(oParamsMap[L"count"]);
             calc3(chefs, oMapOrder, nMapSize, nMapCount);
         }
+        else if (str == L"money")
+        {
+            
+
+        }
         else if (str == L"clear")
         {
             oParamsMap.clear();
@@ -166,6 +174,137 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+std::vector<std::string> g_cook_types = { "stirfry", "boil", "knife", "fry", "bake", "steam" };
+
+
+int calc_rate(cJSON* recipe, cJSON* chef)
+{
+    auto n = 4;
+    for (auto i = 0; i < g_cook_types.size(); i++) {
+        auto type = g_cook_types[i];
+        auto val = cJSON_GetObjectItem(recipe, type.c_str());
+        if (val->valueint > 0)
+        {
+            auto chef_val = cJSON_GetObjectItem(chef, type.c_str());
+            n = std::min(n, (int)floor(chef->valueint / (double)recipe->valueint));
+        }
+    }
+    return n;
+}
+
+//double _calc_price(cJSON* recipe) {
+//    auto is_mastery_val = cJSON_GetObjectItem(recipe, "is_mastery");
+//    auto price_val = cJSON_GetObjectItem(recipe, "price");
+//    auto exPrice_val = cJSON_GetObjectItem(recipe, "exPrice");
+//    return is_mastery_val->valueint ? price_val->valueint + exPrice_val->valueint : price_val->valueint;
+//};
+//
+//double calc_price(cJSON* recipe, cJSON* chef, cJSON* chefs, double price_add)
+//{
+//    auto rate = calc_rate(recipe, chef);
+//    if (rate == 0)
+//        return 0;
+//    auto price = _calc_price(recipe);
+//    auto delta = 0;
+//    delta += (g_rate_factor[rate] - 1)*price;
+//    if (chef.skill)
+//    {
+//        chef.skill.effect.forEach(e = > {
+//            delta += e.calc_price(recipe);
+//        });
+//    }
+//    if (chef.equip_skills)
+//    {
+//        chef.equip_skills.forEach(e_skill = > {
+//            e_skill.effect.forEach(e = > {
+//                delta += e.calc_price(recipe);
+//            });
+//        });
+//    }
+//    delta += price * price_add / 100;
+//    // global
+//    for (let i = 0; i < chefs.length; i++) {
+//        const c = chefs[i];
+//        if (c.ultimate_skill)
+//        {
+//            c.ultimate_skill.effect.forEach(e = > {
+//                delta += e.calc_price(recipe);
+//            });
+//        }
+//    }
+//    return Math.ceil(price + delta);
+//}
+
+//void calc_money(cJSON* chefs, cJSON* recipes, double time_limit)
+//{
+//    std::vector<std::vector<int>> comb_list;
+//    auto n = cJSON_GetArraySize(chefs);
+//    combination(n, 3, comb_list);
+//    for (auto i = 0; i < comb_list.size(); i++)
+//    {
+//        auto comb = comb_list[i];
+//
+//        CObjectiveFunc objective_function;
+//        objective_function.is_max = true;
+//        CConstraintList constraint_list;
+//
+//        CConstraint constraint_time; // 时间限制
+//        constraint_time.opr_type = -1;
+//        constraint_time.value = time_limit;
+//
+//        CConstraintList constraint_arr(comb.size());
+//        for (auto j = 0; j < constraint_arr.size(); j++) {
+//            constraint_arr[j].opr_type = -1;
+//            constraint_arr[j].value = 3;
+//        }
+//        auto recipes_cnt = cJSON_GetArraySize(recipes);
+//        for (auto k = 0; k < recipes_cnt; k++) {
+//            auto recipe = cJSON_GetArrayItem(recipes, k);
+//            CConstraint constraint; // 同一个菜只能一个人做
+//            constraint.opr_type = -1;
+//            constraint.value = 1;
+//            for (auto j = 0; j < comb.size(); j++) {
+//                auto index = comb[j];
+//                auto chef = cJSON_GetArrayItem(chefs, index);
+//                auto price = calc_price(recipe, chef, my_chefs, 0);
+//                if (price > 0)
+//                {
+//                    var var_name = "X_" + recipe.recipeId + "_" + index;
+//                    objective_function.items.push([price*recipe.limit, var_name]);
+//                    constraint_time.items.push([recipe.total_time(), var_name]);
+//                    constraint.items.push([1, var_name]);
+//                    constraint_arr[j].items.push([1, var_name]);
+//                }
+//            }
+//            if (constraint.items.length > 0)
+//                constraint_list.push(constraint);
+//        }
+//        for (let j = 0; j < constraint_arr.length; j++) {
+//            if (constraint_arr[j].items.length > 0)
+//                constraint_list.push(constraint_arr[j]);
+//        }
+//        if (time_limit> g_epsilon)
+//        {
+//            constraint_list.push(constraint_time);
+//        }
+//
+//        var result = [];
+//        var objective_value = new Object();
+//        var r = solve_int_fast(objective_function, constraint_list, result, objective_value);
+//        if (r == 1)
+//        {
+//            if (!("value" in final_objective_value) || (objective_value.value > final_objective_value.value))
+//            {
+//                final_objective_value.value = objective_value.value;
+//                final_result = result;
+//            }
+//        }
+//        if (i == 0) {
+//            break;
+//        }
+//    }
+//}
 
 cJSON* readJson(const std::wstring& sFileName)
 {
@@ -315,7 +454,8 @@ int inner_calc(std::vector<CMap>& my_maps, std::vector<CChef>& chefs, std::vecto
 
     g_debug_simplex_cnt = 0;
     CResult oResult;
-    auto r = solve_int(objective_function, constraint_list, oResult, objective_value);
+    auto lp = std::shared_ptr<LP>(new LP_Int());
+    auto r = lp->solve(objective_function, constraint_list, oResult, objective_value);
     if (r == 1) {
         std::map<std::wstring, CMapResult> oResultMap;
         for (std::size_t i = 0; i < oResult.size(); i++) {

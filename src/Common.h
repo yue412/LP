@@ -23,5 +23,6 @@ std::fstream& operator<<(std::fstream& out, const std::wstring& s);
 std::fstream& operator<<(std::fstream& out, const wchar_t* s);
 bool fileExists(const std::wstring& sFile);
 void split(const std::wstring& sValue, wchar_t chr, std::vector<std::wstring>& oStringList);
+void combination(int n, int m, std::vector<std::vector<int>>& result);
 
 #endif // !COMMON_H

@@ -6,6 +6,38 @@
 #include <Windows.h>
 #include <fstream>
 #include <vector>
+#include <iterator>
+
+// 从n个数里选m个，范围[0..n-1]
+void combination(int n, int m, std::vector<std::vector<int>>& result)
+{
+    if (n == m)
+    {
+        result.resize(result.size() + 1);
+        std::vector<int>& item = result[result.size() - 1];
+        for (auto i = 0; i < m; i++) {
+            item.push_back(i);
+        }
+    }
+    else if (m == 1)
+    {
+        auto nSize = (int)result.size();
+        result.resize(nSize + n);
+        for (auto i = 0; i < n; i++) {
+            result[nSize + i].push_back(i);
+        }
+    }
+    else
+    {
+        std::vector<std::vector<int>> r1;
+        combination(n - 1, m - 1, r1);
+        for (auto i = 0; i < r1.size(); i++) {
+            r1[i].push_back(n - 1);
+        }
+        std::copy(r1.begin(), r1.end(), std::back_inserter(result));
+        combination(n - 1, m, result);
+    }
+}
 
 std::wstring _FormatWstring(const wchar_t * lpcwszFormat, va_list _list)
 {

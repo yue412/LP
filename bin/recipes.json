@@ -1,0 +1,7956 @@
+[
+    {
+        "recipeId": 1,
+        "galleryId": "001",
+        "name": "荷包蛋",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 12,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 2
+            }
+        ],
+        "price": 7,
+        "exPrice": 1,
+        "time": 30,
+        "limit": 40,
+        "origin": "主线3",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡蛋*2",
+        "material_cnt": 2,
+        "cook_name": "炸:12",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,白祁右,雷椒,申公子,武陵仔   椒娃,熊妮,蓝孩子,夏风,李小染   小雷神,蛙特,阎小罗,尤诺,米大师   天香,高升",
+        "first_guests": "",
+        "guests_like": "",
+        "type": 0,
+        "meat": 1
+    },
+    {
+        "recipeId": 2,
+        "galleryId": "002",
+        "name": "鸡汤",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 12,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 7,
+                "quantity": 2
+            }
+        ],
+        "price": 9,
+        "exPrice": 1,
+        "time": 37,
+        "limit": 40,
+        "origin": "主线13",
+        "guests": [
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "防水的柠檬",
+        "type": 0,
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡胸肉*2",
+        "material_cnt": 2,
+        "cook_name": "煮:12",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,麦小咖,紫酱,农当午,豆腕儿   傣弟,锄小禾,小当家,兜帽药师,粉雪   李小染,小雷神,银乌,酥蛮蛮,猪小弟   弥幽,米大师,神棍,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1
+    },
+    {
+        "recipeId": 3,
+        "galleryId": "003",
+        "name": "炒青菜",
+        "rarity": 1,
+        "unlock": "香菇青菜",
+        "stirfry": 10,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 6,
+                "quantity": 3
+            }
+        ],
+        "price": 5,
+        "exPrice": 1,
+        "time": 30,
+        "limit": 40,
+        "origin": "主线1",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "-",
+        "type": 0,
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "青菜*3",
+        "material_cnt": 3,
+        "cook_name": "炒:10",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,熊麓,白祁右,紫酱,郭锅   鱼不斩,兜帽药师,蓝孩子,夏风,小龙侠   酥蛮蛮,阿波罗,弥幽,战小癸,尤诺   金驼,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 4,
+        "galleryId": "004",
+        "name": "香菇青菜",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 18,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 6,
+                "quantity": 4
+            },
+            {
+                "material": 17,
+                "quantity": 2
+            },
+            {
+                "material": 43,
+                "quantity": 3
+            }
+        ],
+        "price": 35,
+        "exPrice": 2,
+        "time": 160,
+        "limit": 40,
+        "origin": "神级炒青菜",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "五香果",
+        "type": 0,
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "青菜*4,香菇*2,猪油*3",
+        "material_cnt": 9,
+        "cook_name": "炒:18",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,熊麓,郭锅,鱼不斩,蓝孩子   小龙侠,酥蛮蛮,阿波罗,弥幽,战小癸   尤诺,金驼,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 5,
+        "galleryId": "005",
+        "name": "地三鲜",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 25,
+        "boil": 0,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 19,
+                "quantity": 2
+            },
+            {
+                "material": 22,
+                "quantity": 3
+            },
+            {
+                "material": 23,
+                "quantity": 4
+            }
+        ],
+        "price": 111,
+        "exPrice": 6,
+        "time": 306,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "五香果",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "茄子*2,土豆*3,青椒*4",
+        "material_cnt": 9,
+        "cook_name": "炒:25,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,鱼不斩,小龙侠,战小癸,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 6,
+        "galleryId": "006",
+        "name": "阳春面",
+        "rarity": 1,
+        "unlock": "豚骨拉面",
+        "stirfry": 0,
+        "boil": 18,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 2
+            },
+            {
+                "material": 18,
+                "quantity": 3
+            },
+            {
+                "material": 6,
+                "quantity": 4
+            }
+        ],
+        "price": 30,
+        "exPrice": 2,
+        "time": 94,
+        "limit": 40,
+        "origin": "主线24",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "面粉*2,葱*3,青菜*4",
+        "material_cnt": 9,
+        "cook_name": "煮:18",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,麦小咖,紫酱,农当午,豆腕儿   小当家,兜帽药师,粉雪,李小染,小雷神   银乌,猪小弟,弥幽,米大师,神棍   王施匹",
+        "first_guests": "",
+        "guests_like": "白富美:防水的柠檬",
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 7,
+        "galleryId": "007",
+        "name": "酱爆鱿鱼",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 65,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 35,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 41,
+                "quantity": 2
+            },
+            {
+                "material": 23,
+                "quantity": 10
+            },
+            {
+                "material": 16,
+                "quantity": 10
+            }
+        ],
+        "price": 882,
+        "exPrice": 45,
+        "time": 322,
+        "limit": 20,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "苏轼"
+            },
+            {
+                "guest": "耶稣"
+            }
+        ],
+        "gift": "焦虫",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "鲜鱼*2,青椒*10,辣椒*10",
+        "material_cnt": 22,
+        "cook_name": "炒:65,烤:35",
+        "unclock_name": "-",
+        "recipe_chefs": "优:郭锅,酥蛮蛮",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 8,
+        "galleryId": "008",
+        "name": "梅菜扣肉",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 35,
+        "fry": 0,
+        "bake": 0,
+        "steam": 45,
+        "materials": [
+            {
+                "material": 4,
+                "quantity": 2
+            },
+            {
+                "material": 15,
+                "quantity": 8
+            },
+            {
+                "material": 6,
+                "quantity": 8
+            }
+        ],
+        "price": 227,
+        "exPrice": 12,
+        "time": 247,
+        "limit": 26,
+        "origin": "主线142",
+        "guests": [
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "蒸汽宝石",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "里脊肉*2,白菜*8,青菜*8",
+        "material_cnt": 18,
+        "cook_name": "切:35,蒸:45",
+        "unclock_name": "-",
+        "recipe_chefs": "",
+        "first_guests": "",
+        "guests_like": "大胃王:蒸汽宝石",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 9,
+        "galleryId": "009",
+        "name": "红烧牛肉面",
+        "rarity": 3,
+        "unlock": "海鲜面",
+        "stirfry": 40,
+        "boil": 40,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 27,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 5
+            },
+            {
+                "material": 40,
+                "quantity": 3
+            }
+        ],
+        "price": 159,
+        "exPrice": 8,
+        "time": 243,
+        "limit": 26,
+        "origin": "神级葱油拌面",
+        "guests": [
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "吕布"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "牛五花*2,面粉*5,牛杂*3",
+        "material_cnt": 10,
+        "cook_name": "炒:40,煮:40",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六",
+        "first_guests": "",
+        "guests_like": "张飞:耐煮的水草",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 10,
+        "galleryId": "010",
+        "name": "扬州炒饭",
+        "rarity": 2,
+        "unlock": "鳗鱼炒饭",
+        "stirfry": 35,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 21,
+                "quantity": 5
+            },
+            {
+                "material": 12,
+                "quantity": 2
+            },
+            {
+                "material": 13,
+                "quantity": 2
+            }
+        ],
+        "price": 70,
+        "exPrice": 4,
+        "time": 151,
+        "limit": 30,
+        "origin": "神级蛋包饭",
+        "guests": [
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "大米*5,鸡蛋*2,胡萝卜*2",
+        "material_cnt": 9,
+        "cook_name": "炒:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,郭锅,鱼不斩,酥蛮蛮,弥幽   尤诺",
+        "first_guests": "",
+        "guests_like": "诸葛亮:五香果",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 11,
+        "galleryId": "011",
+        "name": "鳗鱼炒饭",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 30,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 45,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 41,
+                "quantity": 2
+            },
+            {
+                "material": 21,
+                "quantity": 10
+            },
+            {
+                "material": 18,
+                "quantity": 6
+            }
+        ],
+        "price": 190,
+        "exPrice": 10,
+        "time": 318,
+        "limit": 26,
+        "origin": "神级扬州炒饭",
+        "guests": [
+            {
+                "guest": "唐伯虎"
+            },
+            {
+                "guest": "唐伯虎"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "焦虫",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "鲜鱼*2,大米*10,葱*6",
+        "material_cnt": 18,
+        "cook_name": "炒:30,烤:45",
+        "unclock_name": "-",
+        "recipe_chefs": "优:郭锅,酥蛮蛮,阿波罗 特:战小癸",
+        "first_guests": "特:唐伯虎",
+        "guests_like": "",
+        "fish": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 12,
+        "galleryId": "012",
+        "name": "咖喱土豆牛肉",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 60,
+        "knife": 25,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 29,
+                "quantity": 3
+            },
+            {
+                "material": 27,
+                "quantity": 3
+            },
+            {
+                "material": 22,
+                "quantity": 7
+            },
+            {
+                "material": 44,
+                "quantity": 4
+            }
+        ],
+        "price": 478,
+        "exPrice": 24,
+        "time": 695,
+        "limit": 26,
+        "origin": "神级咖喱土豆鸡",
+        "guests": [
+            {
+                "guest": "貂蝉"
+            },
+            {
+                "guest": "貂蝉"
+            },
+            {
+                "guest": "大明湖畔的美女"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "咖喱*3,牛五花*3,土豆*7,牛乳*4",
+        "material_cnt": 17,
+        "cook_name": "煮:60,切:25",
+        "unclock_name": "-",
+        "recipe_chefs": "特:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 13,
+        "galleryId": "013",
+        "name": "蛋包饭",
+        "rarity": 1,
+        "unlock": "扬州炒饭",
+        "stirfry": 20,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 2
+            },
+            {
+                "material": 21,
+                "quantity": 4
+            },
+            {
+                "material": 10,
+                "quantity": 4
+            }
+        ],
+        "price": 46,
+        "exPrice": 3,
+        "time": 169,
+        "limit": 40,
+        "origin": "璧池",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡蛋*2,大米*4,番茄*4",
+        "material_cnt": 10,
+        "cook_name": "炒:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,郭锅,鱼不斩,蓝孩子,小龙侠   酥蛮蛮,弥幽,战小癸,尤诺,金驼   王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 14,
+        "galleryId": "014",
+        "name": "红烧排骨",
+        "rarity": 3,
+        "unlock": "豆豉蒸排骨",
+        "stirfry": 40,
+        "boil": 0,
+        "knife": 0,
+        "fry": 35,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 4,
+                "quantity": 2
+            },
+            {
+                "material": 34,
+                "quantity": 3
+            },
+            {
+                "material": 18,
+                "quantity": 8
+            }
+        ],
+        "price": 260,
+        "exPrice": 13,
+        "time": 303,
+        "limit": 26,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "潇洒李白"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "里脊肉*2,酒*3,葱*8",
+        "material_cnt": 13,
+        "cook_name": "炒:40,炸:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:尤诺",
+        "first_guests": "",
+        "guests_like": "潇洒李白:一昧真火 迷弟杜甫:一昧真火",
+        "meat": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 16,
+        "galleryId": "016",
+        "name": "蟹粉狮子头",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 70,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 30,
+        "materials": [
+            {
+                "material": 24,
+                "quantity": 3
+            },
+            {
+                "material": 5,
+                "quantity": 5
+            },
+            {
+                "material": 6,
+                "quantity": 15
+            },
+            {
+                "material": 43,
+                "quantity": 8
+            }
+        ],
+        "price": 667,
+        "exPrice": 34,
+        "time": 524,
+        "limit": 20,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "苏轼"
+            },
+            {
+                "guest": "苏轼"
+            },
+            {
+                "guest": "苏轼"
+            }
+        ],
+        "gift": "蒸汽宝石",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "螃蟹*3,梅花肉*5,青菜*15,猪油*8",
+        "material_cnt": 31,
+        "cook_name": "煮:70,蒸:30",
+        "unclock_name": "-",
+        "recipe_chefs": "优:羽十六,农当午,神棍 神:王施匹",
+        "first_guests": "神:苏轼",
+        "guests_like": "吕布貂蝉:蒸汽宝石",
+        "fish": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 17,
+        "galleryId": "017",
+        "name": "番茄炒蛋",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 15,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 10,
+                "quantity": 3
+            },
+            {
+                "material": 12,
+                "quantity": 2
+            }
+        ],
+        "price": 16,
+        "exPrice": 1,
+        "time": 68,
+        "limit": 40,
+        "origin": "主线8",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "五香果",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "番茄*3,鸡蛋*2",
+        "material_cnt": 5,
+        "cook_name": "炒:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,熊麓,紫酱,郭锅,鱼不斩   兜帽药师,蓝孩子,小龙侠,酥蛮蛮,阿波罗   弥幽,战小癸,尤诺,金驼,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 18,
+        "galleryId": "018",
+        "name": "麻婆豆腐",
+        "rarity": 2,
+        "unlock": "蟹粉豆腐",
+        "stirfry": 40,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 20,
+                "quantity": 2
+            },
+            {
+                "material": 16,
+                "quantity": 6
+            },
+            {
+                "material": 3,
+                "quantity": 2
+            }
+        ],
+        "price": 78,
+        "exPrice": 4,
+        "time": 181,
+        "limit": 30,
+        "origin": "主线69",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "刘备"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "豆腐*2,辣椒*6,猪腿肉*2",
+        "material_cnt": 10,
+        "cook_name": "炒:40",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,酥蛮蛮,弥幽,尤诺",
+        "first_guests": "",
+        "guests_like": "富太太:五香果",
+        "creation": 1,
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 19,
+        "galleryId": "019",
+        "name": "豚骨拉面",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 45,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 4,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 5
+            },
+            {
+                "material": 39,
+                "quantity": 3
+            }
+        ],
+        "price": 92,
+        "exPrice": 5,
+        "time": 236,
+        "limit": 30,
+        "origin": "神级阳春面",
+        "guests": [
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "防水的柠檬",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "里脊肉*2,面粉*5,猪杂*3",
+        "material_cnt": 10,
+        "cook_name": "煮:45",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,银乌,王施匹",
+        "first_guests": "",
+        "guests_like": "迷弟杜甫:防水的柠檬",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 20,
+        "galleryId": "020",
+        "name": "水煮鱼",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 80,
+        "knife": 0,
+        "fry": 75,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 41,
+                "quantity": 2
+            },
+            {
+                "material": 16,
+                "quantity": 10
+            },
+            {
+                "material": 33,
+                "quantity": 10
+            }
+        ],
+        "price": 1148,
+        "exPrice": 58,
+        "time": 519,
+        "limit": 20,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "王子"
+            }
+        ],
+        "gift": "一昧真火",
+        "is_mastery": false,
+        "rate": 1,
+        "materials_name": "鲜鱼*2,辣椒*10,豆子*10",
+        "material_cnt": 22,
+        "cook_name": "煮:80,炸:75",
+        "unclock_name": "-",
+        "recipe_chefs": "可:李小染,小雷神",
+        "first_guests": "",
+        "guests_like": "关羽:耐煮的水草",
+        "fish": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 21,
+        "galleryId": "021",
+        "name": "番茄鸡蛋面",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 15,
+        "boil": 20,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 2
+            },
+            {
+                "material": 10,
+                "quantity": 5
+            },
+            {
+                "material": 12,
+                "quantity": 2
+            }
+        ],
+        "price": 64,
+        "exPrice": 4,
+        "time": 218,
+        "limit": 40,
+        "origin": "主线33",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "防水的柠檬",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "面粉*2,番茄*5,鸡蛋*2",
+        "material_cnt": 9,
+        "cook_name": "炒:15,煮:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,紫酱,兜帽药师,弥幽,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 22,
+        "galleryId": "022",
+        "name": "回锅肉",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 50,
+        "boil": 0,
+        "knife": 30,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 3,
+                "quantity": 2
+            },
+            {
+                "material": 23,
+                "quantity": 6
+            },
+            {
+                "material": 22,
+                "quantity": 6
+            }
+        ],
+        "price": 336,
+        "exPrice": 17,
+        "time": 437,
+        "limit": 26,
+        "origin": "主线116",
+        "guests": [
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "猪腿肉*2,青椒*6,土豆*6",
+        "material_cnt": 14,
+        "cook_name": "炒:50,切:30",
+        "unclock_name": "-",
+        "recipe_chefs": "神:尤诺",
+        "first_guests": "",
+        "guests_like": "屠夫老王:暖石",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 23,
+        "galleryId": "023",
+        "name": "宫保鸡丁",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 35,
+        "boil": 0,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 7,
+                "quantity": 3
+            },
+            {
+                "material": 13,
+                "quantity": 6
+            },
+            {
+                "material": 31,
+                "quantity": 6
+            }
+        ],
+        "price": 316,
+        "exPrice": 16,
+        "time": 351,
+        "limit": 26,
+        "origin": "主线129",
+        "guests": [
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "吕布"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡胸肉*3,胡萝卜*6,黄瓜*6",
+        "material_cnt": 15,
+        "cook_name": "炒:35,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,鱼不斩,尤诺",
+        "first_guests": "",
+        "guests_like": "富二代:暖石",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 24,
+        "galleryId": "024",
+        "name": "寿司",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 50,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 2,
+                "quantity": 2
+            },
+            {
+                "material": 21,
+                "quantity": 6
+            },
+            {
+                "material": 12,
+                "quantity": 3
+            }
+        ],
+        "price": 296,
+        "exPrice": 15,
+        "time": 179,
+        "limit": 26,
+        "origin": "每周挑战",
+        "guests": [
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "富人"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "冻鱼*2,大米*6,鸡蛋*3",
+        "material_cnt": 11,
+        "cook_name": "切:50",
+        "unclock_name": "-",
+        "recipe_chefs": "神:战小癸",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1,
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 25,
+        "galleryId": "025",
+        "name": "鱼香肉丝",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 23,
+        "boil": 0,
+        "knife": 14,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 3,
+                "quantity": 2
+            },
+            {
+                "material": 13,
+                "quantity": 4
+            },
+            {
+                "material": 14,
+                "quantity": 2
+            }
+        ],
+        "price": 105,
+        "exPrice": 6,
+        "time": 264,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "猪腿肉*2,胡萝卜*4,笋*2",
+        "material_cnt": 8,
+        "cook_name": "炒:23,切:14",
+        "unclock_name": "-",
+        "recipe_chefs": "优:夏风,阿波罗 特:熊麓 神:羽十六,鱼不斩,小龙侠,战小癸,尤诺",
+        "first_guests": "特:大内侍卫 神:关羽",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 26,
+        "galleryId": "026",
+        "name": "白菜猪肉饺",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 15,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 3
+            },
+            {
+                "material": 15,
+                "quantity": 5
+            },
+            {
+                "material": 3,
+                "quantity": 2
+            }
+        ],
+        "price": 38,
+        "exPrice": 2,
+        "time": 119,
+        "limit": 40,
+        "origin": "主线65",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "面粉*3,白菜*5,猪腿肉*2",
+        "material_cnt": 10,
+        "cook_name": "蒸:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,麦小咖,武葵,农当午,豆腕儿   申公子,禅优塔,傣弟,面小解,锄小禾   蓝孩子,苏吴安,方叔,粉雪,猪小弟   阿波罗,阎小罗,弥幽,战小癸,尤诺   神棍,天香,王施匹,乌茉莉,高升   蜜三刀",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 27,
+        "galleryId": "027",
+        "name": "片皮鸭",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 60,
+        "fry": 0,
+        "bake": 35,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 1,
+                "quantity": 4
+            },
+            {
+                "material": 18,
+                "quantity": 12
+            },
+            {
+                "material": 11,
+                "quantity": 10
+            }
+        ],
+        "price": 319,
+        "exPrice": 16,
+        "time": 199,
+        "limit": 20,
+        "origin": "神级香酥鸭",
+        "guests": [
+            {
+                "guest": "吕布貂蝉"
+            },
+            {
+                "guest": "苏轼"
+            },
+            {
+                "guest": "唐伯虎"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸭子*4,葱*12,面粉*10",
+        "material_cnt": 26,
+        "cook_name": "切:60,烤:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:战小癸",
+        "first_guests": "",
+        "guests_like": "丐帮帮主:刀嘴鹦鹉",
+        "meat": 1,
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 28,
+        "galleryId": "028",
+        "name": "鸡蛋饼",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 15,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 2
+            }
+        ],
+        "price": 18,
+        "exPrice": 1,
+        "time": 51,
+        "limit": 40,
+        "origin": "主线22",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "白富美"
+            }
+        ],
+        "gift": "烤焦的菊花",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡蛋*2,面粉*2",
+        "material_cnt": 4,
+        "cook_name": "烤:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,熊伏伏,郭锅,雷椒,申公子   武陵仔,藕多多,粉爪酱,方叔,小雷神   酥蛮蛮,蛙特,阿波罗,阎小罗,战小癸   金驼,神棍,天香,蜜三刀",
+        "first_guests": "",
+        "guests_like": "木良:烤焦的菊花",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 29,
+        "galleryId": "029",
+        "name": "冰激凌华夫饼",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 50,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 44,
+                "quantity": 6
+            },
+            {
+                "material": 11,
+                "quantity": 6
+            },
+            {
+                "material": 12,
+                "quantity": 4
+            }
+        ],
+        "price": 110,
+        "exPrice": 6,
+        "time": 190,
+        "limit": 26,
+        "origin": "主线186",
+        "guests": [
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "大明湖畔的美女"
+            },
+            {
+                "guest": "潇洒李白"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "牛乳*6,面粉*6,鸡蛋*4",
+        "material_cnt": 16,
+        "cook_name": "切:50",
+        "unclock_name": "-",
+        "recipe_chefs": "神:战小癸",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 30,
+        "galleryId": "030",
+        "name": "咖喱土豆鸡",
+        "rarity": 3,
+        "unlock": "咖喱土豆牛肉",
+        "stirfry": 45,
+        "boil": 20,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 29,
+                "quantity": 3
+            },
+            {
+                "material": 8,
+                "quantity": 3
+            },
+            {
+                "material": 22,
+                "quantity": 8
+            },
+            {
+                "material": 44,
+                "quantity": 8
+            }
+        ],
+        "price": 524,
+        "exPrice": 27,
+        "time": 674,
+        "limit": 26,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "大明湖畔的美女"
+            },
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "潇洒李白"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "咖喱*3,鸡腿*3,土豆*8,牛乳*8",
+        "material_cnt": 22,
+        "cook_name": "炒:45,煮:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六",
+        "first_guests": "",
+        "guests_like": "王子:暖石",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 31,
+        "galleryId": "031",
+        "name": "炸鱼排",
+        "rarity": 3,
+        "unlock": "豆豉蒸鱼",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 40,
+        "bake": 10,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 2,
+                "quantity": 3
+            },
+            {
+                "material": 11,
+                "quantity": 5
+            },
+            {
+                "material": 18,
+                "quantity": 8
+            }
+        ],
+        "price": 416,
+        "exPrice": 21,
+        "time": 204,
+        "limit": 26,
+        "origin": "神级椒盐排条",
+        "guests": [
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "木优"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "冻鱼*3,面粉*5,葱*8",
+        "material_cnt": 16,
+        "cook_name": "炸:40,烤:10",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,申公子,小雷神,阎小罗,天香",
+        "first_guests": "",
+        "guests_like": "苏轼:一昧真火",
+        "fish": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 32,
+        "galleryId": "032",
+        "name": "糯米团子",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 35,
+        "materials": [
+            {
+                "material": 35,
+                "quantity": 4
+            },
+            {
+                "material": 44,
+                "quantity": 4
+            },
+            {
+                "material": 46,
+                "quantity": 2
+            }
+        ],
+        "price": 128,
+        "exPrice": 7,
+        "time": 318,
+        "limit": 30,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "富二代"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "糯米*4,牛乳*4,茶叶*2",
+        "material_cnt": 10,
+        "cook_name": "蒸:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:申公子,阿波罗,弥幽,战小癸,天香   王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 33,
+        "galleryId": "033",
+        "name": "葱油饼",
+        "rarity": 1,
+        "unlock": "土豆饼",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 15,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 18,
+                "quantity": 3
+            },
+            {
+                "material": 11,
+                "quantity": 2
+            }
+        ],
+        "price": 16,
+        "exPrice": 1,
+        "time": 44,
+        "limit": 40,
+        "origin": "主线29",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "葱*3,面粉*2",
+        "material_cnt": 5,
+        "cook_name": "炸:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,白祁右,雷椒,申公子,武陵仔   椒娃,熊妮,蓝孩子,夏风,李小染   小雷神,蛙特,阎小罗,尤诺,天香   高升",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 34,
+        "galleryId": "034",
+        "name": "罗宋汤",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 35,
+        "knife": 35,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 15,
+                "quantity": 7
+            },
+            {
+                "material": 13,
+                "quantity": 4
+            },
+            {
+                "material": 26,
+                "quantity": 3
+            },
+            {
+                "material": 10,
+                "quantity": 6
+            }
+        ],
+        "price": 157,
+        "exPrice": 8,
+        "time": 342,
+        "limit": 26,
+        "origin": "神级青菜豆腐汤",
+        "guests": [
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "富太太"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "白菜*7,胡萝卜*4,牛腩*3,番茄*6",
+        "material_cnt": 20,
+        "cook_name": "煮:35,切:35",
+        "unclock_name": "-",
+        "recipe_chefs": "优:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "吕布:刀嘴鹦鹉 大内侍卫:刀嘴鹦鹉",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 35,
+        "galleryId": "035",
+        "name": "土豆饼",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 55,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 3,
+                "quantity": 2
+            },
+            {
+                "material": 22,
+                "quantity": 6
+            },
+            {
+                "material": 43,
+                "quantity": 3
+            }
+        ],
+        "price": 129,
+        "exPrice": 7,
+        "time": 392,
+        "limit": 30,
+        "origin": "神级葱油饼",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "富二代"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "猪腿肉*2,土豆*6,猪油*3",
+        "material_cnt": 11,
+        "cook_name": "炸:55",
+        "unclock_name": "-",
+        "recipe_chefs": "神:小雷神,阎小罗,尤诺",
+        "first_guests": "",
+        "guests_like": "木优:油火虫",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 36,
+        "galleryId": "036",
+        "name": "小笼包",
+        "rarity": 2,
+        "unlock": "虾饺皇",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 50,
+        "materials": [
+            {
+                "material": 4,
+                "quantity": 3
+            },
+            {
+                "material": 11,
+                "quantity": 2
+            }
+        ],
+        "price": 61,
+        "exPrice": 4,
+        "time": 159,
+        "limit": 30,
+        "origin": "神级烧麦",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "大内侍卫"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "里脊肉*3,面粉*2",
+        "material_cnt": 5,
+        "cook_name": "蒸:50",
+        "unclock_name": "-",
+        "recipe_chefs": "神:弥幽,天香,王施匹",
+        "first_guests": "",
+        "guests_like": "黄月英:蒸汽耳环",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 37,
+        "galleryId": "037",
+        "name": "蟹粉豆腐",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 25,
+        "fry": 0,
+        "bake": 0,
+        "steam": 65,
+        "materials": [
+            {
+                "material": 24,
+                "quantity": 2
+            },
+            {
+                "material": 20,
+                "quantity": 5
+            },
+            {
+                "material": 13,
+                "quantity": 3
+            }
+        ],
+        "price": 237,
+        "exPrice": 12,
+        "time": 452,
+        "limit": 26,
+        "origin": "神级麻婆豆腐",
+        "guests": [
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "木良木优"
+            },
+            {
+                "guest": "貂蝉"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "螃蟹*2,豆腐*5,胡萝卜*3",
+        "material_cnt": 10,
+        "cook_name": "切:25,蒸:65",
+        "unclock_name": "-",
+        "recipe_chefs": "",
+        "first_guests": "",
+        "guests_like": "富二代:蒸汽宝石",
+        "fish": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 38,
+        "galleryId": "038",
+        "name": "青椒土豆丝",
+        "rarity": 2,
+        "unlock": "三丝抱豆",
+        "stirfry": 25,
+        "boil": 0,
+        "knife": 15,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 23,
+                "quantity": 4
+            },
+            {
+                "material": 22,
+                "quantity": 5
+            }
+        ],
+        "price": 84,
+        "exPrice": 5,
+        "time": 248,
+        "limit": 30,
+        "origin": "主线91",
+        "guests": [
+            {
+                "guest": "大明湖畔的美女"
+            },
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "丐帮帮主"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "青椒*4,土豆*5",
+        "material_cnt": 9,
+        "cook_name": "炒:25,切:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,鱼不斩,小龙侠,战小癸,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 39,
+        "galleryId": "039",
+        "name": "肉末茄子",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 25,
+        "fry": 0,
+        "bake": 35,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 3,
+                "quantity": 2
+            },
+            {
+                "material": 19,
+                "quantity": 3
+            },
+            {
+                "material": 23,
+                "quantity": 6
+            }
+        ],
+        "price": 135,
+        "exPrice": 7,
+        "time": 433,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "猪腿肉*2,茄子*3,青椒*6",
+        "material_cnt": 11,
+        "cook_name": "切:25,烤:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:战小癸",
+        "first_guests": "神:官爷",
+        "guests_like": "黄月英:烤焦的菊花",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 40,
+        "galleryId": "040",
+        "name": "野菜汤",
+        "rarity": 1,
+        "unlock": "青菜豆腐汤",
+        "stirfry": 0,
+        "boil": 28,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 6,
+                "quantity": 4
+            },
+            {
+                "material": 15,
+                "quantity": 4
+            }
+        ],
+        "price": 21,
+        "exPrice": 2,
+        "time": 103,
+        "limit": 40,
+        "origin": "主线63",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "白富美"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "青菜*4,白菜*4",
+        "material_cnt": 8,
+        "cook_name": "煮:28",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,农当午,银乌,猪小弟,神棍   王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 41,
+        "galleryId": "041",
+        "name": "蘑菇炒肉",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 35,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 17,
+                "quantity": 6
+            },
+            {
+                "material": 3,
+                "quantity": 2
+            }
+        ],
+        "price": 77,
+        "exPrice": 4,
+        "time": 302,
+        "limit": 40,
+        "origin": "主线120",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "五香果",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "香菇*6,猪腿肉*2",
+        "material_cnt": 8,
+        "cook_name": "炒:35",
+        "unclock_name": "-",
+        "recipe_chefs": "优:熊麓,蓝孩子,阿波罗,战小癸 特:小龙侠,金驼,王施匹 神:羽十六,郭锅,鱼不斩,酥蛮蛮,弥幽   尤诺",
+        "first_guests": "特:大胃王 神:迷思吹法师",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 42,
+        "galleryId": "042",
+        "name": "黄瓜炒肉",
+        "rarity": 2,
+        "unlock": "酿黄瓜",
+        "stirfry": 20,
+        "boil": 0,
+        "knife": 15,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 31,
+                "quantity": 8
+            },
+            {
+                "material": 3,
+                "quantity": 2
+            }
+        ],
+        "price": 142,
+        "exPrice": 8,
+        "time": 212,
+        "limit": 30,
+        "origin": "神级凉拌黄瓜",
+        "guests": [
+            {
+                "guest": "白富美"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "丐帮帮主"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "黄瓜*8,猪腿肉*2",
+        "material_cnt": 10,
+        "cook_name": "炒:20,切:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,鱼不斩,小龙侠,战小癸,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 43,
+        "galleryId": "043",
+        "name": "菠萝派",
+        "rarity": 2,
+        "unlock": "菠萝班戟",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 55,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 36,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 6
+            }
+        ],
+        "price": 50,
+        "exPrice": 3,
+        "time": 171,
+        "limit": 30,
+        "origin": "神级面包",
+        "guests": [
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "丐帮帮主"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "水果*2,面粉*6",
+        "material_cnt": 8,
+        "cook_name": "烤:55",
+        "unclock_name": "-",
+        "recipe_chefs": "神:阿波罗,阎小罗,神棍",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 44,
+        "galleryId": "044",
+        "name": "面包",
+        "rarity": 1,
+        "unlock": "菠萝派",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 15,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 2
+            }
+        ],
+        "price": 8,
+        "exPrice": 1,
+        "time": 30,
+        "limit": 40,
+        "origin": "主线21",
+        "guests": [
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "面粉*2",
+        "material_cnt": 2,
+        "cook_name": "烤:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,熊伏伏,郭锅,雷椒,申公子   武陵仔,藕多多,粉爪酱,方叔,小雷神   酥蛮蛮,蛙特,阿波罗,阎小罗,战小癸   金驼,神棍,天香,蜜三刀",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1
+    },
+    {
+        "recipeId": 45,
+        "galleryId": "045",
+        "name": "牛肉火锅",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 55,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 27,
+                "quantity": 6
+            },
+            {
+                "material": 30,
+                "quantity": 8
+            },
+            {
+                "material": 40,
+                "quantity": 10
+            },
+            {
+                "material": 25,
+                "quantity": 9
+            }
+        ],
+        "price": 844,
+        "exPrice": 43,
+        "time": 576,
+        "limit": 20,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "王子"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "牛五花*6,白萝卜*8,牛杂*10,洋葱*9",
+        "material_cnt": 33,
+        "cook_name": "煮:55,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:银乌",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 46,
+        "galleryId": "046",
+        "name": "猪排饭",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 50,
+        "bake": 20,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 4,
+                "quantity": 3
+            },
+            {
+                "material": 21,
+                "quantity": 10
+            }
+        ],
+        "price": 136,
+        "exPrice": 7,
+        "time": 237,
+        "limit": 26,
+        "origin": "主线88",
+        "guests": [
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "大明湖畔的美女"
+            }
+        ],
+        "gift": "一昧真火",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "里脊肉*3,大米*10",
+        "material_cnt": 13,
+        "cook_name": "炸:50,烤:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:小雷神,阎小罗",
+        "first_guests": "",
+        "guests_like": "大胃王:一昧真火 诸葛亮:一昧真火",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 48,
+        "galleryId": "048",
+        "name": "蛋黄粽",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 55,
+        "materials": [
+            {
+                "material": 35,
+                "quantity": 5
+            },
+            {
+                "material": 12,
+                "quantity": 2
+            }
+        ],
+        "price": 83,
+        "exPrice": 5,
+        "time": 261,
+        "limit": 30,
+        "origin": "神级白粽",
+        "guests": [
+            {
+                "guest": "王子"
+            },
+            {
+                "guest": "耶稣"
+            },
+            {
+                "guest": "大内侍卫"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "糯米*5,鸡蛋*2",
+        "material_cnt": 7,
+        "cook_name": "蒸:55",
+        "unclock_name": "-",
+        "recipe_chefs": "神:弥幽,天香,王施匹",
+        "first_guests": "",
+        "guests_like": "屈原:蒸汽耳环",
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 49,
+        "galleryId": "049",
+        "name": "兔子馒头",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 25,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 4
+            },
+            {
+                "material": 12,
+                "quantity": 2
+            }
+        ],
+        "price": 29,
+        "exPrice": 2,
+        "time": 47,
+        "limit": 30,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "刘备"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "面粉*4,鸡蛋*2",
+        "material_cnt": 6,
+        "cook_name": "蒸:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:麦小咖,武葵,申公子,面小解,锄小禾   苏吴安,粉雪,阿波罗,阎小罗,弥幽   战小癸,神棍,天香,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 50,
+        "galleryId": "050",
+        "name": "黄豆小排汤",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 20,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 65,
+        "materials": [
+            {
+                "material": 4,
+                "quantity": 3
+            },
+            {
+                "material": 33,
+                "quantity": 8
+            },
+            {
+                "material": 22,
+                "quantity": 8
+            }
+        ],
+        "price": 505,
+        "exPrice": 26,
+        "time": 741,
+        "limit": 26,
+        "origin": "主线176",
+        "guests": [
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "吕布"
+            }
+        ],
+        "gift": "蒸汽宝石",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "里脊肉*3,豆子*8,土豆*8",
+        "material_cnt": 19,
+        "cook_name": "炒:20,蒸:65",
+        "unclock_name": "-",
+        "recipe_chefs": "优:阿波罗,战小癸 特:王施匹 神:弥幽",
+        "first_guests": "特:刘备 神:吕布",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 51,
+        "galleryId": "051",
+        "name": "凉拌黄瓜",
+        "rarity": 1,
+        "unlock": "黄瓜炒肉",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 31,
+                "quantity": 3
+            },
+            {
+                "material": 16,
+                "quantity": 2
+            }
+        ],
+        "price": 23,
+        "exPrice": 2,
+        "time": 118,
+        "limit": 40,
+        "origin": "主线97",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "白富美"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "黄瓜*3,辣椒*2",
+        "material_cnt": 5,
+        "cook_name": "切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,熊麓,武葵,鱼不斩,禅优塔   熊妮,粉爪酱,夏风,小龙侠,银乌   战小癸,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 52,
+        "galleryId": "052",
+        "name": "大骨高汤",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 70,
+        "knife": 25,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 18,
+                "quantity": 10
+            },
+            {
+                "material": 5,
+                "quantity": 5
+            },
+            {
+                "material": 30,
+                "quantity": 5
+            },
+            {
+                "material": 43,
+                "quantity": 8
+            }
+        ],
+        "price": 636,
+        "exPrice": 32,
+        "time": 484,
+        "limit": 20,
+        "origin": "主线193",
+        "guests": [
+            {
+                "guest": "苏轼"
+            },
+            {
+                "guest": "如来"
+            },
+            {
+                "guest": "唐伯虎"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 1,
+        "materials_name": "葱*10,梅花肉*5,白萝卜*5,猪油*8",
+        "material_cnt": 28,
+        "cook_name": "煮:70,切:25",
+        "unclock_name": "-",
+        "recipe_chefs": "可:豆腕儿,小当家,小雷神,米大师,神棍 优:羽十六 特:银乌",
+        "first_guests": "优:苏轼 特:如来",
+        "guests_like": "潇洒李白迷弟杜甫:耐煮的水草",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 53,
+        "galleryId": "053",
+        "name": "咖喱饺",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 60,
+        "boil": 0,
+        "knife": 0,
+        "fry": 50,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 29,
+                "quantity": 4
+            },
+            {
+                "material": 27,
+                "quantity": 3
+            }
+        ],
+        "price": 207,
+        "exPrice": 11,
+        "time": 470,
+        "limit": 26,
+        "origin": "璧池",
+        "guests": [
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "木优"
+            }
+        ],
+        "gift": "一昧真火",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "咖喱*4,牛五花*3",
+        "material_cnt": 7,
+        "cook_name": "炒:60,炸:50",
+        "unclock_name": "-",
+        "recipe_chefs": "特:尤诺",
+        "first_guests": "",
+        "guests_like": "木优:一昧真火",
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 54,
+        "galleryId": "054",
+        "name": "烧麦",
+        "rarity": 2,
+        "unlock": "小笼包",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 10,
+        "fry": 0,
+        "bake": 0,
+        "steam": 25,
+        "materials": [
+            {
+                "material": 35,
+                "quantity": 6
+            },
+            {
+                "material": 3,
+                "quantity": 2
+            }
+        ],
+        "price": 107,
+        "exPrice": 6,
+        "time": 231,
+        "limit": 30,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "刘备"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "糯米*6,猪腿肉*2",
+        "material_cnt": 8,
+        "cook_name": "切:10,蒸:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:武葵,面小解,苏吴安,阿波罗,阎小罗   战小癸,神棍,天香",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 55,
+        "galleryId": "055",
+        "name": "锅贴",
+        "rarity": 1,
+        "unlock": "炸春卷",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 25,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 3
+            },
+            {
+                "material": 3,
+                "quantity": 1
+            },
+            {
+                "material": 15,
+                "quantity": 3
+            }
+        ],
+        "price": 35,
+        "exPrice": 2,
+        "time": 120,
+        "limit": 40,
+        "origin": "主线80",
+        "guests": [
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "面粉*3,猪腿肉*1,白菜*3",
+        "material_cnt": 7,
+        "cook_name": "炸:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,白祁右,申公子,武陵仔,蓝孩子   夏风,小雷神,阎小罗,尤诺,天香   高升",
+        "first_guests": "",
+        "guests_like": "大胃王:油火虫",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 56,
+        "galleryId": "056",
+        "name": "虾饺皇",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 50,
+        "fry": 0,
+        "bake": 0,
+        "steam": 80,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 6
+            },
+            {
+                "material": 32,
+                "quantity": 4
+            },
+            {
+                "material": 14,
+                "quantity": 3
+            }
+        ],
+        "price": 270,
+        "exPrice": 14,
+        "time": 578,
+        "limit": 26,
+        "origin": "神级小笼包",
+        "guests": [
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "大明湖畔的美女"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "面粉*6,虾*4,笋*3",
+        "material_cnt": 13,
+        "cook_name": "切:50,蒸:80",
+        "unclock_name": "-",
+        "recipe_chefs": "可:武葵,禅优塔,面小解,苏吴安,阎小罗 优:战小癸",
+        "first_guests": "优:吕布",
+        "guests_like": "皇帝:蒸汽宝石",
+        "creation": 1,
+        "fish": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 57,
+        "galleryId": "057",
+        "name": "海鲜面",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 60,
+        "boil": 60,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 10
+            },
+            {
+                "material": 42,
+                "quantity": 3
+            },
+            {
+                "material": 41,
+                "quantity": 1
+            },
+            {
+                "material": 44,
+                "quantity": 8
+            }
+        ],
+        "price": 281,
+        "exPrice": 15,
+        "time": 609,
+        "limit": 26,
+        "origin": "神级红烧牛肉面",
+        "guests": [
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "富太太"
+            }
+        ],
+        "gift": "耐煮的水草",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "面粉*10,贝壳*3,鲜鱼*1,牛乳*8",
+        "material_cnt": 22,
+        "cook_name": "炒:60,煮:60",
+        "unclock_name": "-",
+        "recipe_chefs": "特:羽十六",
+        "first_guests": "",
+        "guests_like": "大明湖畔的美女:耐煮的水草",
+        "creation": 1,
+        "fish": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 58,
+        "galleryId": "058",
+        "name": "葱油拌面",
+        "rarity": 1,
+        "unlock": "红烧牛肉面",
+        "stirfry": 0,
+        "boil": 20,
+        "knife": 10,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 18,
+                "quantity": 6
+            },
+            {
+                "material": 11,
+                "quantity": 2
+            }
+        ],
+        "price": 37,
+        "exPrice": 2,
+        "time": 109,
+        "limit": 40,
+        "origin": "主线32",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "白富美"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "葱*6,面粉*2",
+        "material_cnt": 8,
+        "cook_name": "煮:20,切:10",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,小当家,小雷神,银乌,神棍",
+        "first_guests": "",
+        "guests_like": "迷思吹法师:防水的柠檬",
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 59,
+        "galleryId": "059",
+        "name": "老鸭粉丝汤",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 40,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 20,
+                "quantity": 4
+            },
+            {
+                "material": 1,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 4
+            },
+            {
+                "material": 38,
+                "quantity": 5
+            }
+        ],
+        "price": 183,
+        "exPrice": 10,
+        "time": 461,
+        "limit": 30,
+        "origin": "主线104",
+        "guests": [
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "张飞"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "豆腐*4,鸭子*2,面粉*4,鸡杂*5",
+        "material_cnt": 15,
+        "cook_name": "煮:40,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "皇后:防水的柠檬",
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 62,
+        "galleryId": "062",
+        "name": "干炒牛河",
+        "rarity": 3,
+        "unlock": "牛肉肠粉",
+        "stirfry": 55,
+        "boil": 0,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 26,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 6
+            }
+        ],
+        "price": 90,
+        "exPrice": 5,
+        "time": 106,
+        "limit": 26,
+        "origin": "主线38",
+        "guests": [
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "潇洒李白"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "牛腩*2,面粉*6",
+        "material_cnt": 8,
+        "cook_name": "炒:55,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,尤诺",
+        "first_guests": "",
+        "guests_like": "木良:暖石",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 64,
+        "galleryId": "064",
+        "name": "泡椒凤爪",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 20,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 20,
+        "materials": [
+            {
+                "material": 16,
+                "quantity": 4
+            },
+            {
+                "material": 38,
+                "quantity": 2
+            }
+        ],
+        "price": 87,
+        "exPrice": 5,
+        "time": 106,
+        "limit": 30,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "张飞"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "辣椒*4,鸡杂*2",
+        "material_cnt": 6,
+        "cook_name": "煮:20,蒸:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:麦小咖,农当午,粉雪,猪小弟,弥幽   神棍,王施匹",
+        "first_guests": "",
+        "guests_like": "木良:蒸汽耳环",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 65,
+        "galleryId": "065",
+        "name": "葱油鸡",
+        "rarity": 1,
+        "unlock": "口水鸡",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 10,
+        "fry": 0,
+        "bake": 0,
+        "steam": 15,
+        "materials": [
+            {
+                "material": 7,
+                "quantity": 2
+            },
+            {
+                "material": 18,
+                "quantity": 3
+            }
+        ],
+        "price": 50,
+        "exPrice": 3,
+        "time": 105,
+        "limit": 40,
+        "origin": "主线18",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡胸肉*2,葱*3",
+        "material_cnt": 5,
+        "cook_name": "切:10,蒸:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,武葵,禅优塔,面小解,苏吴安   阿波罗,阎小罗,战小癸,尤诺,神棍   天香,乌茉莉",
+        "first_guests": "",
+        "guests_like": "迷思吹法师:蒸汽耳环",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 66,
+        "galleryId": "066",
+        "name": "黄焖鸡",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 55,
+        "boil": 40,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 8,
+                "quantity": 4
+            },
+            {
+                "material": 22,
+                "quantity": 8
+            },
+            {
+                "material": 6,
+                "quantity": 10
+            }
+        ],
+        "price": 449,
+        "exPrice": 23,
+        "time": 319,
+        "limit": 20,
+        "origin": "神级口水鸡",
+        "guests": [
+            {
+                "guest": "如来"
+            },
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "唐伯虎"
+            }
+        ],
+        "gift": "耐煮的水草",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡腿*4,土豆*8,青菜*10",
+        "material_cnt": 22,
+        "cook_name": "炒:55,煮:40",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六",
+        "first_guests": "",
+        "guests_like": "公主:暖石",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 67,
+        "galleryId": "067",
+        "name": "三杯鸡",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 80,
+        "boil": 65,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 9,
+                "quantity": 3
+            },
+            {
+                "material": 34,
+                "quantity": 7
+            },
+            {
+                "material": 5,
+                "quantity": 4
+            },
+            {
+                "material": 46,
+                "quantity": 3
+            }
+        ],
+        "price": 818,
+        "exPrice": 41,
+        "time": 789,
+        "limit": 20,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "公主"
+            }
+        ],
+        "gift": "耐煮的水草",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "童子鸡*3,酒*7,梅花肉*4,茶叶*3",
+        "material_cnt": 17,
+        "cook_name": "炒:80,煮:65",
+        "unclock_name": "-",
+        "recipe_chefs": "优:羽十六",
+        "first_guests": "",
+        "guests_like": "张飞关羽刘备:暖石",
+        "meat": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 68,
+        "galleryId": "068",
+        "name": "口水鸡",
+        "rarity": 3,
+        "unlock": "黄焖鸡",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 55,
+        "fry": 0,
+        "bake": 0,
+        "steam": 30,
+        "materials": [
+            {
+                "material": 16,
+                "quantity": 6
+            },
+            {
+                "material": 7,
+                "quantity": 3
+            },
+            {
+                "material": 31,
+                "quantity": 5
+            },
+            {
+                "material": 38,
+                "quantity": 6
+            }
+        ],
+        "price": 373,
+        "exPrice": 19,
+        "time": 512,
+        "limit": 26,
+        "origin": "神级葱油鸡",
+        "guests": [
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "潇洒李白"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "辣椒*6,鸡胸肉*3,黄瓜*5,鸡杂*6",
+        "material_cnt": 20,
+        "cook_name": "切:55,蒸:30",
+        "unclock_name": "-",
+        "recipe_chefs": "神:战小癸",
+        "first_guests": "",
+        "guests_like": "木优:刀嘴鹦鹉",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 69,
+        "galleryId": "069",
+        "name": "皮蛋瘦肉粥",
+        "rarity": 1,
+        "unlock": "窝蛋牛肉粥",
+        "stirfry": 0,
+        "boil": 18,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 2
+            },
+            {
+                "material": 21,
+                "quantity": 3
+            },
+            {
+                "material": 3,
+                "quantity": 1
+            }
+        ],
+        "price": 35,
+        "exPrice": 2,
+        "time": 117,
+        "limit": 40,
+        "origin": "主线49",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡蛋*2,大米*3,猪腿肉*1",
+        "material_cnt": 6,
+        "cook_name": "煮:18",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,麦小咖,紫酱,农当午,豆腕儿   小当家,兜帽药师,粉雪,李小染,小雷神   银乌,猪小弟,弥幽,米大师,神棍   王施匹",
+        "first_guests": "",
+        "guests_like": "貂蝉:防水的柠檬",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 70,
+        "galleryId": "070",
+        "name": "窝蛋牛肉粥",
+        "rarity": 2,
+        "unlock": "生滚鱼片粥",
+        "stirfry": 0,
+        "boil": 50,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 3
+            },
+            {
+                "material": 27,
+                "quantity": 2
+            },
+            {
+                "material": 21,
+                "quantity": 3
+            }
+        ],
+        "price": 84,
+        "exPrice": 5,
+        "time": 210,
+        "limit": 30,
+        "origin": "神级皮蛋瘦肉粥",
+        "guests": [
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "大内侍卫"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "鸡蛋*3,牛五花*2,大米*3",
+        "material_cnt": 8,
+        "cook_name": "煮:50",
+        "unclock_name": "-",
+        "recipe_chefs": "神:银乌,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 71,
+        "galleryId": "071",
+        "name": "生滚鱼片粥",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 25,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 2,
+                "quantity": 2
+            },
+            {
+                "material": 21,
+                "quantity": 3
+            }
+        ],
+        "price": 73,
+        "exPrice": 4,
+        "time": 143,
+        "limit": 30,
+        "origin": "神级窝蛋牛肉粥",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "冻鱼*2,大米*3",
+        "material_cnt": 5,
+        "cook_name": "煮:25,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "可:豆腕儿,锄小禾,藕多多,粉爪酱,战小癸   米大师 优:小雷神,神棍 特:小当家 神:羽十六,银乌",
+        "first_guests": "优:大内侍卫 特:丐帮帮主 神:官爷",
+        "guests_like": "",
+        "fish": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 74,
+        "galleryId": "074",
+        "name": "臭豆腐",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 10,
+        "fry": 40,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 20,
+                "quantity": 5
+            },
+            {
+                "material": 16,
+                "quantity": 6
+            }
+        ],
+        "price": 96,
+        "exPrice": 5,
+        "time": 222,
+        "limit": 30,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "丐帮帮主"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "豆腐*5,辣椒*6",
+        "material_cnt": 11,
+        "cook_name": "切:10,炸:40",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,小雷神,阎小罗,尤诺,天香",
+        "first_guests": "",
+        "guests_like": "大明湖畔的美女:油火虫",
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 75,
+        "galleryId": "075",
+        "name": "家常豆腐",
+        "rarity": 2,
+        "unlock": "虾仁豆腐",
+        "stirfry": 25,
+        "boil": 0,
+        "knife": 0,
+        "fry": 40,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 20,
+                "quantity": 2
+            },
+            {
+                "material": 13,
+                "quantity": 3
+            },
+            {
+                "material": 23,
+                "quantity": 8
+            }
+        ],
+        "price": 189,
+        "exPrice": 10,
+        "time": 495,
+        "limit": 30,
+        "origin": "主线86",
+        "guests": [
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "丐帮帮主"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "豆腐*2,胡萝卜*3,青椒*8",
+        "material_cnt": 13,
+        "cook_name": "炒:25,炸:40",
+        "unclock_name": "-",
+        "recipe_chefs": "神:尤诺",
+        "first_guests": "",
+        "guests_like": "官爷:油火虫",
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 78,
+        "galleryId": "078",
+        "name": "醉蟹",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 90,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 34,
+                "quantity": 8
+            },
+            {
+                "material": 24,
+                "quantity": 2
+            }
+        ],
+        "price": 567,
+        "exPrice": 29,
+        "time": 289,
+        "limit": 20,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "吕布貂蝉"
+            },
+            {
+                "guest": "如来"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "酒*8,螃蟹*2",
+        "material_cnt": 10,
+        "cook_name": "切:90",
+        "unclock_name": "-",
+        "recipe_chefs": "优:战小癸",
+        "first_guests": "",
+        "guests_like": "潇洒李白:刀嘴鹦鹉",
+        "creation": 1,
+        "fish": 1
+    },
+    {
+        "recipeId": 79,
+        "galleryId": "079",
+        "name": "香酥鸭",
+        "rarity": 2,
+        "unlock": "片皮鸭",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 10,
+        "fry": 60,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 1,
+                "quantity": 3
+            },
+            {
+                "material": 15,
+                "quantity": 6
+            }
+        ],
+        "price": 136,
+        "exPrice": 7,
+        "time": 216,
+        "limit": 30,
+        "origin": "主线102",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸭子*3,白菜*6",
+        "material_cnt": 9,
+        "cook_name": "切:10,炸:60",
+        "unclock_name": "-",
+        "recipe_chefs": "神:小雷神,阎小罗,尤诺",
+        "first_guests": "",
+        "guests_like": "耶稣:油火虫",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 80,
+        "galleryId": "080",
+        "name": "麻辣鸭头",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 30,
+        "bake": 0,
+        "steam": 20,
+        "materials": [
+            {
+                "material": 1,
+                "quantity": 2
+            },
+            {
+                "material": 16,
+                "quantity": 4
+            }
+        ],
+        "price": 101,
+        "exPrice": 6,
+        "time": 134,
+        "limit": 30,
+        "origin": "签到10天",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸭子*2,辣椒*4",
+        "material_cnt": 6,
+        "cook_name": "炸:30,蒸:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:申公子,阎小罗,天香",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 81,
+        "galleryId": "081",
+        "name": "青菜豆腐汤",
+        "rarity": 1,
+        "unlock": "罗宋汤",
+        "stirfry": 0,
+        "boil": 25,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 6,
+                "quantity": 6
+            },
+            {
+                "material": 20,
+                "quantity": 2
+            }
+        ],
+        "price": 26,
+        "exPrice": 2,
+        "time": 140,
+        "limit": 40,
+        "origin": "神级野菜汤",
+        "guests": [
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "白富美"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "青菜*6,豆腐*2",
+        "material_cnt": 8,
+        "cook_name": "煮:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,紫酱,农当午,小当家,兜帽药师   李小染,银乌,猪小弟,神棍,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 82,
+        "galleryId": "082",
+        "name": "卤水门腔",
+        "rarity": 1,
+        "unlock": "猪耳碟头",
+        "stirfry": 0,
+        "boil": 20,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 39,
+                "quantity": 4
+            },
+            {
+                "material": 18,
+                "quantity": 2
+            }
+        ],
+        "price": 87,
+        "exPrice": 5,
+        "time": 255,
+        "limit": 40,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "白富美"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "猪杂*4,葱*2",
+        "material_cnt": 6,
+        "cook_name": "煮:20,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 83,
+        "galleryId": "083",
+        "name": "猪耳碟头",
+        "rarity": 1,
+        "unlock": "卤水拼盘",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 12,
+        "materials": [
+            {
+                "material": 39,
+                "quantity": 2
+            },
+            {
+                "material": 31,
+                "quantity": 2
+            },
+            {
+                "material": 23,
+                "quantity": 2
+            }
+        ],
+        "price": 65,
+        "exPrice": 4,
+        "time": 132,
+        "limit": 40,
+        "origin": "神级卤水门腔",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "猪杂*2,黄瓜*2,青椒*2",
+        "material_cnt": 6,
+        "cook_name": "蒸:12",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,麦小咖,武葵,农当午,豆腕儿   申公子,禅优塔,傣弟,面小解,锄小禾   蓝孩子,苏吴安,方叔,粉雪,银乌   猪小弟,阿波罗,阎小罗,弥幽,战小癸   尤诺,神棍,天香,王施匹,乌茉莉   高升,蜜三刀",
+        "first_guests": "",
+        "guests_like": "刘备:蒸汽耳环",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 84,
+        "galleryId": "084",
+        "name": "豆豉蒸鱼",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 65,
+        "materials": [
+            {
+                "material": 33,
+                "quantity": 3
+            },
+            {
+                "material": 2,
+                "quantity": 2
+            },
+            {
+                "material": 18,
+                "quantity": 6
+            },
+            {
+                "material": 16,
+                "quantity": 6
+            }
+        ],
+        "price": 417,
+        "exPrice": 21,
+        "time": 306,
+        "limit": 26,
+        "origin": "神级炸鱼排",
+        "guests": [
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "木优"
+            }
+        ],
+        "gift": "蒸汽宝石",
+        "is_mastery": true,
+        "rate": 3,
+        "materials_name": "豆子*3,冻鱼*2,葱*6,辣椒*6",
+        "material_cnt": 17,
+        "cook_name": "蒸:65",
+        "unclock_name": "-",
+        "recipe_chefs": "特:王施匹 神:弥幽,天香",
+        "first_guests": "神:木优",
+        "guests_like": "",
+        "veg": 1,
+        "fish": 1
+    },
+    {
+        "recipeId": 85,
+        "galleryId": "085",
+        "name": "香烤猪颈肉",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 60,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 4,
+                "quantity": 3
+            },
+            {
+                "material": 18,
+                "quantity": 6
+            }
+        ],
+        "price": 114,
+        "exPrice": 6,
+        "time": 151,
+        "limit": 26,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "焦虫",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "里脊肉*3,葱*6",
+        "material_cnt": 9,
+        "cook_name": "烤:60",
+        "unclock_name": "-",
+        "recipe_chefs": "优:熊伏伏,藕多多,方叔,小雷神,战小癸   天香 特:阿波罗,神棍 神:阎小罗",
+        "first_guests": "特:富太太 神:迷弟杜甫",
+        "guests_like": "富人:焦虫",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 87,
+        "galleryId": "087",
+        "name": "豆豉蒸排骨",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 85,
+        "fry": 0,
+        "bake": 0,
+        "steam": 80,
+        "materials": [
+            {
+                "material": 5,
+                "quantity": 4
+            },
+            {
+                "material": 33,
+                "quantity": 8
+            },
+            {
+                "material": 18,
+                "quantity": 10
+            },
+            {
+                "material": 43,
+                "quantity": 8
+            }
+        ],
+        "price": 721,
+        "exPrice": 37,
+        "time": 708,
+        "limit": 20,
+        "origin": "神级红烧排骨",
+        "guests": [
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "如来"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "梅花肉*4,豆子*8,葱*10,猪油*8",
+        "material_cnt": 30,
+        "cook_name": "切:85,蒸:80",
+        "unclock_name": "-",
+        "recipe_chefs": "可:武葵,禅优塔 优:战小癸",
+        "first_guests": "优:黄月英",
+        "guests_like": "吕布:刀嘴鹦鹉",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 91,
+        "galleryId": "091",
+        "name": "剁椒跑蛋",
+        "rarity": 1,
+        "unlock": "虾仁跑蛋",
+        "stirfry": 25,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 2
+            },
+            {
+                "material": 16,
+                "quantity": 3
+            }
+        ],
+        "price": 21,
+        "exPrice": 2,
+        "time": 100,
+        "limit": 40,
+        "origin": "神级香葱煎蛋",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡蛋*2,辣椒*3",
+        "material_cnt": 5,
+        "cook_name": "炒:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,郭锅,鱼不斩,小龙侠,酥蛮蛮   弥幽,战小癸,尤诺,金驼,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 93,
+        "galleryId": "093",
+        "name": "剁椒皮蛋",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 15,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 16,
+                "quantity": 3
+            },
+            {
+                "material": 12,
+                "quantity": 2
+            }
+        ],
+        "price": 30,
+        "exPrice": 2,
+        "time": 68,
+        "limit": 40,
+        "origin": "主线53",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "白富美"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "辣椒*3,鸡蛋*2",
+        "material_cnt": 5,
+        "cook_name": "切:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,熊麓,熊伏伏,武葵,鱼不斩   禅优塔,面小解,熊妮,藕多多,小当家   粉爪酱,苏吴安,夏风,小龙侠,银乌   阎小罗,战小癸,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 95,
+        "galleryId": "095",
+        "name": "菠萝班戟",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 48,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 36,
+                "quantity": 4
+            },
+            {
+                "material": 11,
+                "quantity": 8
+            },
+            {
+                "material": 44,
+                "quantity": 6
+            },
+            {
+                "material": 12,
+                "quantity": 6
+            }
+        ],
+        "price": 194,
+        "exPrice": 10,
+        "time": 176,
+        "limit": 20,
+        "origin": "神级菠萝派",
+        "guests": [
+            {
+                "guest": "王子"
+            },
+            {
+                "guest": "王子"
+            },
+            {
+                "guest": "苏轼"
+            }
+        ],
+        "gift": "焦虫",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "水果*4,面粉*8,牛乳*6,鸡蛋*6",
+        "material_cnt": 24,
+        "cook_name": "烤:48",
+        "unclock_name": "-",
+        "recipe_chefs": "神:阿波罗,阎小罗,神棍",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 96,
+        "galleryId": "096",
+        "name": "爆炒猪肝",
+        "rarity": 3,
+        "unlock": "洋葱肥肠",
+        "stirfry": 40,
+        "boil": 0,
+        "knife": 25,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 39,
+                "quantity": 4
+            },
+            {
+                "material": 23,
+                "quantity": 5
+            }
+        ],
+        "price": 181,
+        "exPrice": 10,
+        "time": 214,
+        "limit": 26,
+        "origin": "主线135",
+        "guests": [
+            {
+                "guest": "大明湖畔的美女"
+            },
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "猪杂*4,青椒*5",
+        "material_cnt": 9,
+        "cook_name": "炒:40,切:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,尤诺",
+        "first_guests": "",
+        "guests_like": "大明湖畔的美女:暖石",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 97,
+        "galleryId": "097",
+        "name": "香葱煎蛋",
+        "rarity": 1,
+        "unlock": "剁椒跑蛋",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 15,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 18,
+                "quantity": 5
+            },
+            {
+                "material": 12,
+                "quantity": 2
+            }
+        ],
+        "price": 31,
+        "exPrice": 2,
+        "time": 71,
+        "limit": 40,
+        "origin": "主线15",
+        "guests": [
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "白富美"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "葱*5,鸡蛋*2",
+        "material_cnt": 7,
+        "cook_name": "炸:15",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,白祁右,雷椒,申公子,武陵仔   椒娃,熊妮,蓝孩子,夏风,李小染   小雷神,蛙特,阎小罗,尤诺,天香   高升",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 98,
+        "galleryId": "098",
+        "name": "洋葱小炒肉",
+        "rarity": 3,
+        "unlock": "煎牛排",
+        "stirfry": 55,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 25,
+                "quantity": 5
+            },
+            {
+                "material": 4,
+                "quantity": 3
+            }
+        ],
+        "price": 137,
+        "exPrice": 7,
+        "time": 198,
+        "limit": 26,
+        "origin": "神级牛肉串",
+        "guests": [
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "貂蝉"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "洋葱*5,里脊肉*3",
+        "material_cnt": 8,
+        "cook_name": "炒:55",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,尤诺",
+        "first_guests": "",
+        "guests_like": "官爷:暖石",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 99,
+        "galleryId": "099",
+        "name": "洋葱圈",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 5,
+        "fry": 35,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 25,
+                "quantity": 4
+            },
+            {
+                "material": 11,
+                "quantity": 2
+            }
+        ],
+        "price": 49,
+        "exPrice": 3,
+        "time": 113,
+        "limit": 30,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "洋葱*4,面粉*2",
+        "material_cnt": 6,
+        "cook_name": "切:5,炸:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,申公子,小雷神,阎小罗,尤诺   天香",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 101,
+        "galleryId": "101",
+        "name": "洋葱肥肠",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 50,
+        "boil": 0,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 25,
+                "quantity": 4
+            },
+            {
+                "material": 39,
+                "quantity": 4
+            }
+        ],
+        "price": 176,
+        "exPrice": 9,
+        "time": 205,
+        "limit": 26,
+        "origin": "神级爆炒猪肝",
+        "guests": [
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "木优"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "洋葱*4,猪杂*4",
+        "material_cnt": 8,
+        "cook_name": "炒:50,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 102,
+        "galleryId": "102",
+        "name": "干锅鱼头",
+        "rarity": 4,
+        "unlock": "干锅香辣虾",
+        "stirfry": 0,
+        "boil": 40,
+        "knife": 0,
+        "fry": 0,
+        "bake": 70,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 41,
+                "quantity": 2
+            },
+            {
+                "material": 18,
+                "quantity": 8
+            },
+            {
+                "material": 34,
+                "quantity": 6
+            }
+        ],
+        "price": 866,
+        "exPrice": 44,
+        "time": 323,
+        "limit": 20,
+        "origin": "主线78",
+        "guests": [
+            {
+                "guest": "苏轼"
+            },
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "苏轼"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 1,
+        "materials_name": "鲜鱼*2,葱*8,酒*6",
+        "material_cnt": 16,
+        "cook_name": "煮:40,烤:70",
+        "unclock_name": "干锅香辣虾",
+        "recipe_chefs": "可:小雷神,酥蛮蛮 特:神棍",
+        "first_guests": "特:黄月英",
+        "guests_like": "耶稣如来:焦虫",
+        "fish": 1,
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 104,
+        "galleryId": "104",
+        "name": "卤水拼盘",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 40,
+        "knife": 60,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 39,
+                "quantity": 6
+            },
+            {
+                "material": 38,
+                "quantity": 6
+            },
+            {
+                "material": 40,
+                "quantity": 6
+            },
+            {
+                "material": 1,
+                "quantity": 4
+            }
+        ],
+        "price": 550,
+        "exPrice": 28,
+        "time": 418,
+        "limit": 20,
+        "origin": "神级猪耳碟头",
+        "guests": [
+            {
+                "guest": "公主"
+            },
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "苏轼"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "猪杂*6,鸡杂*6,牛杂*6,鸭子*4",
+        "material_cnt": 22,
+        "cook_name": "煮:40,切:60",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,小当家,银乌",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1
+    },
+    {
+        "recipeId": 106,
+        "galleryId": "106",
+        "name": "牛肉煎包",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 15,
+        "fry": 25,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 26,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 3
+            }
+        ],
+        "price": 46,
+        "exPrice": 3,
+        "time": 149,
+        "limit": 40,
+        "origin": "主线36",
+        "guests": [
+            {
+                "guest": "白富美"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "牛腩*2,面粉*3",
+        "material_cnt": 5,
+        "cook_name": "切:15,炸:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,夏风,阎小罗,尤诺",
+        "first_guests": "",
+        "guests_like": "迷思吹法师:油火虫 张飞:油火虫",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 107,
+        "galleryId": "107",
+        "name": "牛奶鸡蛋布丁",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 45,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 44,
+                "quantity": 7
+            },
+            {
+                "material": 12,
+                "quantity": 5
+            }
+        ],
+        "price": 84,
+        "exPrice": 5,
+        "time": 155,
+        "limit": 26,
+        "origin": "主线125",
+        "guests": [
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "焦虫",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "牛乳*7,鸡蛋*5",
+        "material_cnt": 12,
+        "cook_name": "烤:45",
+        "unclock_name": "-",
+        "recipe_chefs": "神:阿波罗,阎小罗,神棍",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1
+    },
+    {
+        "recipeId": 108,
+        "galleryId": "108",
+        "name": "炸牛奶",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 35,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 4
+            },
+            {
+                "material": 44,
+                "quantity": 6
+            }
+        ],
+        "price": 56,
+        "exPrice": 3,
+        "time": 135,
+        "limit": 30,
+        "origin": "签到17天",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "面粉*4,牛乳*6",
+        "material_cnt": 10,
+        "cook_name": "炸:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,申公子,小雷神,阎小罗,尤诺   天香",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 109,
+        "galleryId": "109",
+        "name": "番茄肥牛",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 20,
+        "boil": 30,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 26,
+                "quantity": 1
+            },
+            {
+                "material": 10,
+                "quantity": 5
+            }
+        ],
+        "price": 89,
+        "exPrice": 5,
+        "time": 105,
+        "limit": 30,
+        "origin": "主线40",
+        "guests": [
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "防水的柠檬",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "牛腩*1,番茄*5",
+        "material_cnt": 6,
+        "cook_name": "炒:20,煮:30",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,王施匹",
+        "first_guests": "",
+        "guests_like": "屠夫老王:防水的柠檬 关羽:防水的柠檬",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 110,
+        "galleryId": "110",
+        "name": "红油抄手",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 50,
+        "boil": 60,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 32,
+                "quantity": 3
+            },
+            {
+                "material": 5,
+                "quantity": 5
+            },
+            {
+                "material": 11,
+                "quantity": 4
+            },
+            {
+                "material": 16,
+                "quantity": 6
+            }
+        ],
+        "price": 491,
+        "exPrice": 25,
+        "time": 376,
+        "limit": 20,
+        "origin": "神级炸春卷",
+        "guests": [
+            {
+                "guest": "王子"
+            },
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "苏轼"
+            }
+        ],
+        "gift": "耐煮的水草",
+        "is_mastery": true,
+        "rate": 3,
+        "materials_name": "虾*3,梅花肉*5,面粉*4,辣椒*6",
+        "material_cnt": 18,
+        "cook_name": "炒:50,煮:60",
+        "unclock_name": "-",
+        "recipe_chefs": "特:羽十六",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1,
+        "meat": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 111,
+        "galleryId": "111",
+        "name": "煎牛排",
+        "rarity": 5,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 95,
+        "fry": 0,
+        "bake": 120,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 28,
+                "quantity": 10
+            },
+            {
+                "material": 12,
+                "quantity": 12
+            },
+            {
+                "material": 22,
+                "quantity": 10
+            },
+            {
+                "material": 10,
+                "quantity": 12
+            }
+        ],
+        "price": 1228,
+        "exPrice": 62,
+        "time": 584,
+        "limit": 15,
+        "origin": "神级洋葱小炒肉",
+        "guests": [
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇后"
+            },
+            {
+                "guest": "皇后"
+            }
+        ],
+        "gift": "恐怖利刃",
+        "is_mastery": false,
+        "rate": 1,
+        "materials_name": "牛排*10,鸡蛋*12,土豆*10,番茄*12",
+        "material_cnt": 44,
+        "cook_name": "切:95,烤:120",
+        "unclock_name": "-",
+        "recipe_chefs": "可:战小癸",
+        "first_guests": "",
+        "guests_like": "刘备:香烤鱼排",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 115,
+        "galleryId": "115",
+        "name": "萝卜小排汤",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 60,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 30,
+                "quantity": 5
+            },
+            {
+                "material": 4,
+                "quantity": 3
+            }
+        ],
+        "price": 255,
+        "exPrice": 13,
+        "time": 366,
+        "limit": 26,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "木优"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "白萝卜*5,里脊肉*3",
+        "material_cnt": 8,
+        "cook_name": "煮:60,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "特:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "黄月英:耐煮的水草",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 118,
+        "galleryId": "118",
+        "name": "辣炒萝卜干",
+        "rarity": 2,
+        "unlock": "红烧萝卜",
+        "stirfry": 40,
+        "boil": 0,
+        "knife": 18,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 30,
+                "quantity": 3
+            },
+            {
+                "material": 16,
+                "quantity": 4
+            }
+        ],
+        "price": 77,
+        "exPrice": 4,
+        "time": 234,
+        "limit": 30,
+        "origin": "新手奖池",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "刘备"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "白萝卜*3,辣椒*4",
+        "material_cnt": 7,
+        "cook_name": "炒:40,切:18",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,尤诺",
+        "first_guests": "",
+        "guests_like": "大内侍卫:五香果",
+        "veg": 1
+    },
+    {
+        "recipeId": 119,
+        "galleryId": "119",
+        "name": "酿黄瓜",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 30,
+        "materials": [
+            {
+                "material": 31,
+                "quantity": 3
+            },
+            {
+                "material": 4,
+                "quantity": 2
+            }
+        ],
+        "price": 64,
+        "exPrice": 4,
+        "time": 176,
+        "limit": 30,
+        "origin": "神级黄瓜炒肉",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "黄瓜*3,里脊肉*2",
+        "material_cnt": 5,
+        "cook_name": "切:20,蒸:30",
+        "unclock_name": "-",
+        "recipe_chefs": "神:武葵,战小癸",
+        "first_guests": "",
+        "guests_like": "吕布:蒸汽耳环",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 120,
+        "galleryId": "120",
+        "name": "雪笋蒸干贝",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 30,
+        "fry": 0,
+        "bake": 0,
+        "steam": 80,
+        "materials": [
+            {
+                "material": 14,
+                "quantity": 6
+            },
+            {
+                "material": 42,
+                "quantity": 8
+            },
+            {
+                "material": 15,
+                "quantity": 10
+            },
+            {
+                "material": 17,
+                "quantity": 8
+            }
+        ],
+        "price": 1332,
+        "exPrice": 67,
+        "time": 555,
+        "limit": 20,
+        "origin": "璧池",
+        "guests": [
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "唐伯虎"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "笋*6,贝壳*8,白菜*10,香菇*8",
+        "material_cnt": 32,
+        "cook_name": "切:30,蒸:80",
+        "unclock_name": "-",
+        "recipe_chefs": "优:战小癸",
+        "first_guests": "",
+        "guests_like": "福神:蒸汽宝石",
+        "veg": 1,
+        "fish": 1
+    },
+    {
+        "recipeId": 122,
+        "galleryId": "122",
+        "name": "虾仁跑蛋",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 60,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 30,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 32,
+                "quantity": 4
+            },
+            {
+                "material": 12,
+                "quantity": 6
+            },
+            {
+                "material": 44,
+                "quantity": 5
+            }
+        ],
+        "price": 654,
+        "exPrice": 33,
+        "time": 443,
+        "limit": 26,
+        "origin": "神级剁椒跑蛋",
+        "guests": [
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "木良"
+            }
+        ],
+        "gift": "焦虫",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "虾*4,鸡蛋*6,牛乳*5",
+        "material_cnt": 15,
+        "cook_name": "炒:60,烤:30",
+        "unclock_name": "-",
+        "recipe_chefs": "优:郭锅,酥蛮蛮,金驼",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 123,
+        "galleryId": "123",
+        "name": "虾仁豆腐",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 65,
+        "boil": 0,
+        "knife": 50,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 32,
+                "quantity": 4
+            },
+            {
+                "material": 20,
+                "quantity": 4
+            },
+            {
+                "material": 13,
+                "quantity": 4
+            }
+        ],
+        "price": 758,
+        "exPrice": 38,
+        "time": 574,
+        "limit": 26,
+        "origin": "神级家常豆腐",
+        "guests": [
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "大明湖畔的美女"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "虾*4,豆腐*4,胡萝卜*4",
+        "material_cnt": 12,
+        "cook_name": "炒:65,切:50",
+        "unclock_name": "-",
+        "recipe_chefs": "特:尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 124,
+        "galleryId": "124",
+        "name": "蛤蜊蒸蛋",
+        "rarity": 2,
+        "unlock": "蛤蜊豆腐汤",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 55,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 4
+            },
+            {
+                "material": 18,
+                "quantity": 5
+            },
+            {
+                "material": 42,
+                "quantity": 3
+            }
+        ],
+        "price": 276,
+        "exPrice": 14,
+        "time": 270,
+        "limit": 30,
+        "origin": "神级葱姜辣炒蛤蜊",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "大内侍卫"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "鸡蛋*4,葱*5,贝壳*3",
+        "material_cnt": 12,
+        "cook_name": "蒸:55",
+        "unclock_name": "-",
+        "recipe_chefs": "神:弥幽,天香,王施匹",
+        "first_guests": "",
+        "guests_like": "富人:蒸汽耳环",
+        "meat": 1,
+        "veg": 1,
+        "fish": 1
+    },
+    {
+        "recipeId": 125,
+        "galleryId": "125",
+        "name": "酒酿小圆子",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 30,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 34,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 3
+            },
+            {
+                "material": 35,
+                "quantity": 3
+            }
+        ],
+        "price": 85,
+        "exPrice": 5,
+        "time": 186,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "丐帮帮主"
+            }
+        ],
+        "gift": "防水的柠檬",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "酒*2,面粉*3,糯米*3",
+        "material_cnt": 8,
+        "cook_name": "煮:30",
+        "unclock_name": "-",
+        "recipe_chefs": "可:武陵仔,藕多多,酥蛮蛮,战小癸 优:麦小咖,傣弟,锄小禾,小雷神,弥幽   米大师 特:紫酱,豆腕儿,小当家,兜帽药师,粉雪   李小染 神:羽十六,农当午,银乌,猪小弟,神棍   王施匹",
+        "first_guests": "优:关羽 特:富二代 神:丐帮帮主",
+        "guests_like": "唐伯虎:防水的柠檬",
+        "creation": 1
+    },
+    {
+        "recipeId": 126,
+        "galleryId": "126",
+        "name": "糯米蛋",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 70,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 5
+            },
+            {
+                "material": 35,
+                "quantity": 5
+            },
+            {
+                "material": 4,
+                "quantity": 3
+            }
+        ],
+        "price": 177,
+        "exPrice": 9,
+        "time": 392,
+        "limit": 26,
+        "origin": "主线163",
+        "guests": [
+            {
+                "guest": "貂蝉"
+            },
+            {
+                "guest": "木良"
+            },
+            {
+                "guest": "富太太"
+            }
+        ],
+        "gift": "耐煮的水草",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "鸡蛋*5,糯米*5,里脊肉*3",
+        "material_cnt": 13,
+        "cook_name": "煮:70",
+        "unclock_name": "-",
+        "recipe_chefs": "优:羽十六,农当午,神棍 特:银乌 神:王施匹",
+        "first_guests": "特:木良 神:富太太",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 128,
+        "galleryId": "128",
+        "name": "白粽",
+        "rarity": 1,
+        "unlock": "蛋黄粽",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 35,
+        "materials": [
+            {
+                "material": 35,
+                "quantity": 3
+            }
+        ],
+        "price": 30,
+        "exPrice": 2,
+        "time": 180,
+        "limit": 40,
+        "origin": "主线72",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "糯米*3",
+        "material_cnt": 3,
+        "cook_name": "蒸:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:申公子,阿波罗,弥幽,战小癸,天香   王施匹",
+        "first_guests": "",
+        "guests_like": "丐帮帮主:蒸汽耳环",
+        "creation": 1
+    },
+    {
+        "recipeId": 136,
+        "galleryId": "136",
+        "name": "笋干烧豆",
+        "rarity": 3,
+        "unlock": "油焖笋",
+        "stirfry": 55,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 20,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 14,
+                "quantity": 5
+            },
+            {
+                "material": 33,
+                "quantity": 6
+            }
+        ],
+        "price": 163,
+        "exPrice": 9,
+        "time": 439,
+        "limit": 26,
+        "origin": "主线206",
+        "guests": [
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "木优"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "笋*5,豆子*6",
+        "material_cnt": 11,
+        "cook_name": "炒:55,烤:20",
+        "unclock_name": "油焖笋",
+        "recipe_chefs": "可:熊麓,蓝孩子,小龙侠,阿波罗,战小癸 优:羽十六,郭锅,鱼不斩,酥蛮蛮,弥幽   金驼,王施匹",
+        "first_guests": "优:迷弟杜甫",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 140,
+        "galleryId": "140",
+        "name": "三丝抱豆",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 30,
+        "fry": 20,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 33,
+                "quantity": 3
+            },
+            {
+                "material": 25,
+                "quantity": 4
+            },
+            {
+                "material": 22,
+                "quantity": 4
+            },
+            {
+                "material": 13,
+                "quantity": 4
+            }
+        ],
+        "price": 172,
+        "exPrice": 9,
+        "time": 537,
+        "limit": 30,
+        "origin": "神级青椒土豆丝",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "富二代"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "豆子*3,洋葱*4,土豆*4,胡萝卜*4",
+        "material_cnt": 15,
+        "cook_name": "切:30,炸:20",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 144,
+        "galleryId": "144",
+        "name": "凤梨酥",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 75,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 36,
+                "quantity": 6
+            },
+            {
+                "material": 11,
+                "quantity": 8
+            },
+            {
+                "material": 12,
+                "quantity": 8
+            },
+            {
+                "material": 45,
+                "quantity": 3
+            }
+        ],
+        "price": 261,
+        "exPrice": 14,
+        "time": 644,
+        "limit": 26,
+        "origin": "主线198",
+        "guests": [
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇帝"
+            }
+        ],
+        "gift": "恐怖利刃",
+        "is_mastery": false,
+        "rate": 1,
+        "materials_name": "水果*6,面粉*8,鸡蛋*8,南瓜*3",
+        "material_cnt": 25,
+        "cook_name": "烤:75",
+        "unclock_name": "-",
+        "recipe_chefs": "可:熊麓,熊伏伏,郭锅,雷椒,藕多多   粉爪酱,小雷神,酥蛮蛮,蛙特,战小癸   金驼,天香,蜜三刀 优:方叔 特:阿波罗,神棍 神:阎小罗",
+        "first_guests": "优:皇帝 特:皇帝 神:皇帝",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 151,
+        "galleryId": "151",
+        "name": "四季烤麸",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 28,
+        "materials": [
+            {
+                "material": 33,
+                "quantity": 3
+            },
+            {
+                "material": 17,
+                "quantity": 3
+            },
+            {
+                "material": 11,
+                "quantity": 4
+            }
+        ],
+        "price": 57,
+        "exPrice": 3,
+        "time": 152,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "豆子*3,香菇*3,面粉*4",
+        "material_cnt": 10,
+        "cook_name": "蒸:28",
+        "unclock_name": "-",
+        "recipe_chefs": "神:武葵,申公子,粉雪,阿波罗,阎小罗   弥幽,战小癸,天香,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 154,
+        "galleryId": "154",
+        "name": "天妇罗拼盘",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 200,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 32,
+                "quantity": 6
+            },
+            {
+                "material": 17,
+                "quantity": 8
+            },
+            {
+                "material": 19,
+                "quantity": 8
+            },
+            {
+                "material": 11,
+                "quantity": 10
+            }
+        ],
+        "price": 1270,
+        "exPrice": 64,
+        "time": 889,
+        "limit": 20,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "诸葛亮"
+            },
+            {
+                "guest": "公主"
+            },
+            {
+                "guest": "王子"
+            }
+        ],
+        "gift": "一昧真火",
+        "is_mastery": false,
+        "rate": 1,
+        "materials_name": "虾*6,香菇*8,茄子*8,面粉*10",
+        "material_cnt": 32,
+        "cook_name": "炸:200",
+        "unclock_name": "-",
+        "recipe_chefs": "可:小雷神,阎小罗,尤诺",
+        "first_guests": "",
+        "guests_like": "诸葛亮黄月英:一昧真火",
+        "fish": 1,
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 156,
+        "galleryId": "156",
+        "name": "菠萝咕咾肉",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 60,
+        "boil": 0,
+        "knife": 0,
+        "fry": 40,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 36,
+                "quantity": 4
+            },
+            {
+                "material": 4,
+                "quantity": 4
+            },
+            {
+                "material": 10,
+                "quantity": 6
+            }
+        ],
+        "price": 380,
+        "exPrice": 19,
+        "time": 550,
+        "limit": 26,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "吕布"
+            }
+        ],
+        "gift": "一昧真火",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "水果*4,里脊肉*4,番茄*6",
+        "material_cnt": 14,
+        "cook_name": "炒:60,炸:40",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,熊麓,蓝孩子,小龙侠,金驼 特:尤诺",
+        "first_guests": "特:木优",
+        "guests_like": "王子:一昧真火",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 157,
+        "galleryId": "157",
+        "name": "牛肉串",
+        "rarity": 3,
+        "unlock": "洋葱小炒肉",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 15,
+        "fry": 0,
+        "bake": 30,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 27,
+                "quantity": 4
+            }
+        ],
+        "price": 92,
+        "exPrice": 5,
+        "time": 106,
+        "limit": 26,
+        "origin": "主线95",
+        "guests": [
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "苏轼"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "牛五花*4",
+        "material_cnt": 4,
+        "cook_name": "切:15,烤:30",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊伏伏,藕多多,阎小罗,战小癸",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1
+    },
+    {
+        "recipeId": 159,
+        "galleryId": "159",
+        "name": "红烧萝卜",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 25,
+        "knife": 15,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 30,
+                "quantity": 3
+            },
+            {
+                "material": 18,
+                "quantity": 4
+            }
+        ],
+        "price": 62,
+        "exPrice": 4,
+        "time": 163,
+        "limit": 30,
+        "origin": "神级辣炒萝卜干",
+        "guests": [
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "大内侍卫"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "白萝卜*3,葱*4",
+        "material_cnt": 7,
+        "cook_name": "煮:25,切:15",
+        "unclock_name": "-",
+        "recipe_chefs": "优:豆腕儿,锄小禾,小雷神,米大师,神棍 神:羽十六,小当家,银乌",
+        "first_guests": "神:大内侍卫",
+        "guests_like": "关羽:防水的柠檬 大内侍卫:防水的柠檬",
+        "veg": 1
+    },
+    {
+        "recipeId": 160,
+        "galleryId": "160",
+        "name": "葱姜辣炒蛤蜊",
+        "rarity": 2,
+        "unlock": "蛤蜊蒸蛋",
+        "stirfry": 35,
+        "boil": 0,
+        "knife": 0,
+        "fry": 10,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 42,
+                "quantity": 3
+            },
+            {
+                "material": 18,
+                "quantity": 4
+            },
+            {
+                "material": 16,
+                "quantity": 4
+            }
+        ],
+        "price": 298,
+        "exPrice": 15,
+        "time": 205,
+        "limit": 30,
+        "origin": "主线112",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "张飞"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "贝壳*3,葱*4,辣椒*4",
+        "material_cnt": 11,
+        "cook_name": "炒:35,炸:10",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 161,
+        "galleryId": "161",
+        "name": "原汁白蛤蜊",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 25,
+        "materials": [
+            {
+                "material": 42,
+                "quantity": 2
+            }
+        ],
+        "price": 55,
+        "exPrice": 3,
+        "time": 85,
+        "limit": 40,
+        "origin": "主线111",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "贝壳*2",
+        "material_cnt": 2,
+        "cook_name": "蒸:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:麦小咖,武葵,申公子,面小解,锄小禾   苏吴安,粉雪,阿波罗,阎小罗,弥幽   战小癸,神棍,天香,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1
+    },
+    {
+        "recipeId": 162,
+        "galleryId": "162",
+        "name": "蛤蜊豆腐汤",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 60,
+        "knife": 20,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 42,
+                "quantity": 3
+            },
+            {
+                "material": 18,
+                "quantity": 3
+            },
+            {
+                "material": 20,
+                "quantity": 3
+            }
+        ],
+        "price": 402,
+        "exPrice": 21,
+        "time": 340,
+        "limit": 30,
+        "origin": "神级蛤蜊蒸蛋",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "大内侍卫"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "贝壳*3,葱*3,豆腐*3",
+        "material_cnt": 9,
+        "cook_name": "煮:60,切:20",
+        "unclock_name": "-",
+        "recipe_chefs": "特:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "苏轼:防水的柠檬",
+        "fish": 1,
+        "veg": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 164,
+        "galleryId": "164",
+        "name": "盐酥鸡",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 40,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 7,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 4
+            }
+        ],
+        "price": 60,
+        "exPrice": 3,
+        "time": 85,
+        "limit": 30,
+        "origin": "签到3天",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "张飞"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "鸡胸肉*2,面粉*4",
+        "material_cnt": 6,
+        "cook_name": "炸:40",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,申公子,小雷神,阎小罗,尤诺   天香",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 165,
+        "galleryId": "165",
+        "name": "椒盐排条",
+        "rarity": 2,
+        "unlock": "炸鱼排",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 25,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 3,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 4
+            }
+        ],
+        "price": 47,
+        "exPrice": 3,
+        "time": 60,
+        "limit": 30,
+        "origin": "主线58",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "猪腿肉*2,面粉*4",
+        "material_cnt": 6,
+        "cook_name": "炸:25",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,白祁右,申公子,武陵仔,蓝孩子   夏风,小雷神,阎小罗,尤诺,天香   高升",
+        "first_guests": "",
+        "guests_like": "屠夫老王:油火虫",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 166,
+        "galleryId": "166",
+        "name": "糖番茄",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 10,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 10,
+                "quantity": 3
+            }
+        ],
+        "price": 7,
+        "exPrice": 1,
+        "time": 30,
+        "limit": 40,
+        "origin": "主线11",
+        "guests": [
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "番茄*3",
+        "material_cnt": 3,
+        "cook_name": "切:10",
+        "unclock_name": "-",
+        "recipe_chefs": "神:羽十六,熊麓,白祁右,熊伏伏,武葵   鱼不斩,禅优塔,面小解,熊妮,藕多多   小当家,粉爪酱,苏吴安,夏风,小龙侠   小雷神,银乌,蛙特,阿波罗,阎小罗   战小癸,尤诺,神棍,天香,乌茉莉",
+        "first_guests": "",
+        "guests_like": "唐伯虎:剪刀蟹",
+        "veg": 1
+    },
+    {
+        "recipeId": 169,
+        "galleryId": "169",
+        "name": "串烤盐焗虾",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 60,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 32,
+                "quantity": 3
+            },
+            {
+                "material": 25,
+                "quantity": 6
+            }
+        ],
+        "price": 281,
+        "exPrice": 15,
+        "time": 346,
+        "limit": 30,
+        "origin": "主线157",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "烤焦的菊花",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "虾*3,洋葱*6",
+        "material_cnt": 9,
+        "cook_name": "烤:60",
+        "unclock_name": "-",
+        "recipe_chefs": "神:阎小罗",
+        "first_guests": "",
+        "guests_like": "",
+        "fish": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 172,
+        "galleryId": "172",
+        "name": "肉夹馍",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 55,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 5
+            },
+            {
+                "material": 3,
+                "quantity": 2
+            },
+            {
+                "material": 6,
+                "quantity": 5
+            }
+        ],
+        "price": 108,
+        "exPrice": 6,
+        "time": 180,
+        "limit": 30,
+        "origin": "主线45",
+        "guests": [
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "官爷"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "面粉*5,猪腿肉*2,青菜*5",
+        "material_cnt": 12,
+        "cook_name": "切:55",
+        "unclock_name": "-",
+        "recipe_chefs": "神:战小癸",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 174,
+        "galleryId": "174",
+        "name": "牛肉肠粉",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 45,
+        "fry": 0,
+        "bake": 0,
+        "steam": 60,
+        "materials": [
+            {
+                "material": 26,
+                "quantity": 2
+            },
+            {
+                "material": 35,
+                "quantity": 4
+            }
+        ],
+        "price": 138,
+        "exPrice": 7,
+        "time": 388,
+        "limit": 30,
+        "origin": "神级干炒牛河",
+        "guests": [
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "牛腩*2,糯米*4",
+        "material_cnt": 6,
+        "cook_name": "切:45,蒸:60",
+        "unclock_name": "-",
+        "recipe_chefs": "",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 175,
+        "galleryId": "175",
+        "name": "牛肉卷饼",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 60,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 4
+            },
+            {
+                "material": 26,
+                "quantity": 2
+            },
+            {
+                "material": 15,
+                "quantity": 6
+            }
+        ],
+        "price": 113,
+        "exPrice": 6,
+        "time": 192,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "丐帮帮主"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "面粉*4,牛腩*2,白菜*6",
+        "material_cnt": 12,
+        "cook_name": "切:60",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,熊伏伏,武葵,鱼不斩,面小解   熊妮,藕多多,小当家,苏吴安,夏风   银乌,阎小罗 优:熊麓,禅优塔,粉爪酱,小龙侠,尤诺 神:战小癸",
+        "first_guests": "优:刘备 神:丐帮帮主",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 178,
+        "galleryId": "178",
+        "name": "章鱼小丸子",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 65,
+        "bake": 95,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 41,
+                "quantity": 5
+            },
+            {
+                "material": 11,
+                "quantity": 8
+            }
+        ],
+        "price": 742,
+        "exPrice": 38,
+        "time": 328,
+        "limit": 20,
+        "origin": "主线184",
+        "guests": [
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "耶稣"
+            }
+        ],
+        "gift": "一昧真火",
+        "is_mastery": true,
+        "rate": 3,
+        "materials_name": "鲜鱼*5,面粉*8",
+        "material_cnt": 13,
+        "cook_name": "炸:65,烤:95",
+        "unclock_name": "-",
+        "recipe_chefs": "特:阎小罗",
+        "first_guests": "",
+        "guests_like": "貂蝉:焦虫",
+        "fish": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 183,
+        "galleryId": "183",
+        "name": "炸春卷",
+        "rarity": 2,
+        "unlock": "红油抄手",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 35,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 20,
+                "quantity": 3
+            },
+            {
+                "material": 4,
+                "quantity": 2
+            },
+            {
+                "material": 43,
+                "quantity": 6
+            }
+        ],
+        "price": 149,
+        "exPrice": 8,
+        "time": 253,
+        "limit": 30,
+        "origin": "神级锅贴",
+        "guests": [
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "-",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "豆腐*3,里脊肉*2,猪油*6",
+        "material_cnt": 11,
+        "cook_name": "炸:35",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,申公子,小雷神,阎小罗,尤诺   天香",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 186,
+        "galleryId": "186",
+        "name": "紫米双皮奶",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 30,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 35,
+                "quantity": 4
+            },
+            {
+                "material": 12,
+                "quantity": 5
+            },
+            {
+                "material": 44,
+                "quantity": 5
+            },
+            {
+                "material": 45,
+                "quantity": 3
+            }
+        ],
+        "price": 164,
+        "exPrice": 9,
+        "time": 380,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "张飞"
+            },
+            {
+                "guest": "张飞"
+            }
+        ],
+        "gift": "防水的柠檬",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "糯米*4,鸡蛋*5,牛乳*5,南瓜*3",
+        "material_cnt": 17,
+        "cook_name": "煮:30",
+        "unclock_name": "-",
+        "recipe_chefs": "可:武陵仔,藕多多,酥蛮蛮,战小癸 优:麦小咖,傣弟,锄小禾,小雷神,弥幽   米大师 特:紫酱,豆腕儿,小当家,兜帽药师,粉雪   李小染 神:羽十六,农当午,银乌,猪小弟,神棍   王施匹",
+        "first_guests": "优:富二代 特:张飞 神:张飞",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 187,
+        "galleryId": "187",
+        "name": "肉末土豆泥",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 25,
+        "fry": 0,
+        "bake": 0,
+        "steam": 25,
+        "materials": [
+            {
+                "material": 22,
+                "quantity": 5
+            },
+            {
+                "material": 3,
+                "quantity": 2
+            }
+        ],
+        "price": 78,
+        "exPrice": 4,
+        "time": 239,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "刘备"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "土豆*5,猪腿肉*2",
+        "material_cnt": 7,
+        "cook_name": "切:25,蒸:25",
+        "unclock_name": "-",
+        "recipe_chefs": "优:羽十六,面小解,苏吴安,银乌,阎小罗   尤诺 特:武葵,禅优塔 神:战小癸",
+        "first_guests": "特:丐帮帮主 神:刘备",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 192,
+        "galleryId": "192",
+        "name": "五谷丰登",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 10,
+        "fry": 0,
+        "bake": 0,
+        "steam": 40,
+        "materials": [
+            {
+                "material": 13,
+                "quantity": 5
+            },
+            {
+                "material": 33,
+                "quantity": 5
+            },
+            {
+                "material": 22,
+                "quantity": 5
+            }
+        ],
+        "price": 183,
+        "exPrice": 10,
+        "time": 574,
+        "limit": 30,
+        "origin": "中级奖池",
+        "guests": [
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "张飞"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 3,
+        "materials_name": "胡萝卜*5,豆子*5,土豆*5",
+        "material_cnt": 15,
+        "cook_name": "切:10,蒸:40",
+        "unclock_name": "-",
+        "recipe_chefs": "特:武葵,申公子,阿波罗,阎小罗 神:战小癸,天香",
+        "first_guests": "神:张飞",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 463,
+        "galleryId": "463",
+        "name": "老干妈蛋糕",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 52,
+        "fry": 0,
+        "bake": 60,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 3,
+                "quantity": 4
+            },
+            {
+                "material": 12,
+                "quantity": 5
+            },
+            {
+                "material": 16,
+                "quantity": 6
+            },
+            {
+                "material": 44,
+                "quantity": 5
+            }
+        ],
+        "price": 1104,
+        "exPrice": 56,
+        "time": 366,
+        "limit": 26,
+        "origin": "联动兑换",
+        "guests": [
+            {
+                "guest": "貂蝉"
+            },
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "木良"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": true,
+        "rate": 1,
+        "materials_name": "猪腿肉*4,鸡蛋*5,辣椒*6,牛乳*5",
+        "material_cnt": 20,
+        "cook_name": "切:52,烤:60",
+        "unclock_name": "-",
+        "recipe_chefs": "可:熊麓,熊伏伏,藕多多,粉爪酱,阎小罗 优:战小癸",
+        "first_guests": "优:貂蝉",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 504,
+        "galleryId": "504",
+        "name": "蕉叶菌菇",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 72,
+        "boil": 0,
+        "knife": 0,
+        "fry": 60,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 17,
+                "quantity": 4
+            },
+            {
+                "material": 23,
+                "quantity": 3
+            },
+            {
+                "material": 16,
+                "quantity": 3
+            }
+        ],
+        "price": 426,
+        "exPrice": 22,
+        "time": 486,
+        "limit": 30,
+        "origin": "成长无忧池",
+        "guests": [
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "关羽"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": true,
+        "rate": 2,
+        "materials_name": "香菇*4,青椒*3,辣椒*3",
+        "material_cnt": 10,
+        "cook_name": "炒:72,炸:60",
+        "unclock_name": "-",
+        "recipe_chefs": "特:尤诺",
+        "first_guests": "特:刘备",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 505,
+        "galleryId": "505",
+        "name": "雕梅扣肉",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 85,
+        "fry": 0,
+        "bake": 0,
+        "steam": 40,
+        "materials": [
+            {
+                "material": 36,
+                "quantity": 5
+            },
+            {
+                "material": 5,
+                "quantity": 3
+            },
+            {
+                "material": 43,
+                "quantity": 5
+            }
+        ],
+        "price": 762,
+        "exPrice": 39,
+        "time": 789,
+        "limit": 26,
+        "origin": "爱心商店",
+        "guests": [
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "大明湖畔的美女"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "水果*5,梅花肉*3,猪油*5",
+        "material_cnt": 13,
+        "cook_name": "切:85,蒸:40",
+        "unclock_name": "-",
+        "recipe_chefs": "优:战小癸",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 506,
+        "galleryId": "506",
+        "name": "过桥米线",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 63,
+        "knife": 44,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 12,
+                "quantity": 3
+            },
+            {
+                "material": 21,
+                "quantity": 4
+            },
+            {
+                "material": 39,
+                "quantity": 4
+            },
+            {
+                "material": 8,
+                "quantity": 3
+            }
+        ],
+        "price": 514,
+        "exPrice": 26,
+        "time": 470,
+        "limit": 26,
+        "origin": "成长无忧池",
+        "guests": [
+            {
+                "guest": "富人"
+            },
+            {
+                "guest": "吕布"
+            },
+            {
+                "guest": "潇洒李白"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "鸡蛋*3,大米*4,猪杂*4,鸡腿*3",
+        "material_cnt": 14,
+        "cook_name": "煮:63,切:44",
+        "unclock_name": "-",
+        "recipe_chefs": "优:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 507,
+        "galleryId": "507",
+        "name": "烤饵块",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 26,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 21,
+                "quantity": 4
+            },
+            {
+                "material": 27,
+                "quantity": 3
+            },
+            {
+                "material": 18,
+                "quantity": 3
+            }
+        ],
+        "price": 143,
+        "exPrice": 8,
+        "time": 293,
+        "limit": 40,
+        "origin": "爱心商店",
+        "guests": [
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "白富美"
+            }
+        ],
+        "gift": "烤焦的菊花",
+        "is_mastery": true,
+        "rate": 4,
+        "materials_name": "大米*4,牛五花*3,葱*3",
+        "material_cnt": 10,
+        "cook_name": "烤:26",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊伏伏,藕多多,方叔,小雷神,酥蛮蛮   蛙特,阿波罗,阎小罗,战小癸,神棍   天香,蜜三刀",
+        "first_guests": "",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 508,
+        "galleryId": "508",
+        "name": "撒撇",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 102,
+        "knife": 105,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 28,
+                "quantity": 5
+            },
+            {
+                "material": 40,
+                "quantity": 4
+            },
+            {
+                "material": 6,
+                "quantity": 6
+            },
+            {
+                "material": 15,
+                "quantity": 6
+            }
+        ],
+        "price": 988,
+        "exPrice": 50,
+        "time": 584,
+        "limit": 20,
+        "origin": "爱心商店",
+        "guests": [
+            {
+                "guest": "唐伯虎"
+            },
+            {
+                "guest": "耶稣"
+            },
+            {
+                "guest": "公主"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "牛排*5,牛杂*4,青菜*6,白菜*6",
+        "material_cnt": 21,
+        "cook_name": "煮:102,切:105",
+        "unclock_name": "-",
+        "recipe_chefs": "",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 509,
+        "galleryId": "509",
+        "name": "汽锅鸡",
+        "rarity": 5,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 200,
+        "materials": [
+            {
+                "material": 8,
+                "quantity": 4
+            },
+            {
+                "material": 9,
+                "quantity": 4
+            },
+            {
+                "material": 17,
+                "quantity": 6
+            },
+            {
+                "material": 14,
+                "quantity": 4
+            }
+        ],
+        "price": 1192,
+        "exPrice": 60,
+        "time": 316,
+        "limit": 15,
+        "origin": "爱心商店",
+        "guests": [
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇后"
+            },
+            {
+                "guest": "皇后"
+            }
+        ],
+        "gift": "蒸馏杯",
+        "is_mastery": false,
+        "rate": 1,
+        "materials_name": "鸡腿*4,童子鸡*4,香菇*6,笋*4",
+        "material_cnt": 18,
+        "cook_name": "蒸:200",
+        "unclock_name": "-",
+        "recipe_chefs": "可:弥幽,天香,王施匹",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 510,
+        "galleryId": "510",
+        "name": "豆沙乳扇",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 48,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 44,
+                "quantity": 4
+            },
+            {
+                "material": 33,
+                "quantity": 4
+            }
+        ],
+        "price": 168,
+        "exPrice": 9,
+        "time": 232,
+        "limit": 30,
+        "origin": "爱心商店",
+        "guests": [
+            {
+                "guest": "丐帮帮主"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "刘备"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": false,
+        "rate": 4,
+        "materials_name": "牛乳*4,豆子*4",
+        "material_cnt": 8,
+        "cook_name": "炸:48",
+        "unclock_name": "-",
+        "recipe_chefs": "神:熊麓,小雷神,阎小罗,尤诺",
+        "first_guests": "",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 513,
+        "galleryId": "513",
+        "name": "羊肚菌蒸蛋",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 84,
+        "materials": [
+            {
+                "material": 17,
+                "quantity": 5
+            },
+            {
+                "material": 12,
+                "quantity": 5
+            },
+            {
+                "material": 40,
+                "quantity": 3
+            }
+        ],
+        "price": 336,
+        "exPrice": 17,
+        "time": 318,
+        "limit": 26,
+        "origin": "成长无忧池",
+        "guests": [
+            {
+                "guest": "木优"
+            },
+            {
+                "guest": "貂蝉"
+            },
+            {
+                "guest": "富人"
+            }
+        ],
+        "gift": "蒸汽宝石",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "香菇*5,鸡蛋*5,牛杂*3",
+        "material_cnt": 13,
+        "cook_name": "蒸:84",
+        "unclock_name": "-",
+        "recipe_chefs": "优:战小癸,王施匹 特:弥幽,天香",
+        "first_guests": "特:貂蝉",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 514,
+        "galleryId": "514",
+        "name": "天女散花",
+        "rarity": 5,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 182,
+        "fry": 0,
+        "bake": 0,
+        "steam": 138,
+        "materials": [
+            {
+                "material": 13,
+                "quantity": 5
+            },
+            {
+                "material": 45,
+                "quantity": 3
+            },
+            {
+                "material": 30,
+                "quantity": 4
+            },
+            {
+                "material": 27,
+                "quantity": 5
+            }
+        ],
+        "price": 1408,
+        "exPrice": 71,
+        "time": 432,
+        "limit": 15,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇帝"
+            }
+        ],
+        "gift": "恐怖利刃",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "胡萝卜*5,南瓜*3,白萝卜*4,牛五花*5",
+        "material_cnt": 17,
+        "cook_name": "切:182,蒸:138",
+        "unclock_name": "-",
+        "recipe_chefs": "可:战小癸",
+        "first_guests": "",
+        "guests_like": "吕布貂蝉:恐怖利刃",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 515,
+        "galleryId": "515",
+        "name": "大盘鸡",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 114,
+        "boil": 43,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 3
+            },
+            {
+                "material": 7,
+                "quantity": 2
+            },
+            {
+                "material": 25,
+                "quantity": 3
+            },
+            {
+                "material": 9,
+                "quantity": 3
+            }
+        ],
+        "price": 646,
+        "exPrice": 33,
+        "time": 620,
+        "limit": 26,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "富太太"
+            },
+            {
+                "guest": "貂蝉"
+            },
+            {
+                "guest": "貂蝉"
+            }
+        ],
+        "gift": "耐煮的水草",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "面粉*3,鸡胸肉*2,洋葱*3,童子鸡*3",
+        "material_cnt": 11,
+        "cook_name": "炒:114,煮:43",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,酥蛮蛮,弥幽",
+        "first_guests": "",
+        "guests_like": "武松:暖石",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 516,
+        "galleryId": "516",
+        "name": "风沙牛排",
+        "rarity": 5,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 125,
+        "bake": 100,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 28,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 5
+            },
+            {
+                "material": 26,
+                "quantity": 6
+            },
+            {
+                "material": 40,
+                "quantity": 5
+            }
+        ],
+        "price": 988,
+        "exPrice": 50,
+        "time": 219,
+        "limit": 15,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇帝"
+            },
+            {
+                "guest": "皇后"
+            }
+        ],
+        "gift": "鼓风机",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "牛排*2,面粉*5,牛腩*6,牛杂*5",
+        "material_cnt": 18,
+        "cook_name": "炸:125,烤:100",
+        "unclock_name": "-",
+        "recipe_chefs": "可:小雷神,阎小罗,天香",
+        "first_guests": "",
+        "guests_like": "吕布:鼓风机",
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 517,
+        "galleryId": "517",
+        "name": "酿皮",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 28,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 33,
+                "quantity": 2
+            },
+            {
+                "material": 31,
+                "quantity": 1
+            },
+            {
+                "material": 16,
+                "quantity": 1
+            }
+        ],
+        "price": 95,
+        "exPrice": 5,
+        "time": 174,
+        "limit": 40,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "豆子*2,黄瓜*1,辣椒*1",
+        "material_cnt": 4,
+        "cook_name": "切:28",
+        "unclock_name": "-",
+        "recipe_chefs": "可:白祁右,雷椒,豆腕儿,申公子,锄小禾   小雷神,蛙特,阿波罗,米大师,神棍   天香,乌茉莉 优:熊伏伏,面小解,藕多多,小当家,苏吴安   阎小罗 特:羽十六,武葵,鱼不斩,熊妮,夏风   银乌 神:熊麓,禅优塔,粉爪酱,小龙侠,战小癸   尤诺",
+        "first_guests": "优:迷思吹法师 特:屠夫老王 神:大胃王",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 518,
+        "galleryId": "518",
+        "name": "牛肉泡馍",
+        "rarity": 3,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 44,
+        "knife": 0,
+        "fry": 0,
+        "bake": 36,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 26,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 3
+            },
+            {
+                "material": 18,
+                "quantity": 2
+            }
+        ],
+        "price": 251,
+        "exPrice": 13,
+        "time": 115,
+        "limit": 26,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "迷弟杜甫"
+            },
+            {
+                "guest": "潇洒李白"
+            },
+            {
+                "guest": "迷弟杜甫"
+            }
+        ],
+        "gift": "耐煮的水草",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "牛腩*2,面粉*3,葱*2",
+        "material_cnt": 7,
+        "cook_name": "煮:44,烤:36",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,农当午,粉雪,小雷神,酥蛮蛮   弥幽,王施匹 特:神棍",
+        "first_guests": "特:潇洒李白",
+        "guests_like": "",
+        "meat": 1,
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 519,
+        "galleryId": "519",
+        "name": "蔬果大巴扎",
+        "rarity": 4,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 53,
+        "knife": 72,
+        "fry": 0,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 36,
+                "quantity": 3
+            },
+            {
+                "material": 15,
+                "quantity": 6
+            },
+            {
+                "material": 31,
+                "quantity": 3
+            },
+            {
+                "material": 22,
+                "quantity": 4
+            }
+        ],
+        "price": 627,
+        "exPrice": 32,
+        "time": 303,
+        "limit": 20,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "黄月英"
+            },
+            {
+                "guest": "唐伯虎"
+            },
+            {
+                "guest": "如来"
+            }
+        ],
+        "gift": "刀嘴鹦鹉",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "水果*3,白菜*6,黄瓜*3,土豆*4",
+        "material_cnt": 16,
+        "cook_name": "煮:53,切:72",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,银乌",
+        "first_guests": "",
+        "guests_like": "",
+        "veg": 1
+    },
+    {
+        "recipeId": 520,
+        "galleryId": "520",
+        "name": "莜面鱼鱼",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 31,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 59,
+        "materials": [
+            {
+                "material": 10,
+                "quantity": 4
+            },
+            {
+                "material": 26,
+                "quantity": 2
+            },
+            {
+                "material": 11,
+                "quantity": 5
+            },
+            {
+                "material": 17,
+                "quantity": 3
+            }
+        ],
+        "price": 332,
+        "exPrice": 17,
+        "time": 378,
+        "limit": 30,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "刘备"
+            },
+            {
+                "guest": "张飞"
+            }
+        ],
+        "gift": "蒸汽耳环",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "番茄*4,牛腩*2,面粉*5,香菇*3",
+        "material_cnt": 14,
+        "cook_name": "炒:31,蒸:59",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,蓝孩子,尤诺,乌茉莉,蜜三刀 优:阿波罗,战小癸 特:王施匹 神:弥幽",
+        "first_guests": "优:关羽 特:刘备 神:张飞",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1,
+        "creation": 1
+    },
+    {
+        "recipeId": 521,
+        "galleryId": "521",
+        "name": "炸羊尾",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 55,
+        "bake": 0,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 33,
+                "quantity": 3
+            },
+            {
+                "material": 12,
+                "quantity": 3
+            }
+        ],
+        "price": 129,
+        "exPrice": 7,
+        "time": 360,
+        "limit": 40,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "白富美"
+            },
+            {
+                "guest": "屠夫老王"
+            },
+            {
+                "guest": "大胃王"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "豆子*3,鸡蛋*3",
+        "material_cnt": 6,
+        "cook_name": "炸:55",
+        "unclock_name": "-",
+        "recipe_chefs": "优:白祁右,蓝孩子,夏风 特:熊麓,申公子,天香 神:小雷神,阎小罗,尤诺",
+        "first_guests": "特:屠夫老王 神:大胃王",
+        "guests_like": "",
+        "veg": 1,
+        "meat": 1
+    },
+    {
+        "recipeId": 522,
+        "galleryId": "522",
+        "name": "娜帕里勇",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 26,
+        "fry": 0,
+        "bake": 0,
+        "steam": 62,
+        "materials": [
+            {
+                "material": 44,
+                "quantity": 4
+            },
+            {
+                "material": 12,
+                "quantity": 4
+            },
+            {
+                "material": 36,
+                "quantity": 2
+            }
+        ],
+        "price": 360,
+        "exPrice": 18,
+        "time": 436,
+        "limit": 30,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "富二代"
+            },
+            {
+                "guest": "大内侍卫"
+            },
+            {
+                "guest": "富二代"
+            }
+        ],
+        "gift": "剪刀蟹",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "牛乳*4,鸡蛋*4,水果*2",
+        "material_cnt": 10,
+        "cook_name": "切:26,蒸:62",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,申公子,禅优塔,面小解,锄小禾   苏吴安,阿波罗,尤诺,神棍,天香   乌茉莉 优:武葵,阎小罗,战小癸",
+        "first_guests": "优:富二代",
+        "guests_like": "",
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 523,
+        "galleryId": "523",
+        "name": "糯米凉糕",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 34,
+        "bake": 0,
+        "steam": 46,
+        "materials": [
+            {
+                "material": 35,
+                "quantity": 2
+            },
+            {
+                "material": 21,
+                "quantity": 2
+            },
+            {
+                "material": 33,
+                "quantity": 1
+            }
+        ],
+        "price": 231,
+        "exPrice": 12,
+        "time": 477,
+        "limit": 40,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "迷思吹法师"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "糯米*2,大米*2,豆子*1",
+        "material_cnt": 5,
+        "cook_name": "炸:34,蒸:46",
+        "unclock_name": "-",
+        "recipe_chefs": "优:阎小罗 特:申公子 神:天香",
+        "first_guests": "特:迷思吹法师 神:屠夫老王",
+        "guests_like": "",
+        "creation": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 524,
+        "galleryId": "524",
+        "name": "烤馕",
+        "rarity": 1,
+        "unlock": "-",
+        "stirfry": 0,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 48,
+        "steam": 0,
+        "materials": [
+            {
+                "material": 11,
+                "quantity": 5
+            },
+            {
+                "material": 44,
+                "quantity": 2
+            },
+            {
+                "material": 10,
+                "quantity": 1
+            }
+        ],
+        "price": 118,
+        "exPrice": 6,
+        "time": 244,
+        "limit": 40,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "大胃王"
+            },
+            {
+                "guest": "屠夫老王"
+            }
+        ],
+        "gift": "烤焦的菊花",
+        "is_mastery": false,
+        "rate": 2,
+        "materials_name": "面粉*5,牛乳*2,番茄*1",
+        "material_cnt": 8,
+        "cook_name": "烤:48",
+        "unclock_name": "-",
+        "recipe_chefs": "优:熊伏伏,郭锅,藕多多,粉爪酱,小雷神   酥蛮蛮,蛙特,战小癸,天香,蜜三刀 特:方叔 神:阿波罗,阎小罗,神棍",
+        "first_guests": "特:大胃王 神:屠夫老王",
+        "guests_like": "",
+        "creation": 1,
+        "meat": 1,
+        "veg": 1
+    },
+    {
+        "recipeId": 525,
+        "galleryId": "525",
+        "name": "洋芋擦擦",
+        "rarity": 2,
+        "unlock": "-",
+        "stirfry": 42,
+        "boil": 0,
+        "knife": 0,
+        "fry": 0,
+        "bake": 0,
+        "steam": 36,
+        "materials": [
+            {
+                "material": 22,
+                "quantity": 6
+            },
+            {
+                "material": 11,
+                "quantity": 2
+            },
+            {
+                "material": 23,
+                "quantity": 2
+            }
+        ],
+        "price": 363,
+        "exPrice": 19,
+        "time": 439,
+        "limit": 30,
+        "origin": "神话飞仙池",
+        "guests": [
+            {
+                "guest": "官爷"
+            },
+            {
+                "guest": "关羽"
+            },
+            {
+                "guest": "刘备"
+            }
+        ],
+        "gift": "油火虫",
+        "is_mastery": false,
+        "rate": 0,
+        "materials_name": "土豆*6,面粉*2,青椒*2",
+        "material_cnt": 10,
+        "cook_name": "炒:42,蒸:36",
+        "unclock_name": "-",
+        "recipe_chefs": "可:羽十六,郭锅,蓝孩子,阿波罗,尤诺 优:战小癸,王施匹 神:弥幽",
+        "first_guests": "优:官爷 神:刘备",
+        "guests_like": "",
+        "veg": 1,
+        "creation": 1
+    }
+]
