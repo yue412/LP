@@ -106,6 +106,7 @@ int LP_Int::solve_int(CMatrix & matrix, CVectorInt & base, bool check_in_base, C
             return 0;
         }
     }
+    return 1;
 }
 
 int LP_Int::solve_int_part(CMatrix matrix, CVectorInt base, int col, double int_val, CVector & result, double & objective_value)

@@ -98,6 +98,7 @@ int LP::solve(CObjectiveFunc & objective_function, CConstraintList & constraint_
             var_map.insert(std::make_pair(sVar, var_list.size() - 1));
             auto n = -constraint.opr_type*factor;
             row.push_back(n);
+            new_auxiliary_var_event(i, var_list.size() - 1);
             //base[i] = var_list.size() - 1;
         }
         //A.push_back(row);

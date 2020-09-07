@@ -1,5 +1,5 @@
-#ifndef COMMON_H
-#define COMMON_H
+#ifndef Y_COMMON_H
+#define Y_COMMON_H
 
 #include <string>
 #include <fstream>

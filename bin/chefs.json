@@ -907,7 +907,7 @@
         "boil": 64,
         "steam": 92,
         "fry": 31,
-        "knife": 18,
+        "knife": 48,
         "level": "3",
         "meat": 3,
         "veg": 3,
@@ -916,8 +916,8 @@
         "name": "傣弟",
         "rarity": "1",
         "skill_id": "120",
-        "equip_id": null,
-        "ultimate_skill_id": "0",
+        "equip_id": "9",
+        "ultimate_skill_id": null,
         "stirfry_raw": 0,
         "boil_raw": 61,
         "knife_raw": 15,
@@ -941,8 +941,30 @@
             ]
         },
         "ultimate_skill": null,
-        "equip": null,
-        "equip_skills": []
+        "equip": {
+            "equipId": 9,
+            "galleryId": "009",
+            "name": "铜斩骨刀",
+            "rarity": 1,
+            "skill": [
+                11
+            ],
+            "origin": "新手奖池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 11,
+                "desc": "切技法+30",
+                "effect": [
+                    {
+                        "type": "knife",
+                        "value": 30,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "54",
@@ -2531,32 +2553,43 @@
     {
         "id": "888",
         "stirfry": 3,
-        "bake": 18,
-        "boil": 88,
+        "bake": 42,
+        "boil": 232,
         "steam": 0,
-        "fry": 58,
-        "knife": 31,
-        "level": "1",
+        "fry": 154,
+        "knife": 79,
+        "level": "3",
         "meat": 0,
-        "veg": 3,
+        "veg": 5,
         "fish": 0,
-        "creation": 2,
+        "creation": 4,
         "name": "米大师",
         "rarity": "3",
-        "skill_id": null,
+        "skill_id": "242",
         "equip_id": null,
         "ultimate_skill_id": null,
         "stirfry_raw": 0,
-        "boil_raw": 85,
-        "knife_raw": 28,
-        "fry_raw": 57,
-        "bake_raw": 14,
+        "boil_raw": 229,
+        "knife_raw": 76,
+        "fry_raw": 153,
+        "bake_raw": 38,
         "steam_raw": 0,
         "meat_raw": 0,
         "fish_raw": 0,
-        "veg_raw": 3,
-        "creation_raw": 2,
-        "skill": null,
+        "veg_raw": 5,
+        "creation_raw": 4,
+        "skill": {
+            "skillId": 242,
+            "desc": "金币获得+20%",
+            "effect": [
+                {
+                    "type": "gold_gain",
+                    "value": 20,
+                    "condition": "Self",
+                    "cal": "Percent"
+                }
+            ]
+        },
         "ultimate_skill": null,
         "equip": null,
         "equip_skills": []
@@ -2608,31 +2641,31 @@
     {
         "id": "900",
         "stirfry": 3,
-        "bake": 143,
+        "bake": 212,
         "boil": 3,
-        "steam": 278,
-        "fry": 186,
-        "knife": 49,
-        "level": "2",
+        "steam": 417,
+        "fry": 279,
+        "knife": 132,
+        "level": "3",
         "meat": 0,
         "veg": 0,
-        "fish": 5,
-        "creation": 5,
+        "fish": 7,
+        "creation": 7,
         "name": "天香",
         "rarity": "5",
         "skill_id": "457",
-        "equip_id": null,
+        "equip_id": "8",
         "ultimate_skill_id": null,
         "stirfry_raw": 0,
         "boil_raw": 0,
-        "knife_raw": 46,
-        "fry_raw": 185,
-        "bake_raw": 139,
-        "steam_raw": 278,
+        "knife_raw": 69,
+        "fry_raw": 278,
+        "bake_raw": 208,
+        "steam_raw": 417,
         "meat_raw": 0,
-        "fish_raw": 5,
+        "fish_raw": 7,
         "veg_raw": 0,
-        "creation_raw": 5,
+        "creation_raw": 7,
         "skill": {
             "skillId": 457,
             "desc": "蒸类料理售价+30%",
@@ -2646,8 +2679,30 @@
             ]
         },
         "ultimate_skill": null,
-        "equip": null,
-        "equip_skills": []
+        "equip": {
+            "equipId": 8,
+            "galleryId": "008",
+            "name": "银斩骨刀",
+            "rarity": 2,
+            "skill": [
+                23
+            ],
+            "origin": "新手奖池"
+        },
+        "equip_skills": [
+            {
+                "skillId": 23,
+                "desc": "切技法+60",
+                "effect": [
+                    {
+                        "type": "knife",
+                        "value": 60,
+                        "condition": "Self",
+                        "cal": "Abs"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": "906",
