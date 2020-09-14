@@ -129,6 +129,7 @@ void init_map_order(std::wstring sOrder, std::vector<std::pair<std::wstring, int
 }
 
 void calc_money(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double time_limit);
+void calc_money2(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double time_limit);
 
 int main(int argc, char* argv[])
 {
@@ -228,6 +229,132 @@ void calc_money(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double t
         auto comb = comb_list[i];
 
         CObjectiveFunc objective_function;
+        objective_function.is_max = false;
+        CConstraintList constraint_list;
+
+        //CConstraint constraint_time; // 时间限制
+        //constraint_time.opr_type = -1;
+        //constraint_time.value = time_limit;
+
+        CConstraintList constraint_arr(comb.size());
+        for (auto j = 0; j < constraint_arr.size(); j++) {
+            constraint_arr[j].opr_type = -1;
+            constraint_arr[j].value = 3;
+        }
+        CConstraint constraint_money; // 同一个菜只能一个人做
+        constraint_money.opr_type = 1;
+        constraint_money.value = 200000;
+        auto recipes_cnt = cJSON_GetArraySize(recipes);
+        for (auto k = 0; k < recipes_cnt; k++) {
+            auto recipe = cJSON_GetArrayItem(recipes, k);
+            auto chef_prices = cJSON_GetArrayItem(recipe_chef_price, k);
+            CConstraint constraint; // 同一个菜只能一个人做
+            constraint.opr_type = -1;
+            constraint.value = 1;
+            for (auto j = 0; j < comb.size(); j++) {
+                auto index = comb[j];
+                auto chef = cJSON_GetArrayItem(chefs, index);
+                auto price = cJSON_GetArrayItem(chef_prices, index);//calc_price(recipe, chef, my_chefs, 0);
+                if (price->valueint > 0)
+                {
+                    //auto recipe_recipeId_val = cJSON_GetObjectItem(recipe, "recipeId");
+                    auto recipe_limit_val = cJSON_GetObjectItem(recipe, "limit");
+                    auto recipe_time_val = cJSON_GetObjectItem(recipe, "time");
+                    auto var_name = L"X_" + std::to_wstring(k) + L"_" + std::to_wstring(index);
+                    objective_function.items.push_back(std::make_pair(recipe_time_val->valueint*recipe_limit_val->valueint, var_name));
+                    constraint_money.items.push_back(std::make_pair(price->valueint*recipe_limit_val->valueint, var_name));
+                    //constraint_time.items.push_back(std::make_pair(recipe_time_val->valueint*recipe_limit_val->valueint, var_name));
+                    constraint.items.push_back(std::make_pair(1, var_name));
+                    constraint_arr[j].items.push_back(std::make_pair(1, var_name));
+                }
+            }
+            if (constraint.items.size() > 0)
+                constraint_list.push_back(constraint);
+        }
+        for (auto j = 0; j < constraint_arr.size(); j++) {
+            if (constraint_arr[j].items.size() > 0)
+                constraint_list.push_back(constraint_arr[j]);
+        }
+        constraint_list.push_back(constraint_money);
+        //if (time_limit> g_epsilon)
+        //{
+        //    constraint_list.push_back(constraint_time);
+        //}
+
+        CResult oResult;
+        double objective_value;
+        auto lp = std::shared_ptr<LP>(new LP_Int());
+        auto r = lp->solve(objective_function, constraint_list, oResult, objective_value);
+        if (r == 1) {
+            if (objective_value > final_objective_value)
+            {
+                final_objective_value = objective_value;
+                final_result = oResult;
+            }
+        }
+        std::cout << i << std::endl;
+        if (i == 0) {
+            break;
+        }
+    }
+    // 输出结果
+    int nTotal = 0;
+    for (auto itr = final_result.begin(); itr != final_result.end(); itr++)
+    {
+        auto pair = *itr;
+        if (pair.second < g_epsilon)
+            continue;
+        if (pair.first[0] != L'X')
+            continue;
+        CStringList arr;
+        split(pair.first, L'_', arr);
+        auto recipe_index = std::stoi(ToString(arr[1]));
+        auto index = std::stoi(ToString(arr[2]));
+        auto chef = cJSON_GetArrayItem(chefs, index);
+        auto recipe = cJSON_GetArrayItem(recipes, recipe_index);
+        auto chef_price = cJSON_GetArrayItem(recipe_chef_price, recipe_index);
+        auto price = cJSON_GetArrayItem(chef_price, index);
+
+        auto chef_name = cJSON_GetObjectItem(chef, "name");
+        auto recipe_name = cJSON_GetObjectItem(recipe, "name");
+        auto recipe_limit = cJSON_GetObjectItem(recipe, "limit");
+        auto recipe_time = cJSON_GetObjectItem(recipe, "time");
+
+        std::cout << ToString(Utf8ToUnicode(chef_name->valuestring)).c_str() << "\t";
+        std::cout << ToString(Utf8ToUnicode(recipe_name->valuestring)).c_str() << "\t";
+        std::cout << pair.second << "\t";
+        std::cout << recipe_limit->valueint << "\t";
+        std::cout << price->valueint*recipe_limit->valueint << "\t";
+        auto time = recipe_time->valueint*recipe_limit->valueint;
+        nTotal += time;
+        std::cout << ToString(display_time(time)).c_str() << "\t";
+        std::cout << std::endl;
+    }
+    std::cout << "极值:" << final_objective_value <<"\t"<< ToString(display_time(nTotal)).c_str() << std::endl;// + JSON.stringify(result) + "<br>";
+
+}
+
+struct PriceStruct
+{
+    int price;
+    int time;
+    int limit;
+    int index;
+};
+
+void calc_money2(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double time_limit)
+{
+    double final_objective_value = -1;
+    CResult final_result;
+    std::vector<std::vector<int>> comb_list;
+    auto n = cJSON_GetArraySize(chefs);
+    combination(n, 3, comb_list);
+    for (auto i = 0; i < comb_list.size(); i++)
+    {
+        QP_FUN("calc_money");
+        auto comb = comb_list[i];
+
+        CObjectiveFunc objective_function;
         objective_function.is_max = true;
         CConstraintList constraint_list;
 
@@ -240,7 +367,60 @@ void calc_money(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double t
             constraint_arr[j].opr_type = -1;
             constraint_arr[j].value = 3;
         }
+        std::vector<std::vector<PriceStruct>> price_arr(comb.size());
         auto recipes_cnt = cJSON_GetArraySize(recipes);
+        for (auto k = 0; k < recipes_cnt; k++) {
+            auto recipe = cJSON_GetArrayItem(recipes, k);
+            auto chef_prices = cJSON_GetArrayItem(recipe_chef_price, k);
+            for (auto j = 0; j < comb.size(); j++) {
+                auto index = comb[j];
+                auto chef = cJSON_GetArrayItem(chefs, index);
+                auto recipe_time_val = cJSON_GetObjectItem(recipe, "time");
+                auto recipe_limit_val = cJSON_GetObjectItem(recipe, "limit");
+                auto price = cJSON_GetArrayItem(chef_prices, index);//calc_price(recipe, chef, my_chefs, 0);
+                if (price->valueint > 0)
+                {
+                    PriceStruct p;
+                    p.price = price->valueint;
+                    p.time = recipe_time_val->valueint;
+                    p.limit = recipe_limit_val->valueint;
+                    p.index = k;
+                    price_arr[j].push_back(p);
+                }
+            }
+        }
+        int nMaxCount = 10;
+        std::map<int, CConstraint> oConstraintMap;
+        for (auto j = 0; j < price_arr.size(); j++)
+        {
+            std::sort(price_arr[j].begin(), price_arr[j].end(), [](PriceStruct& p1, PriceStruct& p2) {
+                return ((double)p1.price) / p1.time > (((double)p2.price) / p2.time + g_epsilon);
+            });
+            for (int m = 0; m < (int)price_arr[j].size() && m < nMaxCount; m++)
+            {
+                auto index = comb[j];
+                PriceStruct& p = price_arr[j][m];
+                auto var_name = L"X_" + std::to_wstring(p.index) + L"_" + std::to_wstring(index);
+                objective_function.items.push_back(std::make_pair(p.price*p.limit, var_name));
+                constraint_time.items.push_back(std::make_pair(p.time*p.limit, var_name));
+                constraint_arr[j].items.push_back(std::make_pair(1, var_name));
+
+                auto itr = oConstraintMap.find(p.index);
+                if (itr == oConstraintMap.end())
+                {
+                    CConstraint constraint; // 同一个菜只能一个人做
+                    constraint.opr_type = -1;
+                    constraint.value = 1;
+                    oConstraintMap.insert(std::make_pair(p.index, constraint));
+                }
+                oConstraintMap[p.index].items.push_back(std::make_pair(1, var_name));
+            }
+            for each (auto pair in oConstraintMap)
+            {
+                constraint_list.push_back(pair.second);
+            }
+        }
+        /*
         for (auto k = 0; k < recipes_cnt; k++) {
             auto recipe = cJSON_GetArrayItem(recipes, k);
             auto chef_prices = cJSON_GetArrayItem(recipe_chef_price, k);
@@ -266,6 +446,7 @@ void calc_money(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double t
             if (constraint.items.size() > 0)
                 constraint_list.push_back(constraint);
         }
+        */
         for (auto j = 0; j < constraint_arr.size(); j++) {
             if (constraint_arr[j].items.size() > 0)
                 constraint_list.push_back(constraint_arr[j]);
@@ -277,7 +458,7 @@ void calc_money(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double t
 
         CResult oResult;
         double objective_value;
-        auto lp = std::shared_ptr<LP>(new LP_Int_fast());
+        auto lp = std::shared_ptr<LP>(new LP_Int());
         auto r = lp->solve(objective_function, constraint_list, oResult, objective_value);
         if (r == 1) {
             if (objective_value > final_objective_value)
@@ -323,7 +504,7 @@ void calc_money(cJSON* chefs, cJSON* recipes, cJSON* recipe_chef_price, double t
         std::cout << ToString(display_time(time)).c_str() << "\t";
         std::cout << std::endl;
     }
-    std::cout << "极值:" << final_objective_value <<"\t"<< ToString(display_time(nTotal)).c_str() << std::endl;// + JSON.stringify(result) + "<br>";
+    std::cout << "极值:" << final_objective_value << "\t" << ToString(display_time(nTotal)).c_str() << std::endl;// + JSON.stringify(result) + "<br>";
 
 }
 

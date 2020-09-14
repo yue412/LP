@@ -46,6 +46,7 @@ bool LP_Int::adjust_matrix(CMatrix & matrix, CVectorInt & base, int col, double 
 
 int LP_Int::solve_int(CMatrix & matrix, CVectorInt & base, bool check_in_base, CVector & result, double & objective_value)
 {
+    QP_FUN("solve_int");
     for (std::size_t i = 0; i < result.size(); i++) {
         //auto pair = result[i];
         auto int_val = (int)round(result[i]);
