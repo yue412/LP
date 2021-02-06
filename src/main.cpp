@@ -23,6 +23,14 @@ struct CMap
     std::vector<int> list;
 };
 
+struct CMapInfo
+{
+    CMapInfo() : nCount(0), nValue(0) {}
+    CMapInfo(int cnt, int val) : nCount(cnt), nValue(val) {}
+    int nCount;
+    int nValue;
+};
+
 CMap my_maps[] = { 
     { L"ÄÁ³¡", L"meat", 0, 0, 4, { 25,19,13,6,1 } },
     { L"¼¦Éá", L"meat", 0, 0, 4,{ 24,18,14,8,4,1 } },
@@ -63,7 +71,7 @@ struct CChef
 int my_maps_cnt = 8;
 
 cJSON* readJson(const std::wstring& sFileName);
-void calc3(std::vector<CChef>& chefs, std::vector<std::pair<std::wstring, int>>& oMapOrder, int map_size, int default_map_cnt);
+void calc3(std::vector<CChef>& chefs, std::vector<std::pair<std::wstring, CMapInfo>>& oMapOrder, int map_size, int default_map_cnt);
 
 void init_chefs(cJSON* json, std::vector<CChef>& chefs)
 {
@@ -78,15 +86,15 @@ void init_chefs(cJSON* json, std::vector<CChef>& chefs)
         auto json_value_creation = cJSON_GetObjectItem(chef, "creation");
         auto json_value_name = cJSON_GetObjectItem(chef, "name");
         CChef oChef;
-        oChef.id = std::stoi(json_value_id->valuestring);
+        oChef.id = json_value_id->valueint;
         oChef.count = 1;
         oChef.name = Utf8ToUnicode(json_value_name->valuestring);
 
         auto max_value = std::max({ json_value_meat->valueint, json_value_veg->valueint, json_value_fish->valueint, json_value_creation->valueint });
-        oChef.values.insert(std::make_pair(L"meat", max_value - json_value_meat->valueint > 1 ? 0 : json_value_meat->valueint));
-        oChef.values.insert(std::make_pair(L"veg", max_value - json_value_veg->valueint > 1 ? 0 : json_value_veg->valueint));
-        oChef.values.insert(std::make_pair(L"fish", max_value - json_value_fish->valueint > 1 ? 0 : json_value_fish->valueint));
-        oChef.values.insert(std::make_pair(L"creation", max_value - json_value_creation->valueint > 1 ? 0 : json_value_creation->valueint));
+        oChef.values.insert(std::make_pair(L"meat", max_value - json_value_meat->valueint > 2 ? 0 : json_value_meat->valueint));
+        oChef.values.insert(std::make_pair(L"veg", max_value - json_value_veg->valueint > 2 ? 0 : json_value_veg->valueint));
+        oChef.values.insert(std::make_pair(L"fish", max_value - json_value_fish->valueint > 2 ? 0 : json_value_fish->valueint));
+        oChef.values.insert(std::make_pair(L"creation", max_value - json_value_creation->valueint > 2 ? 0 : json_value_creation->valueint));
 
         //oChef.values.insert(std::make_pair(L"meat", json_value_meat->valueint));
         //oChef.values.insert(std::make_pair(L"veg", json_value_veg->valueint));
@@ -110,20 +118,44 @@ void filter_chefs(std::vector<CChef>& chefs, std::wstring sExclude)
     }
 }
 
-void init_map_order(std::wstring sOrder, std::vector<std::pair<std::wstring, int>>& oMapOrder)
+
+void init_map_order(std::wstring sOrder, std::vector<std::pair<std::wstring, CMapInfo>>& oMapOrder)
 {
     CStringList oList;
     split(sOrder, L',', oList);
     for (auto i = 0; i < (int)oList.size(); i++)
     {
+        std::wstring sName;
+        std::wstring sCount;
+        std::wstring sValue;
         CStringList oStrList;
         split(oList[i], L'-', oStrList);
-        auto itr = g_map_short_names.find(UpperString( oStrList[0]));
+        sName = oStrList[0];
+        auto nIndex = sName.find(L':', 0);
+        if (nIndex != std::wstring::npos)
+        {
+            CStringList oStrList2;
+            split(oStrList[0], L':', oStrList2);
+            sName = oStrList2[0];
+            sValue = oStrList2[1];
+        }
+        auto itr = g_map_short_names.find(UpperString( sName));
         if (itr != g_map_short_names.end())
         {
-            auto sName = itr->second;
-            auto n = oStrList.size() > 1 ? std::stoi(oStrList[1]) : 0;
-            oMapOrder.push_back(std::make_pair(sName, n));
+            sName = itr->second;
+            if (oStrList.size() > 1)
+            {
+                CStringList oStrList2;
+                split(oStrList[1], L':', oStrList2);
+                sCount = oStrList2[0];
+                if (oStrList2.size() > 1)
+                {
+                    sValue = oStrList2[1];
+                }
+            }
+            auto n = sCount.empty() ? 0 : std::stoi(sCount);
+            auto m = sValue.empty() ? 0 : std::stoi(sValue);
+            oMapOrder.push_back(std::make_pair(sName, CMapInfo(n, m)));
         }
     }
 }
@@ -149,7 +181,7 @@ int main(int argc, char* argv[])
         if (str == L"play")
         {
             std::vector<CChef> chefs;
-            std::vector<std::pair<std::wstring, int>> oMapOrder;
+            std::vector<std::pair<std::wstring, CMapInfo>> oMapOrder;
             init_chefs(json, chefs);
             filter_chefs(chefs, oParamsMap[L"exclude"]);
             init_map_order(oParamsMap[L"order"], oMapOrder);
@@ -558,7 +590,7 @@ cJSON* get_chef_by_id(cJSON* my_chefs, int id)
         if (nullptr == chef)
             continue;
         auto id_value = cJSON_GetObjectItem(chef, "id");
-        if (std::stoi(id_value->valuestring) == id)
+        if (id_value->valueint == id)
         {
             return chef;
         }
@@ -708,7 +740,7 @@ void clear_chef(std::vector<CChef>& chefs, std::vector<CMapResult>& result)
     }
 }
 
-int sort_map(std::vector<CMap>& my_maps, std::vector<std::pair<std::wstring, int>>& oMapOrder)
+int sort_map(std::vector<CMap>& my_maps, std::vector<std::pair<std::wstring, CMapInfo>>& oMapOrder)
 {
     std::vector<CMap> oList;
     for (int i = ((int)oMapOrder.size() - 1); i >= 0; i--)
@@ -717,8 +749,13 @@ int sort_map(std::vector<CMap>& my_maps, std::vector<std::pair<std::wstring, int
         auto itr = std::find_if(my_maps.begin(), my_maps.end(), [sName](CMap& oMap) {return oMap.name == sName; });
         if (itr != my_maps.end())
         {
-            if (oMapOrder[i].second > 0 )
-                itr->count = oMapOrder[i].second;
+            if (oMapOrder[i].second.nCount > 0 )
+                itr->count = oMapOrder[i].second.nCount;
+            if (oMapOrder[i].second.nValue > 0)
+            {
+                itr->value = oMapOrder[i].second.nValue;
+                itr->index = -1;
+            }
             oList.push_back(*itr);
             my_maps.erase(itr);
         }
@@ -794,7 +831,7 @@ void adjust_chefs(std::vector<CMapResult>& oResult, std::vector<CMap>& my_maps, 
     }
 }
 
-void calc3(std::vector<CChef>& chefs, std::vector<std::pair<std::wstring, int>>& oMapOrder, int map_size, int default_map_cnt)
+void calc3(std::vector<CChef>& chefs, std::vector<std::pair<std::wstring, CMapInfo>>& oMapOrder, int map_size, int default_map_cnt)
 {
     int nCount = 0;
     std::vector<CMap> my_maps = {
@@ -821,13 +858,19 @@ void calc3(std::vector<CChef>& chefs, std::vector<std::pair<std::wstring, int>>&
         if (nOrderCount <= 0)
             std::sort(my_maps.begin(), my_maps.end(), [](const CMap& map1, const CMap& map2) { return map1.list[map1.index] > map2.list[map2.index]; });
         std::vector<CMap> new_maps(maps);
-        my_maps[0].value = my_maps[0].list[my_maps[0].index];
+        if(my_maps[0].index != -1)
+            my_maps[0].value = my_maps[0].list[my_maps[0].index];
         new_maps.push_back(my_maps[0]);
         std::vector<CMapResult> oResult;
         auto objective_value = 0.0;
         auto r = inner_calc(new_maps, chefs, oResult, objective_value);
         if (r != 1)
         {
+            if (my_maps[0].index == -1)
+            {
+                std::cout << "ÎÞ½â" << std::endl;
+                return;
+            }
             if (++(my_maps[0].index) >= (int)my_maps[0].list.size())
             {
                 my_maps.erase(my_maps.begin());
